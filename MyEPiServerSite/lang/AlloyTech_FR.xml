@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="français" id="fr">
+    <blog>
+      <item>
+        <comment>Commentaire :</comment>
+        <commentheading>Commentaires :</commentheading>
+        <commentlegend>Poster un commentaire</commentlegend>
+        <errormessages>
+          <requiredcomment>Remplissez le champ Commentaire.</requiredcomment>
+          <requiredname>Remplissez le champ Nom.</requiredname>
+        </errormessages>
+        <name>Nom :</name>
+        <permanentlink>Lien permanent</permanentlink>
+        <postedby>par :</postedby>
+        <posteddate>Date d'envoi :</posteddate>
+        <send>Envoyer</send>
+        <tags>Balises :</tags>
+      </item>
+      <itemsummary>
+        <readblog>Lire le blog :</readblog>
+      </itemsummary>
+      <listpage>
+        <dateheading>Entrées du blog postées pendant {0}</dateheading>
+        <errormessage>Une erreur de configuration s'est produite. IsTagListing ou IsDateListing doit s'appliquer.</errormessage>
+        <tagheading>Entrées du blog marquées avec {0}</tagheading>
+      </listpage>
+      <propertyblogtags>
+        <errormessage>
+          <categorytoolong>Le nom d'au moins l'une des balises est trop long. ({0} caractères maximum)</categorytoolong>
+        </errormessage>
+        <existingtagsbutton>Ajouter balises</existingtagsbutton>
+        <existingtagslabel>Balises existantes</existingtagslabel>
+        <selectedtagslabel>Balises sélectionnées</selectedtagslabel>
+      </propertyblogtags>
+      <secondarylist>
+        <aboutme>À propos de moi</aboutme>
+        <archive>Archive</archive>
+        <tagcloud>Nuage de mots-clés</tagcloud>
+      </secondarylist>
+      <tagstatisticsupdater>
+        <description>Utilisé pour mettre à jour les statistiques des balises du blog</description>
+        <displayname>Mettre à jour les statistiques de balise</displayname>
+      </tagstatisticsupdater>
+    </blog>
+    <calendar>
+      <noeventonday>Aucun événement n'est prévu pour ce jour.</noeventonday>
+      <selectedperiod>Période sélectionnée</selectedperiod>
+    </calendar>
+    <captcha>
+      <errormessage>Le texte saisi ne correspond pas au texte affiché dans l'image.</errormessage>
+      <heading>Vérification utilisateur</heading>
+      <imagealternativetext>Image pour la vérification utilisateur</imagealternativetext>
+      <label>Saisissez le texte affiché dans l'image :</label>
+    </captcha>
+    <common>
+      <messages>
+        <confirmdelete>Voulez-vous vraiment supprimer cet élément ?</confirmdelete>
+      </messages>
+    </common>
+    <document>
+      <download>Télécharger :</download>
+    </document>
+    <dynamiccontenttypes>
+      <dynamiccontent name="MapDynamicContentDemo">
+        <caption>Google Maps</caption>
+        <description>Ajouter et configurer Google Maps</description>
+      </dynamiccontent>
+    </dynamiccontenttypes>
+    <editorstyleoptions>
+      <classic>Classique</classic>
+      <heading_1>En-tête 1</heading_1>
+      <heading_2>En-tête 2</heading_2>
+      <heading_3>En-tête 3</heading_3>
+      <highlighted>Surligné</highlighted>
+      <image_border>Bordure de l'image</image_border>
+      <image_styles>Styles image</image_styles>
+      <introduction>Introduction</introduction>
+      <left_aligned>Aligné à gauche</left_aligned>
+      <paragraph>Paragraphe</paragraph>
+      <right_aligned>Aligné à droite</right_aligned>
+      <table_styles>Styles tableau</table_styles>
+      <top_left>En haut à gauche</top_left>
+      <top_right>En haut à droite</top_right>
+    </editorstyleoptions>
+    <error>
+      <document>La propriété de page "Chemin de document" n'est pas définie.</document>
+      <mainmenucontainer>La propriété dynamique "MainMenuContainer" n'est pas définie.</mainmenucontainer>
+    </error>
+    <filemanager>
+      <button>
+        <back>Retour</back>
+        <deleteversion>Supprimer la version</deleteversion>
+        <rename>Renommer</rename>
+        <replacefile>Remplacer un fichier</replacefile>
+        <restore>Restaurer cette version</restore>
+        <upload>Télécharger</upload>
+      </button>
+      <choosefile>Sélectionner un fichier :</choosefile>
+      <deletefilesandfoldersheading>Supprimer fichiers/dossiers</deletefilesandfoldersheading>
+      <disabledfunctions>Vous ne pouvez pas utiliser certaines fonctions car vous ne disposez pas des droits d'accès suffisants pour ce dossier.</disabledfunctions>
+      <editfilesummaryheading>Modifier le résumé du fichier</editfilesummaryheading>
+      <errormessage>
+        <cannotchange>Impossible de déplacer, renommer, supprimer ou mettre à jour le fichier sélectionné. Celui-ci est sans doute être extrait par un autre utilisateur.</cannotchange>
+        <checkedout>Un fichier portant le même nom existe déjà et a été extrait par un autre utilisateur.</checkedout>
+        <containscheckedout>Impossible de déplacer ou supprimer le dossier sélectionné. Celui-ci contient peut-être un fichier extrait par un autre utilisateur.</containscheckedout>
+        <insufficientaccess>Vous ne disposez pas des droits d'accès suffisants pour créer ou modifier les fichiers dans ce dossier.</insufficientaccess>
+        <insufficientaccesscreatefolder>Vous ne disposez pas des droits d'accès suffisants pour créer des dossiers à cet emplacement.</insufficientaccesscreatefolder>
+        <insufficientaccessmetadata>Vous ne disposez pas des droits d'accès suffisants pour modifier ce fichier.</insufficientaccessmetadata>
+        <insufficientaccessmove>Vous ne disposez pas des droits d'accès suffisants pour déplacer cet élément.</insufficientaccessmove>
+        <insufficientaccessremove>Vous ne disposez pas des droits d'accès suffisants pour supprimer les éléments sélectionnés.</insufficientaccessremove>
+        <insufficientaccessrename>Vous ne disposez pas des droits d'accès suffisants pour renommer l'élément sélectionné.</insufficientaccessrename>
+        <readonlyfile>Un fichier en lecture seule portant le même nom existe déjà.</readonlyfile>
+        <replacefile>Un fichier portant le même nom existe déjà. Souhaitez-vous remplacer le fichier {0} ?</replacefile>
+        <versionisnotfound>Impossible d'effectuer l'opération. La version {0} est introuvable.</versionisnotfound>
+      </errormessage>
+      <filecomment>Commentaire :</filecomment>
+      <filelistheading>
+        <checkedout>Extrait</checkedout>
+        <lastchanged>Dernière modification</lastchanged>
+        <name>Nom</name>
+        <size>Taille</size>
+      </filelistheading>
+      <filename>Nom du fichier</filename>
+      <files>Fichiers</files>
+      <filesummary>
+        <author>Auteur</author>
+        <category>Catégorie</category>
+        <comments>Commentaires</comments>
+        <keywords>Mots clés</keywords>
+        <subject>Description</subject>
+        <title>Titre</title>
+      </filesummary>
+      <filesummaryheading>Résumé du fichier pour</filesummaryheading>
+      <foldername>Nom du dossier :</foldername>
+      <foldernotempty>Le dossier n'est pas vide.</foldernotempty>
+      <foldernotemptywarning>Certains des dossiers ne sont pas vides. Tout le contenu du dossier sera supprimé.</foldernotemptywarning>
+      <folders>Dossiers</folders>
+      <maxuploadmessage>La taille maximale pour le fichier à télécharger est de {0}.</maxuploadmessage>
+      <missingfoldererror>Impossible de créer le fichier. Il manque un dossier cible ou vous n'avez pas l'autorisation de créer des fichiers dans le dossier indiqué.</missingfoldererror>
+      <newfolder>Nouveau dossier</newfolder>
+      <parentfolder>Dossier parent</parentfolder>
+      <renamefile>Renommer un fichier</renamefile>
+      <renamefolder>Renommer un dossier</renamefolder>
+      <selectfilemessage>Sélectionnez un fichier avec le bouton Parcourir ci-dessous, puis cliquez sur "Télécharger".</selectfilemessage>
+      <switchview>
+        <addfile>Ajouter un fichier</addfile>
+        <addfolder>Ajouter un dossier</addfolder>
+        <checkin>Archiver</checkin>
+        <checkout>Extraire</checkout>
+        <copy>Copier</copy>
+        <cut>Couper</cut>
+        <delete>Supprimer</delete>
+        <details>Détails</details>
+        <paste>Coller</paste>
+        <rename>Renommer</rename>
+        <undocheckout>Annuler</undocheckout>
+        <version>Version</version>
+        <view>Afficher</view>
+      </switchview>
+      <uploadbutton>Télécharger</uploadbutton>
+      <uploadheading>Téléchargement fichier</uploadheading>
+      <validation>
+        <folderexists>Un dossier ou fichier portant le même nom existe déjà.</folderexists>
+        <folderwithsamename>Un dossier portant le nom "{0}" existe dans le dossier actuel.</folderwithsamename>
+        <illigalchar>Le nom ne peut pas contenir les caractères suivants : /, ?, &lt;, &gt;, \, :, *, |, # ou ".</illigalchar>
+        <nametolong>Le nom de dossier ne doit pas contenir plus de 255 caractères.</nametolong>
+        <requiredfile>Sélectionner un fichier</requiredfile>
+        <requiredname>Entrez un nom.</requiredname>
+      </validation>
+      <versionfileheading>Versions pour</versionfileheading>
+      <versionlistheading>
+        <comments>Commentaires</comments>
+        <created>Créé</created>
+        <createdby>Créé par</createdby>
+        <size>Taille</size>
+        <version>Version</version>
+      </versionlistheading>
+    </filemanager>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+        <virtualpathroot name="Global Files">
+          <name>Fichiers globaux</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+    <form>
+      <numberofvotes>Nombre de votes : {0}</numberofvotes>
+      <postedmessage>Merci d'avoir répondu !</postedmessage>
+      <showform>Au formulaire</showform>
+      <showstat>Afficher les statistiques</showstat>
+    </form>
+    <forum>
+      <forumform>
+        <allowforumslabel>Autoriser les forums :</allowforumslabel>
+        <allowthreadslabel>Autoriser les fils de discussion :</allowthreadslabel>
+        <createbutton>Créer un forum</createbutton>
+        <heading>Créer un forum</heading>
+        <icondropdown>
+          <auction>Adjuger</auction>
+          <default>Par défaut</default>
+          <information>Informations</information>
+        </icondropdown>
+        <iconlabel>Icône :</iconlabel>
+        <titleerror>Le champ Titre ne peut pas être vide.</titleerror>
+        <titlelabel>Titre :</titlelabel>
+      </forumform>
+      <forumlist>
+        <createbutton>Ajouter sous-forum</createbutton>
+        <deleteforumbutton>Supprimer ce forum</deleteforumbutton>
+        <heading>Sous-forums</heading>
+        <setupbutton>Configurer automatiquement</setupbutton>
+        <setuperror>La page n'est pas définie correctement. Veuillez vérifier les paramètres.</setuperror>
+        <title>Forum</title>
+        <updated>Fil de discussion récemment mis à jour</updated>
+      </forumlist>
+      <thread>
+        <addreply>Ajouter réponse</addreply>
+        <deletereply>Supprimer réponse</deletereply>
+        <deletethread>Supprimer un fil de discussion</deletethread>
+        <lock>Verrouiller un fil de discussion</lock>
+        <postedby>Envoyé par :</postedby>
+        <reply>Réponse</reply>
+        <replyempty>La réponse ne peut pas être vide.</replyempty>
+        <sticky>Fil de discussion épinglé</sticky>
+        <toforum>Sur le forum</toforum>
+        <unlock>Déverrouiller un fil de discussion</unlock>
+        <unsticky>Fil de discussion non épinglé</unsticky>
+      </thread>
+      <threadform>
+        <contenterror>Le champ de texte ne peut pas être vide.</contenterror>
+        <contentlabel>Texte :</contentlabel>
+        <createbutton>Créer un fil de discussion</createbutton>
+        <heading>Créer un fil de discussion</heading>
+        <titleerror>Le champ Titre ne peut pas être vide.</titleerror>
+        <titlelabel>Titre :</titlelabel>
+      </threadform>
+      <threadlist>
+        <createbutton>Ajouter un fil de discussion</createbutton>
+        <createdby>Créé(e) par</createdby>
+        <heading>Fils de discussion</heading>
+        <replies>Réponses</replies>
+        <title>Fil de discussion</title>
+        <updated>Dernière mise à jour</updated>
+      </threadlist>
+      <today>Aujourd'hui</today>
+      <Yesterday>Hier</Yesterday>
+    </forum>
+    <headings>
+      <heading name="Flash Content">
+        <description>Contenu Flash</description>
+      </heading>
+      <heading name="Listings">
+        <description>Listes</description>
+      </heading>
+      <heading name="News &amp; Calendar">
+        <description>Infos &amp; Calendrier</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Configuration du site</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>S'inscrire</becomemember>
+      <currentuser>Utilisateur actuel :</currentuser>
+      <editdetails>Mes paramètres</editdetails>
+      <email>Saisissez votre adresse de messagerie :</email>
+      <error>
+        <loginfail>La connexion a échoué. Le nom d'utilisateur ou le mot de passe indiqué est incorrect.</loginfail>
+        <password>Vous devez saisir un mot de passe</password>
+        <username>Vous devez indiquer un nom d'utilisateur</username>
+      </error>
+      <forgotpassword>Vous avez oublié votre mot de passe ?</forgotpassword>
+      <login>Connexion</login>
+      <logout>Déconnexion</logout>
+      <password>Mot de passe</password>
+    </login>
+    <navigation>
+      <help>Aide</help>
+      <listen>Ecouter</listen>
+      <readmore>En savoir plus</readmore>
+      <search>Rechercher</search>
+      <skipnavigation>Accéder au contenu</skipnavigation>
+      <startpage>Démarrer</startpage>
+      <startpagelinktitle>Accéder à la page de démarrage</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Plus d'informations</morenews>
+      <publishdate>Publié</publishdate>
+      <writername>Auteur</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="AboutTheSite">
+          <caption>Liste de liens À propos du site (pied de page)</caption>
+          <help>Liste des liens À propos du site Web affichée dans le pied de page de la page actuelle</help>
+        </property>
+        <property name="AboutTheSiteHeading">
+          <caption>En-tête À propos du site (pied de page)</caption>
+          <help>En-tête des liens À propos du site Web affiché dans le pied de page de la page actuelle</help>
+        </property>
+        <property name="ActiveThreadContainer">
+          <caption>Conteneur de fils de discussion actifs</caption>
+          <help>Conteneur des fils de discussion actifs de ce forum</help>
+        </property>
+        <property name="Address1">
+          <caption>Adresse1</caption>
+          <help>Adresse1</help>
+        </property>
+        <property name="Address2">
+          <caption>Adresse2</caption>
+          <help>Adresse2</help>
+        </property>
+        <property name="Address3">
+          <caption>Adresse3</caption>
+          <help>Adresse3</help>
+        </property>
+        <property name="AllowForums">
+          <caption>Autoriser les sous-forums dans ce forum</caption>
+          <help>Indiquez si ce forum peut contenir des sous-forums.</help>
+        </property>
+        <property name="AllowThreads">
+          <caption>Autoriser les fils de discussion dans ce forum</caption>
+          <help>Indiquez si ce forum peut contenir des fils de discussion.</help>
+        </property>
+        <property name="ArchiveThreadContainer">
+          <caption>Conteneur de fils de discussion archivés</caption>
+          <help>Conteneur des fils de discussion archivés de ce forum</help>
+        </property>
+        <property name="Author">
+          <caption>Auteur</caption>
+          <help>Saisissez le nom de l'auteur.</help>
+        </property>
+        <property name="BlogStart">
+          <caption>Page de démarrage du blog</caption>
+          <help>La page de démarrage du blog à laquelle cet élément appartient.</help>
+        </property>
+        <property name="CalendarContainer">
+          <caption>Afficher le calendrier à partir de</caption>
+          <help>Spécifiez un endroit dans l'arborescence où les événements du calendrier seront affichés. Si les événements sont des sous-pages de cette page, sélectionnez "Cette page".</help>
+        </property>
+        <property name="CalendarItemContainer">
+          <caption>Démarrage du calendrier</caption>
+          <help>Afficher les événements du calendrier à partir de cette page.</help>
+        </property>
+        <property name="ClientsArea">
+          <caption>Zone clients</caption>
+          <help>Le contenu de ce champ s'affichera dans la zone large. Vous pouvez utiliser à la fois du texte et des images pour la présentation Notez que la taille des images ne doit pas être supérieure à celle de la zone.</help>
+        </property>
+        <property name="CommentPageTypeName">
+          <caption>Type de la page pour les commentaires du blog</caption>
+          <help>Type de la page pour les commentaires du blog</help>
+        </property>
+        <property name="CompanyName">
+          <caption>Nom de la société</caption>
+          <help>Nom de la société</help>
+        </property>
+        <property name="ConfirmationMessage">
+          <caption>Message de confirmation</caption>
+          <help>Texte envoyé dans le message de confirmation.</help>
+        </property>
+        <property name="ContactName">
+          <caption>Nom contact</caption>
+          <help>Nom du contact</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Page Contact</caption>
+          <help>Lien vers la page contenant les informations de contact.</help>
+        </property>
+        <property name="Country">
+          <caption>Pays</caption>
+          <help>Pays</help>
+        </property>
+        <property name="CountryPresence">
+          <caption>Présence dans les pays suivants</caption>
+          <help>Présence dans les pays suivants</help>
+        </property>
+        <property name="DateContainer">
+          <caption>Conteneur des pages de dates.</caption>
+          <help>Doit être défini automatiquement.</help>
+        </property>
+        <property name="Description">
+          <caption>En-tête de la source RSS</caption>
+          <help>Indiquez un en-tête pour la source RSS </help>
+        </property>
+        <property name="Details">
+          <caption>Détails personnels</caption>
+          <help>Saisissez une brève description du blogueur.</help>
+        </property>
+        <property name="DisableAnonymousComments">
+          <caption>Refuser les commentaires des utilisateurs anonymes.</caption>
+          <help>Indiquez si les utilisateurs anonymes sont autorisés à poster des commentaires dans les entrées du blog.</help>
+        </property>
+        <property name="DisableCompany">
+          <caption>Il est impossible de modifier la société.</caption>
+          <help>Il est impossible de modifier la société.</help>
+        </property>
+        <property name="DisableCountry">
+          <caption>Il est impossible de modifier le pays.</caption>
+          <help>Il est impossible de modifier le pays.</help>
+        </property>
+        <property name="DisableEmail">
+          <caption>Il est impossible de modifier l'e-mail.</caption>
+          <help>Il est impossible de modifier l'e-mail.</help>
+        </property>
+        <property name="DisableFirstname">
+          <caption>Il est impossible de modifier le prénom.</caption>
+          <help>Il est impossible de modifier le prénom.</help>
+        </property>
+        <property name="DisableLanguage">
+          <caption>Il est impossible de modifier la langue.</caption>
+          <help>Il est impossible de modifier la langue.</help>
+        </property>
+        <property name="DisableLastname">
+          <caption>Il est impossible de modifier le nom de famille.</caption>
+          <help>Il est impossible de modifier le nom de famille.</help>
+        </property>
+        <property name="DisableTitle">
+          <caption>Il est impossible de modifier le titre.</caption>
+          <help>Il est impossible de modifier le titre.</help>
+        </property>
+        <property name="DisplayDate">
+          <caption>Afficher la date dans la liste principale</caption>
+          <help>Affichez la date pour chaque élément</help>
+        </property>
+        <property name="DisplayDocumentLink">
+          <caption>Afficher le lien du document dans la liste principale</caption>
+          <help>Affichez le lien du document dans la liste principale</help>
+        </property>
+        <property name="DocumentInternalPath">
+          <caption>Chemin document</caption>
+          <help>Chemin d'accès du document</help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Page Liste de documents</caption>
+          <help>Spécifiez la page à partir de laquelle extraire la liste de documents. Si la page n'est pas définie, la liste ne s'affiche pas.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Chemin du document</caption>
+          <help>Chemin d'accès au document.</help>
+        </property>
+        <property name="Email">
+          <caption>Messagerie</caption>
+          <help>Adresse de messagerie</help>
+        </property>
+        <property name="EmailBody">
+          <caption>Corps du message électronique</caption>
+          <help>Contenu de l'adresse de messagerie qui sera envoyé.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Expéditeur du message électronique</caption>
+          <help>Adresse de messagerie utilisée en tant qu'adresse de messagerie de l'expéditeur.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Objet du message électronique</caption>
+          <help>Objet du message électronique à envoyer.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Hauteur</caption>
+          <help>Indiquez la hauteur de la séquence flash en pixels.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Largeur</caption>
+          <help>Indiquez la largeur de la séquence flash en pixels.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Chemin d'accès de la séquence Flash</caption>
+          <help>Indiquez l’adresse de la séquence Flash</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Afficher les statistiques</caption>
+          <help>Afficher les statistiques sur la page pour les visiteurs.</help>
+        </property>
+        <property name="EPiWebSites">
+          <caption>Liste sites Web d'EPiServer (pied de page)</caption>
+          <help>Liste des sites Web EPiServer affichée dans le pied de page de la page actuelle</help>
+        </property>
+        <property name="EPiWebSitesHeading">
+          <caption>En-tête des sites Web d'EPiServer (pied de page)</caption>
+          <help>En-tête des sites Web EPiServer affiché dans le pied de page de la page actuelle</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Activer l'abonnement</caption>
+          <help>Active un abonnement pour cette page</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Bloquer l'abonnement pour cette page</caption>
+          <help>Cochez cette case pour bloquer les mises à jour d'abonnement pour cette page.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Ne pas afficher sur la page d'abonnement</caption>
+          <help>Masque cette page sur la page d'abonnement</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Page racine pour l'abonnement</caption>
+          <help>Indiquez une page de l'arborescence qui servira de point de départ pour l'abonnement.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Nombre d'événements</caption>
+          <help>Limite le nombre d'éléments.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Page Liste des événements</caption>
+          <help>Renvoie à la page dont les enfants sont utilisés pour générer la liste des événements. Si elle n'est pas définie, la liste des événements n'est pas affichée.</help>
+        </property>
+        <property name="EventStartDate">
+          <caption>Date de début</caption>
+          <help>Spécifiez la date de début de l'activité.</help>
+        </property>
+        <property name="EventStopDate">
+          <caption>Date de fin</caption>
+          <help>Spécifiez la date de fin de l'activité.</help>
+        </property>
+        <property name="FeedCount">
+          <caption>Nombre d'éléments dans un flux.</caption>
+          <help>Nombre d'éléments à envoyer dans un flux RSS/Atom</help>
+        </property>
+        <property name="ForumPageTypeName">
+          <caption>Type de la page pour le forum</caption>
+          <help>Type de la page pour le forum</help>
+        </property>
+        <property name="ForumStart">
+          <caption>Page de démarrage du forum</caption>
+          <help>Page de démarrage du forum à laquelle cet élément appartient</help>
+        </property>
+        <property name="Heading">
+          <caption>En-tête</caption>
+          <help>Indiquez un en-tête présentant le titre principal de la page. Si cette propriété n'est pas définie, c'est le nom de la page qui sera utilisé comme en-tête.</help>
+        </property>
+        <property name="HistoryLength">
+          <caption>Ancienneté maximale des éléments de la liste</caption>
+          <help>Ancienneté maximale, en jours, des éléments affichés dans la liste</help>
+        </property>
+        <property name="Icon">
+          <caption>Icône pour ce forum</caption>
+          <help>Nom de l'icône devant être utilisée par ce forum</help>
+        </property>
+        <property name="Image">
+          <caption>Image</caption>
+          <help>Indiquez l’image à afficher sur la page de démarrage (900*341 pixels)</help>
+        </property>
+        <property name="IndexContainer">
+          <caption>Afficher le contenu de la page</caption>
+          <help>Spécifiez la page à partir de laquelle commencera l'index.</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Page principale du plan du site</caption>
+          <help>Le plan du site est créé à partir de cette page.</help>
+        </property>
+        <property name="IsDateListing">
+          <caption>Liste de dates</caption>
+          <help>Doit être définie automatiquement.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Télécharger l'édition HTML complète et la copie du document source</caption>
+          <help>Sélectionnez cette option pour pouvoir afficher l'édition HTML complète</help>
+        </property>
+        <property name="IsLocked">
+          <caption>Le fil de discussion est verrouillé.</caption>
+          <help>Indique si ce fil de discussion est verrouillé.</help>
+        </property>
+        <property name="IsTagListing">
+          <caption>Liste de balises</caption>
+          <help>Doit être définie automatiquement.</help>
+        </property>
+        <property name="IsTeamLevel">
+          <caption>Niveau équipe</caption>
+          <help>Doit être défini automatiquement.</help>
+        </property>
+        <property name="ItemPageTypeName">
+          <caption>Type de page du blog</caption>
+          <help>Type de page du blog à utiliser</help>
+        </property>
+        <property name="ListCount">
+          <caption>Afficher le nombre de pages dans la liste principale</caption>
+          <help>Spécifiez le nombre de pages à afficher dans la liste.</help>
+        </property>
+        <property name="ListingSlideContainer">
+          <caption>Téléchargement de présentations</caption>
+          <help>Sélectionnez la page à partir de laquelle vous voulez télécharger une présentation.</help>
+        </property>
+        <property name="ListingSlideCount">
+          <caption>Afficher le nombre de pages dans la présentation</caption>
+          <help>Spécifiez, en nombres entiers, le nombre de pages à afficher dans la présentation.</help>
+        </property>
+        <property name="ListPageTypeName">
+          <caption>Type de la page de liste du blog</caption>
+          <help>Type de la page de liste du blog</help>
+        </property>
+        <property name="ListRoot">
+          <caption>Page Liste principale</caption>
+          <help>Spécifiez la page à partir de laquelle vous voulez extraire la liste. La liste apparaîtra dans la zone de contenu principale. Si la page n'est pas définie, la liste ne s'affiche pas.</help>
+        </property>
+        <property name="Location">
+          <caption>Afficher l'emplacement d'un événement</caption>
+          <help>Sélectionner un emplacement pour cet événement</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Page Connexion</caption>
+          <help>Spécifiez la page de connexion pour cette partie du site.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Type de logo</caption>
+          <help>URL de l'image du logo.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Corps principal</caption>
+          <help>Le corps principal s'affiche dans la zone de contenu principale de la page. Vous pouvez, par exemple, insérer du texte, des images et des tableaux à l'aide de l'éditeur XHTML.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Introduction</caption>
+          <help>Version abrégée du contenu des infos. Ce texte, si disponible, est utilisé dans la liste des infos.</help>
+        </property>
+        <property name="MainLinksCount">
+          <caption>Afficher le nombre de liens</caption>
+          <help>Spécifiez le nombre de liens à afficher dans la liste.</help>
+        </property>
+        <property name="MainLinksHeading">
+          <caption>En-tête liste principale</caption>
+          <help>En-tête de la liste de liens principale</help>
+        </property>
+        <property name="MainLinksRoot">
+          <caption>Page Liste gauche</caption>
+          <help>Spécifiez la page à partir de laquelle vous voulez extraire la liste.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Nombre d'éléments dans la liste principale</caption>
+          <help>Limite le nombre d'éléments.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Page Liste principale</caption>
+          <help>Spécifiez la page à partir de laquelle vous voulez extraire la liste. La liste apparaîtra dans la zone de contenu principale. Si la page n'est pas définie, la liste ne s'affiche pas.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Afficher les menus à partir de</caption>
+          <help>Spécifiez un emplacement dans l'arborescence des menus où les menus seront affichés sur la page sélectionnée</help>
+        </property>
+        <property name="MaxCount">
+          <caption>Nombre maximal de messages</caption>
+          <help>Nombre maximal de messages affichés dans la liste</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Auteur</caption>
+          <help>Indiquez l'auteur utilisé par les moteurs de recherche. A défaut, c'est la valeur de la propriété dynamique qui sera utilisée.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Description de la page</caption>
+          <help>Décrivez le contenu de la page</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Mots à rechercher standard pour les pages</caption>
+          <help>Spécifiez une liste avec une virgule comme séparateur pour les mots à rechercher correspondant à cette page</help>
+        </property>
+        <property name="nDaysToRender">
+          <caption>Nombre de jours à afficher dans le calendrier</caption>
+          <help>Spécifiez le nombre de jours que vous voulez afficher dans le calendrier.</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Nombre d'éléments de type Actualités</caption>
+          <help>Limite le nombre d'éléments.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Page Liste des actualités</caption>
+          <help>Renvoie à la page dont les enfants sont utilisés pour générer la liste des actualités. Si elle n'est pas définie, la liste des actualités n'est pas affichée.</help>
+        </property>
+        <property name="NoEmployees">
+          <caption>Nombre d'employés</caption>
+          <help>Nombre d'employés</help>
+        </property>
+        <property name="NumberOfReplies">
+          <caption>Nombre de réponses</caption>
+          <help>Nombre de réponses à ce fil de discussion</help>
+        </property>
+        <property name="OtherWebSites">
+          <caption>Liste autres sites Web (pied de page)</caption>
+          <help>Liste des autres sites affichée dans le pied de page de la page actuelle</help>
+        </property>
+        <property name="OtherWebSitesHeading">
+          <caption>En-tête autres sites (pied de page)</caption>
+          <help>En-tête d'autres sites Web affiché dans le pied de page de la page actuelle</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Succès de la modification du mot de passe</caption>
+          <help>Texte affiché en cas de réussite d'un changement de mot de passe.</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Longueur du mot de passe</caption>
+          <help>Le mot de passe le plus court autorisé.</help>
+        </property>
+        <property name="PersonalStartPageTypeName">
+          <caption>Type de la page de démarrage personnelle du blog</caption>
+          <help>Type de la page de démarrage personnelle du blog utilisé lors pour le blog.</help>
+        </property>
+        <property name="Phone">
+          <caption>Téléphone</caption>
+          <help>Téléphone</help>
+        </property>
+        <property name="PostPageTypeName">
+          <caption>Type de la page pour les messages du forum</caption>
+          <help>Type de la page pour les messages du forum</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Page Confidentialité</caption>
+          <help>Lien vers la page contenant les informations légales.</help>
+        </property>
+        <property name="RecentContainer">
+          <caption>Afficher des pages à partir de</caption>
+          <help>Spécifiez la page à partir de laquelle vous voulez afficher les pages modifiées récemment.</help>
+        </property>
+        <property name="RecentHours">
+          <caption>Afficher les pages qui ont été modifiées au cours des x dernières heures</caption>
+          <help>Spécifiez le nombre d'heures dans le passé pour lesquelles afficher les pages modifiées.</help>
+        </property>
+        <property name="RefreshRate">
+          <caption>Nombre de secondes pendant lequel chaque page reste affichée</caption>
+          <help>Spécifiez le nombre de secondes pendant lequel chaque page reste affichée dans la présentation.</help>
+        </property>
+        <property name="RelatedSites">
+          <caption>Liste des sites Web associés (pied de page)</caption>
+          <help>Liste des sites Web associés affichée dans le pied de page de la page actuelle</help>
+        </property>
+        <property name="RelatedSitesHeading">
+          <caption>En-tête des sites associés (pied de page)</caption>
+          <help>En-tête des sites Web associés affiché dans le pied de page de la page actuelle</help>
+        </property>
+        <property name="ResellerDescription">
+          <caption>Description</caption>
+          <help>Description</help>
+        </property>
+        <property name="ResellerID">
+          <caption>ID revendeur</caption>
+          <help>ID revendeur</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Chemin des dossiers</caption>
+          <help>L'arborescence des dossiers commence depuis cette page.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>Conteneur RSS</caption>
+          <help>Le conteneur de toutes les pages source RSS</help>
+        </property>
+        <property name="RssSource">
+          <caption>Page source RSS</caption>
+          <help>Dans l’arborescence, spécifiez une page source du contenu RSS figurant sur ce site Web.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Rechercher le chemin d'accès de la source RSS</caption>
+          <help>Spécifiez le contenu de l’adresse au format RSS. Il s'agit généralement d'une adresse Web.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Page Recherche</caption>
+          <help>Lien vers la page de recherche pour cette partie du site.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Page de recherche principale</caption>
+          <help>La recherche commence à partir de cette page.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Corps secondaire</caption>
+          <help>Le corps secondaire s'affiche dans la colonne de droite de la page. Vous pouvez utiliser à la fois du texte et des images pour la présentation Notez que la taille des images ne doit pas être supérieure à celle de la zone de droite.</help>
+        </property>
+        <property name="SecondaryLinksCount">
+          <caption>Afficher le nombre de liens</caption>
+          <help>Spécifiez le nombre de liens à afficher dans la liste.</help>
+        </property>
+        <property name="SecondaryLinksDisplayDate">
+          <caption>Afficher la date de chaque élément de la liste secondaire.</caption>
+          <help>Indique si la date doit être affichée pour chaque élément de la liste.</help>
+        </property>
+        <property name="SecondaryLinksHeading">
+          <caption>En-tête liste secondaire</caption>
+          <help>En-tête de la liste de liens secondaire</help>
+        </property>
+        <property name="SecondaryLinksRoot">
+          <caption>Page Liste droite</caption>
+          <help>Spécifiez la page à partir de laquelle vous voulez extraire la liste.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Nombre d'éléments de la liste supplémentaire dans la liste</caption>
+          <help>Limitez le nombre d’éléments dans la liste secondaire à cette valeur.</help>
+        </property>
+        <property name="SecondaryListDisplayDate">
+          <caption>Afficher la date dans la liste secondaire</caption>
+          <help>Affichez la date pour chaque élément</help>
+        </property>
+        <property name="SecondaryListHeading">
+          <caption>En-tête liste secondaire</caption>
+          <help>En-tête liste secondaire</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Page Liste supplémentaire</caption>
+          <help>Ce lien pointe vers la page parente qui sera utilisée pour générer une liste de pages dans la colonne de droite. Si la page n'est pas définie, la liste ne s'affiche pas.</help>
+        </property>
+        <property name="SelectedWebPart">
+          <caption>Sélectionner Web part</caption>
+          <help>Sélectionnez le Web part à utiliser sur la page.</help>
+        </property>
+        <property name="SEODescription">
+          <caption>Description de la page</caption>
+          <help>Description de la page</help>
+        </property>
+        <property name="SEORobots">
+          <caption>Robots de recherche</caption>
+          <help>Indiquez la manière dont les robots de recherche doivent traiter la page.</help>
+        </property>
+        <property name="SEOTitle">
+          <caption>Titre de la page</caption>
+          <help>Titre de la page</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Page Plan du site</caption>
+          <help>Lien vers la page Plan du site.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Trier les fichiers par</caption>
+          <help>Ordre de tri de l'arborescence des dossiers.</help>
+        </property>
+        <property name="Speaker">
+          <caption>Afficher l'intervenant d'un événement</caption>
+          <help>Sélectionnez un intervenant pour cet événement.</help>
+        </property>
+        <property name="StickyThreadContainer">
+          <caption>Conteneur de fils de discussion épinglés</caption>
+          <help>Conteneur des fils de discussion épinglés de ce forum</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Texte d'introduction dans le message électronique d'abonnement</caption>
+          <help>Entrez le texte qui constituera le corps du message électronique d'abonnement.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Adresse de l'expéditeur du message électronique d'abonnement</caption>
+          <help>Adresse de messagerie utilisée en tant qu'expéditeur du message électronique d'abonnement.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Texte de liaison dans le message électronique d'abonnement</caption>
+          <help>Ce texte crée le texte de liaison sur lequel l'utilisateur peut cliquer dans le message électronique d'abonnement.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Objet du message électronique d'abonnement</caption>
+          <help>Champ de l'objet du message électronique d'abonnement.</help>
+        </property>
+        <property name="SummaryLength">
+          <caption>Longueur du résumé</caption>
+          <help>Longueur du résumé pour chaque élément de la liste</help>
+        </property>
+        <property name="SummaryTextLength">
+          <caption>Longueur du texte résumé</caption>
+          <help>Nombre de caractères utilisés pour raccourcir le texte résumé</help>
+        </property>
+        <property name="TagCloudValue">
+          <caption>Valeur nuage de mots-clés</caption>
+          <help>Doit être définie automatiquement.</help>
+        </property>
+        <property name="TagContainer">
+          <caption>Conteneur des pages de balises</caption>
+          <help>Doit être défini automatiquement.</help>
+        </property>
+        <property name="Tags">
+          <caption>Balises</caption>
+          <help>Saisissez une liste séparée par des virgules et/ou basez-vous sur des balises existantes.</help>
+        </property>
+        <property name="TeamStartPageTypeName">
+          <caption>Type de la page de démarrage collective du blog</caption>
+          <help>Type de la page de démarrage collective du blog à utiliser pour le blog</help>
+        </property>
+        <property name="TemplateContainer">
+          <caption>Modèles de salles de travail</caption>
+          <help>Référence au conteneur des modèles de salles de travail disponibles</help>
+        </property>
+        <property name="ThirdBody">
+          <caption>Troisième corps</caption>
+          <help>Le contenu de ce champ s'affichera dans la zone 3 de la page. Vous pouvez utiliser à la fois du texte et des images pour la présentation Notez que la taille des images ne doit pas être supérieure à celle de la zone.</help>
+        </property>
+        <property name="ThreadContainerPageTypeName">
+          <caption>Type de la page pour le conteneur de fils de discussion du forum</caption>
+          <help>Type de la page pour le conteneur de fils de discussion du forum</help>
+        </property>
+        <property name="ThreadPageTypeName">
+          <caption>Type de la page pour les fils de discussion du forum</caption>
+          <help>Type de la page pour les fils de discussion du forum</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Image miniature</caption>
+          <help>Image à afficher dans les listes de page à l'endroit où elle s'applique.</help>
+        </property>
+        <property name="URL">
+          <caption>URL</caption>
+          <help>URL</help>
+        </property>
+        <property name="UsageStatistics">
+          <caption>Statistiques de l'utilisation des balises</caption>
+          <help>Doit être défini automatiquement.</help>
+        </property>
+        <property name="ValidDays">
+          <caption>Jour récurrent</caption>
+          <help>Spécifiez si l'activité doit se répéter à des intervalles définis.</help>
+        </property>
+        <property name="VideoSourceURL">
+          <caption>Fichier vidéo</caption>
+          <help>Indiquez un fichier vidéo au format .flv.</help>
+        </property>
+        <property name="WorkroomIcon">
+          <caption>Icône pour cette salle de travail</caption>
+          <help>Image à utiliser comme icône pour cette salle de travail</help>
+        </property>
+        <property name="WorkroomStart">
+          <caption>Page de démarrage pour cette salle de travail</caption>
+          <help>Page de démarrage de la salle de travail à laquelle cette page appartient.</help>
+        </property>
+        <property name="Writer">
+          <caption>Nom du blogueur</caption>
+          <help>Saisissez le nom du blogueur.</help>
+        </property>
+        <property name="XForm">
+          <caption>Formulaire</caption>
+          <help>Spécifiez le formulaire qui sera affiché sur cette page. En cliquant sur ce bouton, vous pouvez créer vos propres formulaires.</help>
+        </property>
+      </common>
+      <pagetype name="[AlloyTech] Blog comment">
+        <description>Page utilisée pour stocker les commentaires des éléments du blog</description>
+        <name>[AlloyTech] Commentaires du blog</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog item">
+        <description>Page d'un élément du blog utilisée pour une entrée unique du blog</description>
+        <name>[AlloyTech] Élément du blog</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog list">
+        <description>Page contenant une liste utilisée pour répertorier les dates et les balises</description>
+        <name>[AlloyTech] Liste du blog</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog personal start">
+        <description>Page de démarrage d'un blog personnel</description>
+        <name>[AlloyTech] Démarrage blog personnel</name>
+        <property name="Image">
+          <caption>Image du blogueur</caption>
+          <help>Sélectionnez une image pour le blogueur.</help>
+        </property>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog team start">
+        <description>Page de démarrage d'un blog collectif</description>
+        <name>[AlloyTech] Démarrage blog collectif</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar">
+        <description>Page affichant les événements du calendrier</description>
+        <name>[AlloyTech] Calendrier</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar event">
+        <description>Page pour un événement dans le calendrier</description>
+        <name>[AlloyTech] Événement calendrier</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Changed recently">
+        <description>Page qui affiche une liste de pages ayant été modifiées récemment</description>
+        <name>[AlloyTech]Modifiées récemment</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Company Facts">
+        <description>Conteneur utilisé pour présenter dynamiquement les informations sur la société</description>
+        <name>[AlloyTech] Information sur la société</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Document">
+        <description>Ce type de page permet de publier des documents à partir de Microsoft Office.</description>
+        <name>Document [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="EventItemPage">
+        <description>Page affichant un événement spécifique</description>
+        <name>[AlloyTech] Événement</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum">
+        <description>Page du forum</description>
+        <name>[AlloyTech] Forum</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum post">
+        <description>Réponse au fil de discussion d'un forum</description>
+        <name>[AlloyTech] Message forum</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread">
+        <description>Fil de discussion dans un forum</description>
+        <name>[AlloyTech] Fil de discussion forum</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread container">
+        <description>Conteneur de fils de discussion dans un forum</description>
+        <name>[AlloyTech] Conteneur fils de discussion du forum</name>
+      </pagetype>
+      <pagetype name="ListingPage">
+        <description>Affiche le résumé de la page</description>
+        <name>[AlloyTech] Liste</name>
+      </pagetype>
+      <pagetype name="LoginPage">
+        <description>Ce type de page permet de créer une page de connexion au site Web.</description>
+        <name>Connexion [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] My Settings">
+        <description>Page de paramètres où les utilisateurs peuvent modifier leurs paramètres personnels</description>
+        <name>[AlloyTech] Mes paramètres</name>
+      </pagetype>
+      <pagetype name="NewsItemPage">
+        <description>Ce type de page contient les données d'un élément de type Infos</description>
+        <name>Elément Actualités [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Notification Email">
+        <description>Modèle de notification E-mail</description>
+        <name>[AlloyTech] Notification E-mail</name>
+      </pagetype>
+      <pagetype name="RegistrationPage">
+        <description>Ce type de page permet aux visiteurs de s'inscrire eux-mêmes sur le site Web.</description>
+        <name>Inscription [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Reseller">
+        <description>Cette page affiche des données sur les revendeurs.</description>
+        <name>[AlloyTech] Revendeur</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] RSS source">
+        <description>Ce type de page permet d'afficher des informations à partir d'EPiServer au format RSS.</description>
+        <name>Source RSS [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="SearchPage">
+        <description>Ce type de page affiche les résultats de la recherche effectuée via la barre de recherche rapide et une interface de recherche avancée.</description>
+        <name>Page de recherche [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="SitemapPage">
+        <description>Ce type de page permet de créer la liste du contenu d'une partie ou de l'ensemble du site Web.</description>
+        <name>Plan du site [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="StandardPage">
+        <description>Ce type de page est le plus utilisé sur le site Web. Il peut être utilisé pour les pages ordinaires aussi bien que pour les infos et les événements.</description>
+        <name>Page standard [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="StartPage">
+        <description>La page de démarrage est la principale entrée sur le site Web. Elle contient des champs de contenu principaux et secondaires, ainsi que différentes listes de liens.</description>
+        <name>[AlloyTech] Page de démarrage</name>
+      </pagetype>
+      <pagetype name="SubscriptionPage">
+        <description>Ce type de page permet aux visiteurs de sélectionner des informations sur l'abonnement.</description>
+        <name>Abonnement [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] User profile">
+        <description>Profil utilisateur</description>
+        <name>[AlloyTech] Profil utilisateur</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar">
+        <description>Page du calendrier pour une salle de travail</description>
+        <name>[AlloyTech] Calendrier salle de travail</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar event">
+        <description>Page pour un événement dans le calendrier</description>
+        <name>[AlloyTech] Événement calendrier salle de travail</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom File Manager">
+        <description>Gestion de fichiers dans une salle de travail</description>
+        <name>[AlloyTech] Gestionnaire de fichiers salle de travail</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom list">
+        <description>Page répertoriant toutes les salles de travail disponibles</description>
+        <name>[AlloyTech] Liste salles de travail</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Membership Manager">
+        <description>Page permettant l'ajout ou la modification des membres dans une salle de travail</description>
+        <name>[AlloyTech] Gestionnaire des membres salle de travail</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom news list">
+        <description>Page d'actualités dans une salle de travail</description>
+        <name>[AlloyTech] Actualités salle de travail</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Settings">
+        <description>Page permettant la modification des paramètres pour une salle de travail</description>
+        <name>[AlloyTech] Paramètres salle de travail</name>
+      </pagetype>
+      <pagetype name="XFormPage">
+        <description>Ce type de page permet d'ajouter un formulaire à la page standard.</description>
+        <name>Page Formulaire [AlloyTech]</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Merci</confirmation>
+      <error>
+        <confirmpassword>Veuillez confirmer le mot de passe que vous avez saisi.</confirmpassword>
+        <couldnotsave>Impossible d'enregistrer les modifications</couldnotsave>
+        <email>Veuillez saisir votre adresse de messagerie</email>
+        <firstname>Veuillez saisir votre prénom</firstname>
+        <incorrectemail>L'adresse de messagerie que vous avez saisie est incorrecte.</incorrectemail>
+        <lastname>Veuillez saisir votre nom</lastname>
+        <password>Veuillez saisir un mot de passe</password>
+        <passwordlength>Le mot de passe que vous avez saisi est trop court. Longueur min. :</passwordlength>
+        <passwordrepeat>Les mots de passe que vous avez saisis ne correspondent pas</passwordrepeat>
+      </error>
+      <password>Entrer le mot de passe</password>
+      <repeatpassword>Répéter le mot de passe</repeatpassword>
+      <signupbutton>Valider</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Recherche avancée</advancedsearch>
+      <button>Rechercher</button>
+      <findsimilar>Recherche similaire</findsimilar>
+      <nosearchresult>Aucun résultat de correspondance trouvé</nosearchresult>
+      <onlywholewords>Mot entier</onlywholewords>
+      <percentrelevancy>% de pertinence</percentrelevancy>
+      <relevancy>Pertinence</relevancy>
+      <searchfiles>Rechercher dans les fichiers</searchfiles>
+      <searchfor>Rechercher :</searchfor>
+      <searchresult>Résultat de la recherche :</searchresult>
+      <searchstring>Saisissez votre recherche ici</searchstring>
+    </search>
+    <subscription>
+      <daily>Tous les jours</daily>
+      <email>Adresse de messagerie</email>
+      <error>
+        <email>Veuillez saisir votre adresse de messagerie</email>
+        <incorrectemail>L'adresse de messagerie que vous avez saisie est incorrecte.</incorrectemail>
+      </error>
+      <fastaspossible>Dès que possible</fastaspossible>
+      <interval>Intervalle</interval>
+      <monthly>Tous les mois</monthly>
+      <subscribe>S'abonner</subscribe>
+      <subscription>Abonnement</subscription>
+      <weekly>Toutes les semaines</weekly>
+    </subscription>
+    <templates>
+      <changedpages>
+        <header>Derniers fichiers modifiés</header>
+        <lastmodified>Dernière modification</lastmodified>
+        <page>Page</page>
+        <updatedpages>Pages récemment mises à jour</updatedpages>
+      </changedpages>
+      <dynamiccontent>
+        <map>
+          <addresslabel>Adresse</addresslabel>
+          <altlabel>Image texte de remplacement</altlabel>
+          <displaystaticimagelabel>Afficher en tant qu'image</displaystaticimagelabel>
+          <emptysearchresults>Adresse introuvable</emptysearchresults>
+          <heighterrormessage>La hauteur de la carte doit être une valeur comprise entre 100 et 2 000.</heighterrormessage>
+          <heightlabel>Hauteur carte</heightlabel>
+          <hidesearchresults>Masquer</hidesearchresults>
+          <missingmapdata>Les paramètres de la carte n'ont pas pu être chargés.</missingmapdata>
+          <searchbuttonlabel>Rechercher</searchbuttonlabel>
+          <searchresultslabel>Résultats de la recherche</searchresultslabel>
+          <selectionerrormessage>Il est impossible d'enregistrer une carte sans emplacement. Sélectionnez un emplacement en double-cliquant sur une carte ou un marqueur de résultat de recherche.</selectionerrormessage>
+          <selectiontextmessage>Sélectionnez un emplacement.</selectiontextmessage>
+          <unabletoinitializemessage>Impossible d'initialiser les cartes</unabletoinitializemessage>
+          <widtherrormessage>La largeur de la carte doit être une valeur comprise entre 100 et 2 000.</widtherrormessage>
+          <widthlabel>Largeur carte</widthlabel>
+        </map>
+      </dynamiccontent>
+      <events>
+        <location>Emplacement</location>
+        <speaker>Intervenant</speaker>
+      </events>
+      <personalsettings>
+        <validation>
+          <emailexists>L'adresse de messagerie que vous avez saisie est déjà utilisée.</emailexists>
+        </validation>
+      </personalsettings>
+      <reseller>
+        <address>Adresse</address>
+        <contacts>Contacts</contacts>
+        <name>Nom</name>
+        <url>URL</url>
+      </reseller>
+    </templates>
+    <usersettings>
+      <changepassword>Changer le mot de passe</changepassword>
+      <confirmpassword>Confirmer le mot de passe</confirmpassword>
+      <email>Adresse de messagerie</email>
+      <firstname>Prénom</firstname>
+      <lastname>Nom</lastname>
+      <mysettings>Mes paramètres</mysettings>
+      <newpassword>Nouveau mot de passe</newpassword>
+      <username>Nom de l'utilisateur</username>
+    </usersettings>
+    <workroom>
+      <calendar>
+        <buttonaddevent>Ajouter un événement</buttonaddevent>
+        <buttondeletecalendar>Supprimer le calendrier</buttondeletecalendar>
+        <buttoneditname>Modifier le nom</buttoneditname>
+        <createheading>Créer un événement</createheading>
+        <dateformat>Exemple : 11/25/2007</dateformat>
+        <editheading>Modifier l'événement</editheading>
+        <invalidstartdate>La date de début n'est pas une date valide.</invalidstartdate>
+        <invalidstopdate>La date de fin n'est pas une date valide.</invalidstopdate>
+        <latestarttime>L'heure de départ doit être antérieure à la date de fin.</latestarttime>
+        <nameempty>Saisir un titre</nameempty>
+        <selectedperiod>Période sélectionnée :</selectedperiod>
+        <starttimeempty>Saisir une date de début</starttimeempty>
+        <starttimelabel>Date de début :</starttimelabel>
+        <stoptimeempty>Saisir une date de fin </stoptimeempty>
+        <stoptimelabel>Date de fin :</stoptimelabel>
+      </calendar>
+      <calendarlist>
+        <calendaraddnew>Ajouter calendrier</calendaraddnew>
+        <calendaritemfrom>Du :</calendaritemfrom>
+        <calendaritemto>Au :</calendaritemto>
+        <calendarsectionname>Nom calendrier</calendarsectionname>
+      </calendarlist>
+      <edit>Modifier</edit>
+      <editablecontent>
+        <labeltext>Modifiez le contenu et cliquez sur "Enregistrer".</labeltext>
+      </editablecontent>
+      <editdescription>Modifier la description</editdescription>
+      <eventlist>
+        <heading>Événements à venir</heading>
+      </eventlist>
+      <filelist>
+        <errormessage>Le dossier racine de la salle de travail est introuvable, ou vos droits d'accès sont insuffisants.</errormessage>
+        <errormissingindex>Un index n'a pas été configuré pour le dossier racine de la salle de travail. Il est indispensable pour afficher les fichiers modifiés récemment.</errormissingindex>
+        <heading>Fichiers récents</heading>
+      </filelist>
+      <membershiplevel>
+        <administer>Administrateur</administer>
+        <modify>Membre participant</modify>
+        <read>Membre lecture-seule</read>
+      </membershiplevel>
+      <membershipmanager>
+        <button>
+          <addmembers>Ajouter membres</addmembers>
+          <editmembers>Modifier membres</editmembers>
+          <invite>Inviter</invite>
+          <remove>Supprimer</remove>
+          <sendinvitation>Envoyer invitation</sendinvitation>
+        </button>
+        <confirmremovemember>Voulez-vous vraiment supprimer les membres sélectionnés de la salle de travail ?</confirmremovemember>
+        <email>Adresse de messagerie</email>
+        <emptysearchresult>Aucun utilisateur correspondant n'a été trouvé suite à votre recherche.</emptysearchresult>
+        <inviteheading>Inviter un utilisateur</inviteheading>
+        <invitemembermessage>Envoyer un e-mail d'invitation à devenir membre à l'utilisateur</invitemembermessage>
+        <invitemembership>Statut à assigner</invitemembership>
+        <inviteunfiledsenderemail>L'adresse e-mail de votre profil n'est pas indiquée.</inviteunfiledsenderemail>
+        <invitewithoutstatus>Il manque le statut à assigner.</invitewithoutstatus>
+        <managemembersheading>Gérer les membres de la salle de travail</managemembersheading>
+        <membershiplevel>Statut de membre</membershiplevel>
+        <removeheading>Supprimer membre</removeheading>
+        <searchheading>Rechercher des utilisateurs</searchheading>
+        <searchresultheading>Résultats de la recherche</searchresultheading>
+        <searchtext>Rechercher</searchtext>
+        <sendinvitationerror>Erreur lors de l'envoi de l'invitation</sendinvitationerror>
+        <sendinvitationok>Invitation envoyée</sendinvitationok>
+        <sendnotifications>Envoyer des notifications sur le changement de statut des membres ?</sendnotifications>
+        <sendnotificationsno>Non</sendnotificationsno>
+        <sendnotificationsyes>Oui</sendnotificationsyes>
+        <status>Statut assigné</status>
+        <unabletosendnotification>Certaines notifications ne sont peut-être pas envoyées.</unabletosendnotification>
+        <username>Nom d'utilisateur</username>
+        <viewmembersheading>Membres de la salle de travail</viewmembersheading>
+      </membershipmanager>
+      <newslist>
+        <heading>Infos</heading>
+        <newssectionname>Nom actualité salle de travail</newssectionname>
+      </newslist>
+      <newslistpage>
+        <addnewsitem>Ajouter élément d'actualité</addnewsitem>
+        <addnewssection>Ajouter actualité salle de travail</addnewssection>
+        <bodylabel>Description :</bodylabel>
+        <createheading>Créer élément d'actualité</createheading>
+        <deletenewssection>Supprimer actualité salle de travail</deletenewssection>
+        <editheading>Modifier élément d'actualité</editheading>
+        <editnewssection>Modifier actualité salle de travail</editnewssection>
+        <headinglabel>Titre :</headinglabel>
+        <titleempty>Saisir un titre</titleempty>
+      </newslistpage>
+      <settings>
+        <availablefunctions>Fonctions disponibles</availablefunctions>
+      </settings>
+      <userprofile>
+        <confirmpassword>Confirmer le mot de passe</confirmpassword>
+        <email>Adresse de messagerie</email>
+        <error>
+          <firstnamerequired>Saisir un prénom</firstnamerequired>
+          <lastnamerequired>Saisir un nom de famille</lastnamerequired>
+          <logout>Vous êtes connecté sous un nom d'utilisateur différent. Déconnectez-vous et réessayez.</logout>
+          <membership>Les paramètres de sécurité actuels ne permettent pas aux nouveaux utilisateurs de s'inscrire. Pour plus d'informations, contactez l'administrateur.</membership>
+          <passworddiffers>Les mots de passe doivent être identiques.</passworddiffers>
+          <passwordrequired>Saisir un mot de passe</passwordrequired>
+          <passwordweak>Le mot de passe ne respecte pas les règles de création de mot de passe.</passwordweak>
+          <unavailable>Vous ne disposez pas des droits d'accès suffisants pour consulter cette page.</unavailable>
+          <usernameexists>Ce nom d'utilisateur existe déjà.</usernameexists>
+          <usernamerequired>Saisir un nom d'utilisateur</usernamerequired>
+        </error>
+        <firstname>Prénom</firstname>
+        <lastname>Nom</lastname>
+        <password>Mot de passe</password>
+        <role>Rôle</role>
+        <username>Nom d'utilisateur</username>
+      </userprofile>
+      <workroomlist>
+        <addworkroom>Ajouter une salle de travail</addworkroom>
+        <createheading>Créer une salle de travail</createheading>
+        <descriptionlabel>Description :</descriptionlabel>
+        <duplicatename>Il existe déjà une salle de travail avec ce nom.</duplicatename>
+        <nameempty>Saisir un nom</nameempty>
+        <namelabel>Nom :</namelabel>
+        <templateempty>Entrer un modèle</templateempty>
+        <templatelabel>Sélectionner modèle :</templatelabel>
+        <viewheading>Mes salles de travail</viewheading>
+      </workroomlist>
+    </workroom>
+  </language>
+</languages>

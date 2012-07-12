@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="norsk" id="no">
+    <blog>
+      <item>
+        <comment>Kommentar:</comment>
+        <commentheading>Kommentarer:</commentheading>
+        <commentlegend>Legg inn en kommentar</commentlegend>
+        <errormessages>
+          <requiredcomment>Fyll ut feltet Kommentar.</requiredcomment>
+          <requiredname>Fyll ut feltet Navn.</requiredname>
+        </errormessages>
+        <name>Navn:</name>
+        <permanentlink>Permanent kobling</permanentlink>
+        <postedby>av:</postedby>
+        <posteddate>Innleggingsdato:</posteddate>
+        <send>Send</send>
+        <tags>Tags:</tags>
+      </item>
+      <itemsummary>
+        <readblog>Les blogg:</readblog>
+      </itemsummary>
+      <listpage>
+        <dateheading>Bloggoppføringer innlagt i løpet av {0}</dateheading>
+        <errormessage>Det har oppstått en konfigurasjonsfeil. Enten IsTagListing eller IsDateListing må være sann.</errormessage>
+        <tagheading>Bloggoppføringer merket med {0}</tagheading>
+      </listpage>
+      <propertyblogtags>
+        <errormessage>
+          <categorytoolong>Minst ett navn på tag er for langt. (Høyst {0} tegn)</categorytoolong>
+        </errormessage>
+        <existingtagsbutton>Legg til tags</existingtagsbutton>
+        <existingtagslabel>Eksisterende tags</existingtagslabel>
+        <selectedtagslabel>Valgte tags</selectedtagslabel>
+      </propertyblogtags>
+      <secondarylist>
+        <aboutme>Om meg</aboutme>
+        <archive>Arkiv</archive>
+        <tagcloud>Tag-gruppe</tagcloud>
+      </secondarylist>
+      <tagstatisticsupdater>
+        <description>Brukes til å oppdatere statistikk for blogg-tags.</description>
+        <displayname>Oppdater tag-statistikk</displayname>
+      </tagstatisticsupdater>
+    </blog>
+    <calendar>
+      <noeventonday>Ingen hendelser er planlagt for denne dagen</noeventonday>
+      <selectedperiod>Valgt periode</selectedperiod>
+    </calendar>
+    <captcha>
+      <errormessage>Den angitte teksten samsvarer ikke med teksten som vises i bildet.</errormessage>
+      <heading>Brukerverifisering</heading>
+      <imagealternativetext>Bilde for brukerverifisering</imagealternativetext>
+      <label>Skriv inn teksten som vises i bildet:</label>
+    </captcha>
+    <common>
+      <messages>
+        <confirmdelete>Er du sikker på at du vil slette dette elementet?</confirmdelete>
+      </messages>
+    </common>
+    <document>
+      <download>Last ned:</download>
+    </document>
+    <dynamiccontenttypes>
+      <dynamiccontent name="MapDynamicContentDemo">
+        <caption>Google Maps</caption>
+        <description>Legg til og konfigurer Google Maps</description>
+      </dynamiccontent>
+    </dynamiccontenttypes>
+    <editorstyleoptions>
+      <classic>Klassisk</classic>
+      <heading_1>Overskrift 1</heading_1>
+      <heading_2>Overskrift 2</heading_2>
+      <heading_3>Overskrift 3</heading_3>
+      <highlighted>Merket</highlighted>
+      <image_border>Bilderamme</image_border>
+      <image_styles>Bildeformater</image_styles>
+      <introduction>Introduksjon</introduction>
+      <left_aligned>Venstrejustert</left_aligned>
+      <paragraph>Avsnitt</paragraph>
+      <right_aligned>Høyrejustert</right_aligned>
+      <table_styles>Tabellformater</table_styles>
+      <top_left>Øverst til venstre</top_left>
+      <top_right>Øverst til høyre</top_right>
+    </editorstyleoptions>
+    <error>
+      <document>Sideegenskapen Dokumentbane er ikke angitt.</document>
+      <mainmenucontainer>Den dynamiske egenskapen MainMenuContainer er ikke angitt.</mainmenucontainer>
+    </error>
+    <filemanager>
+      <button>
+        <back>Tilbake</back>
+        <deleteversion>Slett versjon</deleteversion>
+        <rename>Gi nytt navn</rename>
+        <replacefile>Erstatt fil</replacefile>
+        <restore>Gjenopprett til denne versjonen</restore>
+        <upload>Last opp</upload>
+      </button>
+      <choosefile>Velg fil:</choosefile>
+      <deletefilesandfoldersheading>Slett filer/mapper</deletefilesandfoldersheading>
+      <disabledfunctions>Noen funksjoner er utilgjengelige på grunn av utilstrekkelige rettigheter for denne mappen.</disabledfunctions>
+      <editfilesummaryheading>Rediger filinformasjon</editfilesummaryheading>
+      <errormessage>
+        <cannotchange>Kan ikke flytte, endre navn på, slette eller oppdatere den valgte filen. Denne filen kan være sjekket ut av noen andre.</cannotchange>
+        <checkedout>Det finnes allerede en fil med det samme navnet, og den er sjekket ut av noen andre.</checkedout>
+        <containscheckedout>Kan ikke flytte eller slette den valgte mappen. Mappen kan inneholde en fil som er sjekket ut av noen andre.</containscheckedout>
+        <insufficientaccess>Du har ikke tilstrekkelige rettigheter til å opprette eller endre filer i denne mappen.</insufficientaccess>
+        <insufficientaccesscreatefolder>Du har ikke tilstrekkelige rettigheter til å opprette mapper på dette stedet.</insufficientaccesscreatefolder>
+        <insufficientaccessmetadata>Du har ikke tilstrekkelige rettigheter til å endre denne filen.</insufficientaccessmetadata>
+        <insufficientaccessmove>Du har ikke tilstrekkelige rettigheter til å flytte dette elementet.</insufficientaccessmove>
+        <insufficientaccessremove>Du har ikke tilstrekkelige rettigheter til å fjerne de valgte elementene.</insufficientaccessremove>
+        <insufficientaccessrename>Du har ikke tilstrekkelige rettigheter til å endre navn på det valgte elementet.</insufficientaccessrename>
+        <readonlyfile>Det finnes allerede en skrivebeskyttet fil med det samme navnet.</readonlyfile>
+        <replacefile>Det finnes allerede en fil med det samme navnet. Vil du erstatte filen {0}?</replacefile>
+        <versionisnotfound>Kan ikke utføre operasjonen. Finner ikke versjon {0}.</versionisnotfound>
+      </errormessage>
+      <filecomment>Kommentar:</filecomment>
+      <filelistheading>
+        <checkedout>Sjekket ut</checkedout>
+        <lastchanged>Sist endret</lastchanged>
+        <name>Navn</name>
+        <size>Størrelse</size>
+      </filelistheading>
+      <filename>Filnavn</filename>
+      <files>Filer</files>
+      <filesummary>
+        <author>Forfatter</author>
+        <category>Kategori</category>
+        <comments>Kommentarer</comments>
+        <keywords>Nøkkelord</keywords>
+        <subject>Beskrivelse</subject>
+        <title>Tittel</title>
+      </filesummary>
+      <filesummaryheading>Filinformasjon for</filesummaryheading>
+      <foldername>Mappenavn:</foldername>
+      <foldernotempty>Mappen er ikke tom</foldernotempty>
+      <foldernotemptywarning>Noen av mappene er ikke tomme. Alt innhold i mappene vil bli slettet.</foldernotemptywarning>
+      <folders>Mapper</folders>
+      <maxuploadmessage>Størrelsen på filen som skal lastes opp, kan ikke overskride {0}.</maxuploadmessage>
+      <missingfoldererror>Kan ikke opprette filen. En målmappe mangler, eller du har ikke rettigheter til å opprette filer i den angitte mappen.</missingfoldererror>
+      <newfolder>Ny mappe</newfolder>
+      <parentfolder>Overordnet mappe</parentfolder>
+      <renamefile>Endre filnavn</renamefile>
+      <renamefolder>Endre mappenavn</renamefolder>
+      <selectfilemessage>Velg en fil ved å klikke Bla gjennom nedenfor, og klikk deretter Last opp.</selectfilemessage>
+      <switchview>
+        <addfile>Legg til fil</addfile>
+        <addfolder>Legg til mappe</addfolder>
+        <checkin>Sjekk inn</checkin>
+        <checkout>Sjekk ut</checkout>
+        <copy>Kopier</copy>
+        <cut>Klipp ut</cut>
+        <delete>Slett</delete>
+        <details>Detaljer</details>
+        <paste>Lim inn</paste>
+        <rename>Gi nytt navn</rename>
+        <undocheckout>Angre</undocheckout>
+        <version>Versjon</version>
+        <view>Vis</view>
+      </switchview>
+      <uploadbutton>Last opp</uploadbutton>
+      <uploadheading>Filopplasting</uploadheading>
+      <validation>
+        <folderexists>Det finnes allerede en mappe eller fil med samme navn.</folderexists>
+        <folderwithsamename>Det finnes allerede en mappe med navnet {0} i gjeldende mappe.</folderwithsamename>
+        <illigalchar>Navnet kan ikke inneholde /, ?, &lt;, &gt;, \, :, *, |, # eller ".</illigalchar>
+        <nametolong>Mappenavnet kan ikke bestå av mer enn 255 tegn.</nametolong>
+        <requiredfile>Velg en fil.</requiredfile>
+        <requiredname>Skriv inn et navn.</requiredname>
+      </validation>
+      <versionfileheading>Versjoner for</versionfileheading>
+      <versionlistheading>
+        <comments>Kommentarer</comments>
+        <created>Opprettet</created>
+        <createdby>Opprettet av</createdby>
+        <size>Størrelse</size>
+        <version>Versjon</version>
+      </versionlistheading>
+    </filemanager>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Documents">
+          <name>Dokumenter</name>
+        </virtualpathroot>
+        <virtualpathroot name="Global Files">
+          <name>Global katalog</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+    <form>
+      <numberofvotes>Antall stemmer: {0}</numberofvotes>
+      <postedmessage>Takk for innlegget!</postedmessage>
+      <showform>Til skjemaet</showform>
+      <showstat>Vis statistikk</showstat>
+    </form>
+    <forum>
+      <forumform>
+        <allowforumslabel>Tillat forum:</allowforumslabel>
+        <allowthreadslabel>Tillat tråder:</allowthreadslabel>
+        <createbutton>Opprett forum</createbutton>
+        <heading>Opprett forum</heading>
+        <icondropdown>
+          <auction>Auksjon</auction>
+          <default>Standard</default>
+          <information>Informasjon</information>
+        </icondropdown>
+        <iconlabel>Ikon:</iconlabel>
+        <titleerror>Tittelen kan ikke være tom</titleerror>
+        <titlelabel>Tittel:</titlelabel>
+      </forumform>
+      <forumlist>
+        <createbutton>Legg til underforum</createbutton>
+        <deleteforumbutton>Slett dette forumet</deleteforumbutton>
+        <heading>Underforum</heading>
+        <setupbutton>Konfigurer automatisk</setupbutton>
+        <setuperror>Siden er ikke riktig konfigurert. Verifiser innstillingene.</setuperror>
+        <title>Forum</title>
+        <updated>Sist oppdaterte tråd</updated>
+      </forumlist>
+      <thread>
+        <addreply>Legg til svar</addreply>
+        <deletereply>Slett svar</deletereply>
+        <deletethread>Slett tråd</deletethread>
+        <lock>Lås tråd</lock>
+        <postedby>Lagt inn av:</postedby>
+        <reply>Svar</reply>
+        <replyempty>Svaret kan ikke være tomt</replyempty>
+        <sticky>Prioritert tråd</sticky>
+        <toforum>Til forum</toforum>
+        <unlock>Lås opp tråd</unlock>
+        <unsticky>Uprioritert tråd</unsticky>
+      </thread>
+      <threadform>
+        <contenterror>Teksten kan ikke være tom</contenterror>
+        <contentlabel>Tekst:</contentlabel>
+        <createbutton>Opprett tråd</createbutton>
+        <heading>Opprett tråd</heading>
+        <titleerror>Tittelen kan ikke være tom</titleerror>
+        <titlelabel>Tittel:</titlelabel>
+      </threadform>
+      <threadlist>
+        <createbutton>Legg til tråd</createbutton>
+        <createdby>Opprettet av</createdby>
+        <heading>Tråder</heading>
+        <replies>Svar</replies>
+        <title>Tråd</title>
+        <updated>Sist oppdatert</updated>
+      </threadlist>
+      <today>I dag</today>
+      <Yesterday>I går</Yesterday>
+    </forum>
+    <headings>
+      <heading name="Flash Content">
+        <description>Flash-innhold</description>
+      </heading>
+      <heading name="Listings">
+        <description>Lister</description>
+      </heading>
+      <heading name="News &amp; Calendar">
+        <description>Nyheter og kalender</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Områdekonfigurasjon</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Registrer</becomemember>
+      <currentuser>Gjeldende bruker:</currentuser>
+      <editdetails>Mine innstillinger</editdetails>
+      <email>Skriv inn e-postadressen din:</email>
+      <error>
+        <loginfail>Påloggingen mislyktes. Brukernavnet eller passordet du oppga, var feil.</loginfail>
+        <password>Du må skrive inn et passord</password>
+        <username>Du må angi et brukernavn</username>
+      </error>
+      <forgotpassword>Glemt passordet?</forgotpassword>
+      <login>Logg på</login>
+      <logout>Logg av</logout>
+      <password>Passord</password>
+    </login>
+    <navigation>
+      <help>Hjelp</help>
+      <listen>Lytt</listen>
+      <readmore>Les mer</readmore>
+      <search>Søk</search>
+      <skipnavigation>Gå til innhold</skipnavigation>
+      <startpage>Start</startpage>
+      <startpagelinktitle>Til startsiden</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Flere nyheter</morenews>
+      <publishdate>Publisert</publishdate>
+      <writername>Forfatter</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="AboutTheSite">
+          <caption>Liste over koblinger av typen Om webområdet (bunntekst)</caption>
+          <help>Liste over koblinger av typen Om webområdet som vises i bunnteksten på siden</help>
+        </property>
+        <property name="AboutTheSiteHeading">
+          <caption>Overskrift for Om webområdet (bunntekst)</caption>
+          <help>Overskrift for koblingene av typen Om webområdet som vises i bunnteksten på siden</help>
+        </property>
+        <property name="ActiveThreadContainer">
+          <caption>Beholder for aktive tråder</caption>
+          <help>Beholderen for de aktive trådene i dette forumet.</help>
+        </property>
+        <property name="Address1">
+          <caption>Adresse1</caption>
+          <help>Adresse1</help>
+        </property>
+        <property name="Address2">
+          <caption>Adresse2</caption>
+          <help>Adresse2</help>
+        </property>
+        <property name="Address3">
+          <caption>Adresse3</caption>
+          <help>Adresse3</help>
+        </property>
+        <property name="AllowForums">
+          <caption>Tillat underforum i dette forumet</caption>
+          <help>Angi om dette forumet kan inneholde underforum.</help>
+        </property>
+        <property name="AllowThreads">
+          <caption>Tillat tråder i dette forumet</caption>
+          <help>Angi om dette forumet kan inneholde tråder.</help>
+        </property>
+        <property name="ArchiveThreadContainer">
+          <caption>Beholder for arkiverte tråder</caption>
+          <help>Beholderen for de arkiverte trådene i dette forumet.</help>
+        </property>
+        <property name="Author">
+          <caption>Forfatter</caption>
+          <help>Skriv inn forfatterens navn</help>
+        </property>
+        <property name="BlogStart">
+          <caption>Startside for blogg</caption>
+          <help>Startsiden for bloggen som dette bloggelementet tilhører.</help>
+        </property>
+        <property name="CalendarContainer">
+          <caption>Vis kalender fra</caption>
+          <help>Angi et sted i trestrukturen som kalenderhendelser skal vises fra. Hvis hendelsene er undersider på denne siden, velger du Denne siden.</help>
+        </property>
+        <property name="CalendarItemContainer">
+          <caption>Kalenderstart</caption>
+          <help>Vis kalenderhendelser fra denne siden.</help>
+        </property>
+        <property name="ClientsArea">
+          <caption>Klientområde</caption>
+          <help>Innholdet i dette feltet vises i den brede boksen. Du kan bruke både tekst og bilder til oppsett. Merk at bilder ikke bør være større enn boksområdet.</help>
+        </property>
+        <property name="CommentPageTypeName">
+          <caption>Sidetype for bloggkommentar</caption>
+          <help>Sidetype for bloggkommentar</help>
+        </property>
+        <property name="CompanyName">
+          <caption>Firmanavn</caption>
+          <help>Navn på firmaet</help>
+        </property>
+        <property name="ConfirmationMessage">
+          <caption>Bekreftelsesmelding</caption>
+          <help>Tekst som sendes i bekreftelses-e-posten.</help>
+        </property>
+        <property name="ContactName">
+          <caption>Kontaktnavn</caption>
+          <help>Kontaktnavn</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Kontaktside</caption>
+          <help>Kobling til siden med kontaktinformasjon.</help>
+        </property>
+        <property name="Country">
+          <caption>Land</caption>
+          <help>Land</help>
+        </property>
+        <property name="CountryPresence">
+          <caption>Tilstedeværelse i følgende land</caption>
+          <help>Tilstedeværelse i følgende land</help>
+        </property>
+        <property name="DateContainer">
+          <caption>Beholder for datosider</caption>
+          <help>Angis normalt automatisk.</help>
+        </property>
+        <property name="Description">
+          <caption>Overskrift for RSS-kilde</caption>
+          <help>Angi en overskrift for RSS-kilde </help>
+        </property>
+        <property name="Details">
+          <caption>Personlige detaljer</caption>
+          <help>Angi en kort beskrivelse av bloggeren.</help>
+        </property>
+        <property name="DisableAnonymousComments">
+          <caption>Ikke tillat kommentarer fra anonyme brukere</caption>
+          <help>Angi om det skal være tillatt for anonyme brukere å legge inn kommentarer til bloggoppføringer.</help>
+        </property>
+        <property name="DisableCompany">
+          <caption>Redigering av firma er ikke tillatt</caption>
+          <help>Redigering av firma er ikke tillatt</help>
+        </property>
+        <property name="DisableCountry">
+          <caption>Redigering av land er ikke tillatt</caption>
+          <help>Redigering av land er ikke tillatt</help>
+        </property>
+        <property name="DisableEmail">
+          <caption>Redigering av e-post er ikke tillatt</caption>
+          <help>Redigering av e-post er ikke tillatt</help>
+        </property>
+        <property name="DisableFirstname">
+          <caption>Redigering av fornavn er ikke tillatt</caption>
+          <help>Redigering av fornavn er ikke tillatt</help>
+        </property>
+        <property name="DisableLanguage">
+          <caption>Redigering av språk er ikke tillatt</caption>
+          <help>Redigering av språk er ikke tillatt</help>
+        </property>
+        <property name="DisableLastname">
+          <caption>Redigering av etternavn er ikke tillatt</caption>
+          <help>Redigering av etternavn er ikke tillatt</help>
+        </property>
+        <property name="DisableTitle">
+          <caption>Redigering av tittel er ikke tillatt</caption>
+          <help>Redigering av tittel er ikke tillatt</help>
+        </property>
+        <property name="DisplayDate">
+          <caption>Vis dato i hovedlisten</caption>
+          <help>Vis dato for hvert element</help>
+        </property>
+        <property name="DisplayDocumentLink">
+          <caption>Vis dokumentkobling i hovedlisten</caption>
+          <help>Vis dokumentkobling i hovedlisten</help>
+        </property>
+        <property name="DocumentInternalPath">
+          <caption>Dokumentbane</caption>
+          <help>Bane til dokument</help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Hent dokumentliste fra</caption>
+          <help>Angi siden du vil hente dokumentlisten fra. Hvis ikke angitt, vil ikke sidelisten vises.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Dokumentbane</caption>
+          <help>Banen til dokumentet.</help>
+        </property>
+        <property name="Email">
+          <caption>E-post</caption>
+          <help>E-postadresse</help>
+        </property>
+        <property name="EmailBody">
+          <caption>Brødtekst for e-post</caption>
+          <help>Innholdet i e-posten som sendes.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Avsender av e-post</caption>
+          <help>E-postadressen som vil bli brukt som avsenderadresse.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Emne for e-post</caption>
+          <help>Emnet til e-posten som sendes.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Høyde på Flash-film</caption>
+          <help>Angi høyden på Flash-filmen i piksler.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Bredde på Flash-film</caption>
+          <help>Angi bredden på Flash-filmen i piksler.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Bane til Flash-film</caption>
+          <help>Angi adressen til Flash-filmen</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Vis statistikk</caption>
+          <help>Vis resultat av postinger for besøkeren</help>
+        </property>
+        <property name="EPiWebSites">
+          <caption>Liste over EPiServer-webområder (bunntekst)</caption>
+          <help>Liste over EPiServer-webområder som vises i bunnteksten på siden</help>
+        </property>
+        <property name="EPiWebSitesHeading">
+          <caption>Overskrift for EPiServer-webområder (bunntekst)</caption>
+          <help>Overskrift for EPiServer-webområdene som vises i bunnteksten på siden</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Aktiver abonnement</caption>
+          <help>Aktiverer et abonnement for denne siden</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Blokker abonnement for denne siden</caption>
+          <help>Merk av i denne boksen for å blokkere abonnementsoppdateringer for denne siden.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Ikke vis på abonnementssiden</caption>
+          <help>Skjuler denne siden på abonnementssiden</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Rotside for abonnement</caption>
+          <help>Angi en side i treet som abonnementet vil starte fra.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Antall hendelseselementer</caption>
+          <help>Begrenser antall elementer.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Hendelseslisteside</caption>
+          <help>Viser til den overordnede siden for sidene som brukes til å generere hendelseslisten. Hvis ikke angitt, vises ikke hendelseslisten.</help>
+        </property>
+        <property name="EventStartDate">
+          <caption>Startdato</caption>
+          <help>Angi startdatoen for aktiviteten.</help>
+        </property>
+        <property name="EventStopDate">
+          <caption>Sluttdato</caption>
+          <help>Angi sluttdatoen for aktiviteten.</help>
+        </property>
+        <property name="FeedCount">
+          <caption>Antall elementer i en feed</caption>
+          <help>Antall elementer som skal sendes ut i en RSS-/Atom-feed.</help>
+        </property>
+        <property name="ForumPageTypeName">
+          <caption>Forumsidetype</caption>
+          <help>Forumsidetype</help>
+        </property>
+        <property name="ForumStart">
+          <caption>Startside for forum</caption>
+          <help>Startsiden for forumet som forumelementet tilhører.</help>
+        </property>
+        <property name="Heading">
+          <caption>Overskrift</caption>
+          <help>Angi en overskrift som utgjør hovedtittelen til denne siden. Hvis denne egenskapen ikke angis, brukes sidenavnet som overskrift i stedet.</help>
+        </property>
+        <property name="HistoryLength">
+          <caption>Maksimumsalder på listeelementer</caption>
+          <help>Maksimumsalderen på elementer som skal vises i listen, i antall dager.</help>
+        </property>
+        <property name="Icon">
+          <caption>Ikonet for dette forumet</caption>
+          <help>Navnet på ikonet som dette forumet skal bruke.</help>
+        </property>
+        <property name="Image">
+          <caption>Bilde </caption>
+          <help>Angi et bilde som skal vises på startsiden (900 * 341 piksler)</help>
+        </property>
+        <property name="IndexContainer">
+          <caption>Vis innhold fra side</caption>
+          <help>Angi startsiden for indeksen.</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Rotsiden for områdekartet</caption>
+          <help>Områdekartet opprettes med denne siden som utgangspunkt.</help>
+        </property>
+        <property name="IsDateListing">
+          <caption>Datoliste</caption>
+          <help>Angis normalt automatisk.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Last opp fullstendig HTML-versjon og kildedokument</caption>
+          <help>Merk av her for å kunne vise den fullstendige HTML-versjonen</help>
+        </property>
+        <property name="IsLocked">
+          <caption>Låst tråd</caption>
+          <help>Angir om denne tråden er låst.</help>
+        </property>
+        <property name="IsTagListing">
+          <caption>Tag-liste</caption>
+          <help>Angis normalt automatisk.</help>
+        </property>
+        <property name="IsTeamLevel">
+          <caption>Teamnivå</caption>
+          <help>Angis normalt automatisk.</help>
+        </property>
+        <property name="ItemPageTypeName">
+          <caption>Bloggsidetype</caption>
+          <help>Bloggsidetypen som skal brukes</help>
+        </property>
+        <property name="ListCount">
+          <caption>Vis antall sider i hovedlisten</caption>
+          <help>Angi hvor mange sider som skal vises i listen</help>
+        </property>
+        <property name="ListingSlideContainer">
+          <caption>Laste ned presentasjoner</caption>
+          <help>Velg siden som du vil laste ned en presentasjon fra.</help>
+        </property>
+        <property name="ListingSlideCount">
+          <caption>Vis antall sider i presentasjon</caption>
+          <help>Angi hvor mange sider som skal vises i presentasjonen, i form av et heltall.</help>
+        </property>
+        <property name="ListPageTypeName">
+          <caption>Sidetype for bloggliste</caption>
+          <help>Sidetype for bloggliste</help>
+        </property>
+        <property name="ListRoot">
+          <caption>Hent hovedliste fra</caption>
+          <help>Angi siden du vil hente listen fra. Listen vises i hovedinnholdsområdet. Hvis ikke angitt, vises ikke sidelisten.</help>
+        </property>
+        <property name="Location">
+          <caption>Vis sted for en hendelse</caption>
+          <help>Velg ett sted for denne hendelsen</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Påloggingsside</caption>
+          <help>Angi påloggingsside for denne delen av området.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logotype</caption>
+          <help>URL-adressen til logotypebildet.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Hoveddel</caption>
+          <help>Hovedbrødteksten vises i hovedinnholdsområdet på siden. Du kan sette inn for eksempel tekst, bilder og tabeller ved hjelp av XHTML-redigeringsprogrammet.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Innledning</caption>
+          <help>Kort versjon av nyhetsinnholdet. Denne teksten brukes i nyhetslister, hvis tilgjengelig.</help>
+        </property>
+        <property name="MainLinksCount">
+          <caption>Vis antall koblinger</caption>
+          <help>Angi antall koblinger som skal vises i listen.</help>
+        </property>
+        <property name="MainLinksHeading">
+          <caption>Overskrift for hovedliste</caption>
+          <help>Overskriftstekst for hovedkoblingsliste</help>
+        </property>
+        <property name="MainLinksRoot">
+          <caption>Hent venstre liste fra</caption>
+          <help>Angi siden du vil hente listen fra.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Antall hovedlisteelementer i listen.</caption>
+          <help>Begrenser antall elementer.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Hovedlisteside</caption>
+          <help>Angi siden du vil hente listen fra. Listen vises i hovedinnholdsområdet. Hvis ikke angitt, vises ikke sidelisten.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Vis menyer fra</caption>
+          <help>Angi en plass i menytreet som du vil vise menyer fra på den valgte siden</help>
+        </property>
+        <property name="MaxCount">
+          <caption>Maksimalt antall innlegg</caption>
+          <help>Maksimalt antall innlegg som skal vises i listen.</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Forfatter</caption>
+          <help>Angi forfatteren av teksten, dette brukes av søkemotorer. Hvis den ikke angis, brukes verdien i den dynamiske egenskapen i stedet.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Beskrivelse av siden</caption>
+          <help>Angi en kort beskrivelse av sidens innhold</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Standardsøkeord for sider</caption>
+          <help>Angi en kommaatskilt liste over søkeord som passer til denne siden</help>
+        </property>
+        <property name="nDaysToRender">
+          <caption>Antall dager som skal vises i kalender</caption>
+          <help>Angi hvor mange dager du vil vise i kalenderen.</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Antall nyhetselementer</caption>
+          <help>Begrenser antall elementer.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Nyhetslisteside</caption>
+          <help>Viser til den overordnede siden for sidene som brukes til å generere nyhetslisten. Hvis ikke angitt, vises ikke nyhetslisten.</help>
+        </property>
+        <property name="NoEmployees">
+          <caption>Antall ansatte</caption>
+          <help>Antall ansatte</help>
+        </property>
+        <property name="NumberOfReplies">
+          <caption>Antall svar</caption>
+          <help>Antall svar som er lagt inn i denne tråden.</help>
+        </property>
+        <property name="OtherWebSites">
+          <caption>Liste over andre webområder (bunntekst)</caption>
+          <help>Liste over andre webområder som vises i bunnteksten på siden</help>
+        </property>
+        <property name="OtherWebSitesHeading">
+          <caption>Overskrift for andre webområder (bunntekst)</caption>
+          <help>Overskrift for de andre webområdene som vises i bunnteksten på siden</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Endring av passord vellykket</caption>
+          <help>Brødtekst som vises når endring av passord er vellykket.</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Passordlengde</caption>
+          <help>Korteste tillatte passord.</help>
+        </property>
+        <property name="PersonalStartPageTypeName">
+          <caption>Startsidetype for bloggperson</caption>
+          <help>Startsidetype for bloggperson til bruk ved blogging</help>
+        </property>
+        <property name="Phone">
+          <caption>Telefon</caption>
+          <help>Telefon</help>
+        </property>
+        <property name="PostPageTypeName">
+          <caption>Sidetype for foruminnlegg</caption>
+          <help>Sidetype for foruminnlegg</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Personvernsside</caption>
+          <help>Kobling til siden med juridisk informasjon.</help>
+        </property>
+        <property name="RecentContainer">
+          <caption>Vis sider fra</caption>
+          <help>Angi siden som du vil vise nylig endrede sider fra.</help>
+        </property>
+        <property name="RecentHours">
+          <caption>Vis sider som er endret i de siste x timene</caption>
+          <help>Angi hvor mange timer tilbake i tid du vil vise endrede sider.</help>
+        </property>
+        <property name="RefreshRate">
+          <caption>Antall sekunder hver side skal vises</caption>
+          <help>Angi hvor mange sekunder hver side skal vises i presentasjonen.</help>
+        </property>
+        <property name="RelatedSites">
+          <caption>Liste over beslektede webområder (bunntekst)</caption>
+          <help>Liste over beslektede webområder som vises i bunnteksten på siden</help>
+        </property>
+        <property name="RelatedSitesHeading">
+          <caption>Overskrift for beslektede webområder (bunntekst)</caption>
+          <help>Overskrift for de beslektede webområdene som vises i bunnteksten på siden</help>
+        </property>
+        <property name="ResellerDescription">
+          <caption>Beskrivelse</caption>
+          <help>Beskrivelse</help>
+        </property>
+        <property name="ResellerID">
+          <caption>Videreselger-ID</caption>
+          <help>Videreselger-ID</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Mappebane</caption>
+          <help>Mappetreet starter fra denne siden.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>RSS-beholder</caption>
+          <help>Beholderen for alle RSS-kildesidene</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS-kildeside</caption>
+          <help>Angi en side i treet som er en kildeside for RSS-innhold på dette webområdet.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Søkebane til RSS-kilde</caption>
+          <help>Angi adresseinnholdet i RSS-format. Dette er vanligvis en webadresse.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Søkeside</caption>
+          <help>Kobling til søkesiden for denne delen av området.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Rotsiden for søk</caption>
+          <help>Søk starter fra denne siden.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Sekundærdel</caption>
+          <help>Den sekundære brødteksten vises i høyre kolonne på siden. Du kan bruke både tekst og bilder til oppsett. Merk at bilder ikke bør være større enn det høyre området.</help>
+        </property>
+        <property name="SecondaryLinksCount">
+          <caption>Vis antall koblinger</caption>
+          <help>Angi hvor mange koblinger som skal vises i listen.</help>
+        </property>
+        <property name="SecondaryLinksDisplayDate">
+          <caption>Vis dato for hvert element i sekundærliste</caption>
+          <help>Angir om datoen skal vises for hvert listeelement</help>
+        </property>
+        <property name="SecondaryLinksHeading">
+          <caption>Overskrift for sekundærliste</caption>
+          <help>Overskriftstekst for sekundærkoblingsliste</help>
+        </property>
+        <property name="SecondaryLinksRoot">
+          <caption>Hent høyre liste fra</caption>
+          <help>Angi siden du vil hente listen fra.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Antall sekundærlisteelementer i listen</caption>
+          <help>Begrens antall elementer i den sekundære listen til denne verdien.</help>
+        </property>
+        <property name="SecondaryListDisplayDate">
+          <caption>Vis dato i sekundærlisten</caption>
+          <help>Vis dato for hvert element</help>
+        </property>
+        <property name="SecondaryListHeading">
+          <caption>Overskrift for sekundærliste</caption>
+          <help>Overskrift for sekundærliste</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Sekundærlisteside</caption>
+          <help>Denne koblingen peker til den overordnede siden som brukes til å generere en sideliste i høyre kolonne. Hvis den ikke angis, vises ikke sidelisten.</help>
+        </property>
+        <property name="SelectedWebPart">
+          <caption>Velg webdel</caption>
+          <help>Velger hvilken webdel som skal brukes på siden</help>
+        </property>
+        <property name="SEODescription">
+          <caption>Sidebeskrivelse</caption>
+          <help>Beskrivelse av siden</help>
+        </property>
+        <property name="SEORobots">
+          <caption>Søkeroboter</caption>
+          <help>Angi hvordan søkeroboter skal behandle siden</help>
+        </property>
+        <property name="SEOTitle">
+          <caption>Sidetittel</caption>
+          <help>Tittelen på siden</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Områdekartside</caption>
+          <help>Kobling til områdekartsiden</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Sorter filer etter</caption>
+          <help>Sorteringsrekkefølgen for mappetreet.</help>
+        </property>
+        <property name="Speaker">
+          <caption>Vis høyttaler for en hendelse</caption>
+          <help>Velg én høyttaler for denne hendelsen</help>
+        </property>
+        <property name="StickyThreadContainer">
+          <caption>Beholder for prioriterte tråder</caption>
+          <help>Beholderen for de prioriterte trådene i dette forumet.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Introduksjonstekst i abonnements-e-post</caption>
+          <help>Skriv inn teksten som vil bli meldingsteksten for abonnements-e-posten.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Avsenderadresse for abonnements-e-post</caption>
+          <help>E-postadresse som brukes som avsender for abonnements-e-post.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Koblingstekst i abonnements-e-post</caption>
+          <help>Denne teksten brukes blir koblingsteksten som brukeren kan klikke på i abonnements-e-posten.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Emne for abonnements-e-post</caption>
+          <help>Dette er emnefeltet for abonnements-e-posten.</help>
+        </property>
+        <property name="SummaryLength">
+          <caption>Sammendragslengde</caption>
+          <help>Lengde på sammendrag for hvert listeelement</help>
+        </property>
+        <property name="SummaryTextLength">
+          <caption>Lengde på tekstsammendrag</caption>
+          <help>Antall tegn som brukes til å avkorte sammendragsteksten.</help>
+        </property>
+        <property name="TagCloudValue">
+          <caption>Verdi for tag-gruppe</caption>
+          <help>Angis normalt automatisk.</help>
+        </property>
+        <property name="TagContainer">
+          <caption>Beholder for tag-sider</caption>
+          <help>Angis normalt automatisk.</help>
+        </property>
+        <property name="Tags">
+          <caption>Tags</caption>
+          <help>Angi en kommadelt liste og/eller legg til fra eksisterende tags.</help>
+        </property>
+        <property name="TeamStartPageTypeName">
+          <caption>Startsidetype for bloggteam</caption>
+          <help>Startsidetype for bloggteam som skal brukes for blogging</help>
+        </property>
+        <property name="TemplateContainer">
+          <caption>Arbeidsrommaler</caption>
+          <help>En referanse til beholderen som inneholder tilgjengelige arbeidsrommaler.</help>
+        </property>
+        <property name="ThirdBody">
+          <caption>Tredje tekst</caption>
+          <help>Innholdet i dette feltet vises i boks 3 på siden. Du kan bruke både tekst og bilder til oppsett. Merk at bilder ikke bør være større enn boksområdet.</help>
+        </property>
+        <property name="ThreadContainerPageTypeName">
+          <caption>Sidetype for forumtrådbeholder</caption>
+          <help>Sidetype for forumtrådbeholder</help>
+        </property>
+        <property name="ThreadPageTypeName">
+          <caption>Sidetype for forumtråd</caption>
+          <help>Sidetype for forumtråd</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Miniatyrbilde</caption>
+          <help>Bilde som vises i sideoppføringer, der det er aktuelt.</help>
+        </property>
+        <property name="URL">
+          <caption>URL-adresse</caption>
+          <help>URL-adresse</help>
+        </property>
+        <property name="UsageStatistics">
+          <caption>Statistikk for tag-bruk</caption>
+          <help>Angis normalt automatisk.</help>
+        </property>
+        <property name="ValidDays">
+          <caption>Gjentakelsesdag</caption>
+          <help>Angi om aktiviteten skal gjentas med angitte intervaller.</help>
+        </property>
+        <property name="VideoSourceURL">
+          <caption>Videofil</caption>
+          <help>Angi en videofil i FLV-format.</help>
+        </property>
+        <property name="WorkroomIcon">
+          <caption>Ikonbilde for dette arbeidsrommet</caption>
+          <help>Et bilde som skal brukes som ikon for dette arbeidsrommet.</help>
+        </property>
+        <property name="WorkroomStart">
+          <caption>Startside for dette arbeidsrommet</caption>
+          <help>Startsiden for arbeidsrommet som denne siden tilhører.</help>
+        </property>
+        <property name="Writer">
+          <caption>Navn på blogger</caption>
+          <help>Skriv inn bloggerens navn.</help>
+        </property>
+        <property name="XForm">
+          <caption>Skjema</caption>
+          <help>Angi skjemaet som skal vises på denne siden. Ved å klikke på knappen kan du lage dine egne skjemaer</help>
+        </property>
+      </common>
+      <pagetype name="[AlloyTech] Blog comment">
+        <description>Side som brukes til å lagre kommentarer til bloggelementer.</description>
+        <name>Bloggkommentar for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog item">
+        <description>En bloggelementside som brukes for én bloggoppføring.</description>
+        <name>Bloggelement for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog list">
+        <description>Listeside som brukes for datolister og tag-lister.</description>
+        <name>Bloggliste for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog personal start">
+        <description>Startsiden for en personlig blogg.</description>
+        <name>Start på personlig blogg for [AlloyTech]</name>
+        <property name="Image">
+          <caption>Bilde av blogger</caption>
+          <help>Velg et bilde for bloggeren.</help>
+        </property>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog team start">
+        <description>Startsiden for en teamblogg.</description>
+        <name>Start på teamblogg for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar">
+        <description>En side som viser kalenderhendelser.</description>
+        <name>Kalender for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar event">
+        <description>Side for en hendelse i kalenderen.</description>
+        <name>Kalenderhendelse for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Changed recently">
+        <description>Side som viser en liste over sider som nylig er endret.</description>
+        <name>Nylige endringer for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Company Facts">
+        <description>Felt brukt til selskapsfakta som dynamisk innhold</description>
+        <name>[AlloyTech] Selskapsfakta</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Document">
+        <description>Denne sidetypen brukes til å publisere dokumenter fra Microsoft Office.</description>
+        <name>[AlloyTech] Dokument</name>
+      </pagetype>
+      <pagetype name="EventItemPage">
+        <description>Side som viser en bestemt hendelse</description>
+        <name>Hendelseselement for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum">
+        <description>En forumside.</description>
+        <name>Forum for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum post">
+        <description>Et svar på en forumtråd.</description>
+        <name>Foruminnlegg for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread">
+        <description>En tråd i et forum.</description>
+        <name>Forumtråd for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread container">
+        <description>En beholder for tråder i et forum.</description>
+        <name>Forumtrådbeholder for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="ListingPage">
+        <description>Viser side oppsummering</description>
+        <name>[AlloyTech] Liste</name>
+      </pagetype>
+      <pagetype name="LoginPage">
+        <description>Denne sidetypen brukes til å opprette en påloggingsside for webområdet.</description>
+        <name>[AlloyTech] Pålogging</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] My Settings">
+        <description>En innstillingsside der brukerne kan endre sine personlige innstillinger.</description>
+        <name>Mine innstillinger for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="NewsItemPage">
+        <description>Denne sidetypen inneholder data for ett nyhetselement.</description>
+        <name>[AlloyTech] Nyhetselement</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Notification Email">
+        <description>Mal for e-postmelding</description>
+        <name>[AlloyTech] E-postmelding</name>
+      </pagetype>
+      <pagetype name="RegistrationPage">
+        <description>Denne sidetypen er den gjester kan registrere seg på webområdet med.</description>
+        <name>[AlloyTech] Registrering</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Reseller">
+        <description>Denne siden viser data om videreselgere.</description>
+        <name>Videreselger for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] RSS source">
+        <description>Denne sidetypen viser informasjon fra EPiServer i RSS-format.</description>
+        <name>[AlloyTech] RSS-kilde</name>
+      </pagetype>
+      <pagetype name="SearchPage">
+        <description>Denne sidetypen viser søkeresultatet fra hurtigsøk-linjen og et grensesnitt for avansert søk.</description>
+        <name>[AlloyTech] Søkeside</name>
+      </pagetype>
+      <pagetype name="SitemapPage">
+        <description>Denne sidetypen oppretter en liste over innholdet på hele eller deler av webområdet.</description>
+        <name>[AlloyTech] Områdekart</name>
+      </pagetype>
+      <pagetype name="StandardPage">
+        <description>Denne sidetypen er den vanligste på webområdet. Den kan brukes til vanlige sider i tillegg til nyheter og arrangementer.</description>
+        <name>[AlloyTech] Standardside</name>
+      </pagetype>
+      <pagetype name="StartPage">
+        <description>Startsiden er hovedinngangsporten til webområdet, og inneholder primære og sekundære innholdsfelt samt ulike koblingslister.</description>
+        <name>Startside for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="SubscriptionPage">
+        <description>Denne sidetypen brukes av gjester til å velge abonnementsinformasjon.</description>
+        <name>[AlloyTech] Abonnement</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] User profile">
+        <description>Brukerprofil</description>
+        <name>[AlloyTech] Brukerprofil</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar">
+        <description>En kalenderside i et arbeidsrom.</description>
+        <name>Arbeidsromkalender for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar event">
+        <description>Side for en hendelse i kalenderen.</description>
+        <name>Hendelse i arbeidsromkalender for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom File Manager">
+        <description>Filhåndtering i et arbeidsrom.</description>
+        <name>Filhåndtering for arbeidsrom for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom list">
+        <description>Side som viser alle tilgjengelige arbeidsrom.</description>
+        <name>Arbeidsromliste for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Membership Manager">
+        <description>Side for å legge til eller endre medlemskap i et arbeidsrom.</description>
+        <name>Medlemskapshåndtering for arbeidsrom for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom news list">
+        <description>En nyhetsside i et arbeidsrom.</description>
+        <name>Nyhetsliste for arbeidsrom for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Settings">
+        <description>Side for å endre innstillinger for et arbeidsrom.</description>
+        <name>Arbeidsrominnstillinger for [AlloyTech]</name>
+      </pagetype>
+      <pagetype name="XFormPage">
+        <description>Denne sidetypen utvider standardsiden med et skjema.</description>
+        <name>[AlloyTech] Skjemaside</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Takk</confirmation>
+      <error>
+        <confirmpassword>Bekreft passordet du angav</confirmpassword>
+        <couldnotsave>Kan ikke lagre endringer</couldnotsave>
+        <email>Angi e-postadresse</email>
+        <firstname>Angi fornavn</firstname>
+        <incorrectemail>E-postadressen du angav, er feil</incorrectemail>
+        <lastname>Angi etternavn</lastname>
+        <password>Angi et passord</password>
+        <passwordlength>Passordet du angav, er for kort Min. lengde: </passwordlength>
+        <passwordrepeat>Passordene du angav, samsvarer ikke</passwordrepeat>
+      </error>
+      <password>Angi passord</password>
+      <repeatpassword>Gjenta passord</repeatpassword>
+      <signupbutton>Registrer deg</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Avansert søk</advancedsearch>
+      <button>Søk</button>
+      <findsimilar>Finn liknende</findsimilar>
+      <nosearchresult>Fant ingen samsvarende resultater</nosearchresult>
+      <onlywholewords>Bare hele ord</onlywholewords>
+      <percentrelevancy>% relevans</percentrelevancy>
+      <relevancy>Relevans</relevancy>
+      <searchfiles>Søk i filer</searchfiles>
+      <searchfor>Søk etter:</searchfor>
+      <searchresult>Søkeresultat:</searchresult>
+      <searchstring>Søk her</searchstring>
+    </search>
+    <subscription>
+      <daily>Daglig</daily>
+      <email>E-postadresse</email>
+      <error>
+        <email>Angi e-postadresse</email>
+        <incorrectemail>E-postadressen du angav, er feil</incorrectemail>
+      </error>
+      <fastaspossible>Så snart som mulig</fastaspossible>
+      <interval>Intervall</interval>
+      <monthly>Månedlig</monthly>
+      <subscribe>Abonner</subscribe>
+      <subscription>Abonnement</subscription>
+      <weekly>Hver uke</weekly>
+    </subscription>
+    <templates>
+      <changedpages>
+        <header>Sist endrede filer</header>
+        <lastmodified>Sist endret</lastmodified>
+        <page>Side</page>
+        <updatedpages>Sist oppdaterte sider</updatedpages>
+      </changedpages>
+      <dynamiccontent>
+        <map>
+          <addresslabel>Adresse</addresslabel>
+          <altlabel>Alternativ bildetekst</altlabel>
+          <displaystaticimagelabel>Vis som bilde</displaystaticimagelabel>
+          <emptysearchresults>Finner ikke adressen</emptysearchresults>
+          <heighterrormessage>Verdien for karthøyde må være mellom 100 og 2000</heighterrormessage>
+          <heightlabel>Karthøyde</heightlabel>
+          <hidesearchresults>Skjul</hidesearchresults>
+          <missingmapdata>Kartinnstillingene kan ikke lastes inn</missingmapdata>
+          <searchbuttonlabel>Søk</searchbuttonlabel>
+          <searchresultslabel>Søkeresultater</searchresultslabel>
+          <selectionerrormessage>Et kart kan ikke lagres uten et sted. Velg et sted ved å dobbeltklikke et kart eller en søkeresultatmarkør.</selectionerrormessage>
+          <selectiontextmessage>Velg et sted.</selectiontextmessage>
+          <unabletoinitializemessage>Kan ikke starte kart</unabletoinitializemessage>
+          <widtherrormessage>Verdien for kartbredde må være mellom 100 og 2000</widtherrormessage>
+          <widthlabel>Kartbredde</widthlabel>
+        </map>
+      </dynamiccontent>
+      <events>
+        <location>Sted</location>
+        <speaker>Høyttaler</speaker>
+      </events>
+      <personalsettings>
+        <validation>
+          <emailexists>E-postadressen du angav, er allerede i bruk</emailexists>
+        </validation>
+      </personalsettings>
+      <reseller>
+        <address>Adresse</address>
+        <contacts>Kontakter</contacts>
+        <name>Navn</name>
+        <url>URL-adresse</url>
+      </reseller>
+    </templates>
+    <usersettings>
+      <changepassword>Endre passord</changepassword>
+      <confirmpassword>Bekreft passord</confirmpassword>
+      <email>E-postadresse</email>
+      <firstname>Fornavn</firstname>
+      <lastname>Etternavn</lastname>
+      <mysettings>Mine innstillinger</mysettings>
+      <newpassword>Nytt passord</newpassword>
+      <username>Brukernavn</username>
+    </usersettings>
+    <workroom>
+      <calendar>
+        <buttonaddevent>Legg til hendelse</buttonaddevent>
+        <buttondeletecalendar>Slett kalender</buttondeletecalendar>
+        <buttoneditname>Rediger navn</buttoneditname>
+        <createheading>Opprett hendelse</createheading>
+        <dateformat>Eksempel: 11/25/2007</dateformat>
+        <editheading>Rediger hendelse</editheading>
+        <invalidstartdate>Startdatoen er ikke en gyldig dato</invalidstartdate>
+        <invalidstopdate>Sluttdatoen er ikke en gyldig dato</invalidstopdate>
+        <latestarttime>Starttidspunktet må være tidligere enn sluttidspunktet.</latestarttime>
+        <nameempty>Skriv inn en tittel</nameempty>
+        <selectedperiod>Valgt periode:</selectedperiod>
+        <starttimeempty>Angi en startdato</starttimeempty>
+        <starttimelabel>Startdato:</starttimelabel>
+        <stoptimeempty>Angi en sluttdato </stoptimeempty>
+        <stoptimelabel>Sluttdato:</stoptimelabel>
+      </calendar>
+      <calendarlist>
+        <calendaraddnew>Legg til kalender</calendaraddnew>
+        <calendaritemfrom>Fra:</calendaritemfrom>
+        <calendaritemto>Til:</calendaritemto>
+        <calendarsectionname>Kalendernavn</calendarsectionname>
+      </calendarlist>
+      <edit>Rediger</edit>
+      <editablecontent>
+        <labeltext>Rediger innholdet og klikk Lagre.</labeltext>
+      </editablecontent>
+      <editdescription>Rediger beskrivelse</editdescription>
+      <eventlist>
+        <heading>Kommende hendelser</heading>
+      </eventlist>
+      <filelist>
+        <errormessage>Finner ikke rotmappe for arbeidsrom, eller du har ikke tilstrekkelige rettigheter for mappen.</errormessage>
+        <errormissingindex>En indeks er ikke konfigurert for rotmappe for arbeidsrom. En indeks er påkrevd for å vise nylig endrede filer.</errormissingindex>
+        <heading>Nylig brukte filer</heading>
+      </filelist>
+      <membershiplevel>
+        <administer>Administrator</administer>
+        <modify>Deltakermedlem</modify>
+        <read>Skrivebeskyttet medlem</read>
+      </membershiplevel>
+      <membershipmanager>
+        <button>
+          <addmembers>Legg til medlemmer</addmembers>
+          <editmembers>Rediger medlemmer</editmembers>
+          <invite>Inviter</invite>
+          <remove>Fjern</remove>
+          <sendinvitation>Send invitasjon</sendinvitation>
+        </button>
+        <confirmremovemember>Er du sikker på at du vil fjerne valgte medlemmer fra arbeidsrommet?</confirmremovemember>
+        <email>E-postadresse</email>
+        <emptysearchresult>Søket ga ikke treff på noen brukere.</emptysearchresult>
+        <inviteheading>Inviter bruker</inviteheading>
+        <invitemembermessage>Send en medlemskapsinvitasjon på e-post til brukeren.</invitemembermessage>
+        <invitemembership>Status som skal tildeles</invitemembership>
+        <inviteunfiledsenderemail>E-postadresse er ikke angitt i profilen din.</inviteunfiledsenderemail>
+        <invitewithoutstatus>Mangler status som skal tildeles.</invitewithoutstatus>
+        <managemembersheading>Håndter arbeidsrommedlemmer</managemembersheading>
+        <membershiplevel>Medlemskapsstatus</membershiplevel>
+        <removeheading>Fjern medlem</removeheading>
+        <searchheading>Søk etter brukere</searchheading>
+        <searchresultheading>Søkeresultater</searchresultheading>
+        <searchtext>Søk</searchtext>
+        <sendinvitationerror>Feil under sending av invitasjon.</sendinvitationerror>
+        <sendinvitationok>Invitasjonen er sendt.</sendinvitationok>
+        <sendnotifications>Sende varsler om endring av medlemskapsstatus?</sendnotifications>
+        <sendnotificationsno>Nei</sendnotificationsno>
+        <sendnotificationsyes>Ja</sendnotificationsyes>
+        <status>Tildelt status</status>
+        <unabletosendnotification>Noen varsler sendes kanskje ikke.</unabletosendnotification>
+        <username>Brukernavn</username>
+        <viewmembersheading>Arbeidsrommedlemmer</viewmembersheading>
+      </membershipmanager>
+      <newslist>
+        <heading>Nyheter</heading>
+        <newssectionname>Navn på nyhetsrom</newssectionname>
+      </newslist>
+      <newslistpage>
+        <addnewsitem>Legg til nyhetselement</addnewsitem>
+        <addnewssection>Legg til nyhetsrom</addnewssection>
+        <bodylabel>Beskrivelse:</bodylabel>
+        <createheading>Opprett nyhetselement</createheading>
+        <deletenewssection>Slett nyhetsrom</deletenewssection>
+        <editheading>Rediger nyhetselement</editheading>
+        <editnewssection>Rediger nyhetsrom</editnewssection>
+        <headinglabel>Tittel:</headinglabel>
+        <titleempty>Skriv inn en tittel</titleempty>
+      </newslistpage>
+      <settings>
+        <availablefunctions>Tilgjengelige funksjoner</availablefunctions>
+      </settings>
+      <userprofile>
+        <confirmpassword>Bekreft passord</confirmpassword>
+        <email>E-postadresse</email>
+        <error>
+          <firstnamerequired>Oppgi et fornavn</firstnamerequired>
+          <lastnamerequired>Angi et etternavn</lastnamerequired>
+          <logout>Du er logget på som en annen bruker. Logg av og prøv på nytt.</logout>
+          <membership>Gjeldende sikkerhetsinnstillinger tillater ikke at nye brukere registreres. Kontakt administratoren for å få mer informasjon.</membership>
+          <passworddiffers>Passordene må være like</passworddiffers>
+          <passwordrequired>Angi et passord</passwordrequired>
+          <passwordweak>Passordet oppfyller ikke kravene i passordretningslinjene</passwordweak>
+          <unavailable>Du har ikke rettigheter for denne siden.</unavailable>
+          <usernameexists>Brukernavnet finnes allerede</usernameexists>
+          <usernamerequired>Skriv inn et brukernavn</usernamerequired>
+        </error>
+        <firstname>Fornavn</firstname>
+        <lastname>Etternavn</lastname>
+        <password>Passord</password>
+        <role>Rolle</role>
+        <username>Brukernavn</username>
+      </userprofile>
+      <workroomlist>
+        <addworkroom>Legg til arbeidsrom</addworkroom>
+        <createheading>Opprett arbeidsrom</createheading>
+        <descriptionlabel>Beskrivelse:</descriptionlabel>
+        <duplicatename>Det finnes allerede et arbeidsrom med dette navnet.</duplicatename>
+        <nameempty>Skriv inn et navn</nameempty>
+        <namelabel>Navn:</namelabel>
+        <templateempty>Angi en mal</templateempty>
+        <templatelabel>Velg mal:</templatelabel>
+        <viewheading>Mine arbeidsrom</viewheading>
+      </workroomlist>
+    </workroom>
+  </language>
+</languages>

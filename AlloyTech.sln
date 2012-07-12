@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlloyTech", "MyEPiServerSite\AlloyTech.csproj", "{86592C94-5E09-417B-B1E2-AFDB757B24D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceGenerator", "ResourceGenerator\ResourceGenerator.csproj", "{B847D55E-715D-47D2-84E4-E0E8D79F530A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86592C94-5E09-417B-B1E2-AFDB757B24D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86592C94-5E09-417B-B1E2-AFDB757B24D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86592C94-5E09-417B-B1E2-AFDB757B24D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86592C94-5E09-417B-B1E2-AFDB757B24D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B847D55E-715D-47D2-84E4-E0E8D79F530A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B847D55E-715D-47D2-84E4-E0E8D79F530A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B847D55E-715D-47D2-84E4-E0E8D79F530A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B847D55E-715D-47D2-84E4-E0E8D79F530A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

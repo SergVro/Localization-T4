@@ -1,0 +1,7 @@
+﻿<#@ template debug="true" hostSpecific="true" #>
+<#@ output extension=".cs" #>
+<#@ include file="LocalizationGenerator.ttinclude" #>
+<#
+	//this.Write(Host.ResolvePath(@"..\lang"));
+	//GenerateTypedLocalizations(Host.ResolvePath(@"..\lang"), "AlloyTech.Resources");
+#>

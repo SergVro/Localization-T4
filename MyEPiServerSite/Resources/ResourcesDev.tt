@@ -1,0 +1,20 @@
+﻿<#@ template debug="true" hostspecific="true" language="C#" Inherits="EPiServer.Resources.Generator" #>
+<#@ output extension=".cs" #>
+
+<#@ Assembly Name="System.Core.dll" #>
+<#@ Assembly Name="$(ProjectDir)$(OutDir)EPiServer.Framework.dll" #>
+<#@ Assembly Name="System.Configuration.dll" #>
+<#@ Assembly Name="$(ProjectDir)$(OutDir)ResourceGenerator.dll" #>
+
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Globalization" #>
+<#@ import namespace="EPiServer.Framework.Localization" #>
+<#@ import namespace="EPiServer.Framework.Localization.XmlResources" #>
+
+ 
+using EPiServer.Framework.Localization;
+<#     
+	Generate(Host.ResolvePath(@"..\lang"), "AlloyTech.ResourcesDev");         
+#>

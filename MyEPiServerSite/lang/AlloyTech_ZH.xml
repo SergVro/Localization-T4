@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="中文 (Chinese)" id="zh-CN">
+    <blog>
+      <item>
+        <comment>Comment:</comment>
+        <commentheading>Comments:</commentheading>
+        <commentlegend>Post a comment</commentlegend>
+        <errormessages>
+          <requiredcomment>Please fill in the Comment field.</requiredcomment>
+          <requiredname>Please fill in the Name field.</requiredname>
+        </errormessages>
+        <name>Name:</name>
+        <permanentlink>Permanent link</permanentlink>
+        <postedby>by:</postedby>
+        <posteddate>Posted date:</posteddate>
+        <send>Send</send>
+        <tags>Tags:</tags>
+      </item>
+      <itemsummary>
+        <readblog>Read blog:</readblog>
+      </itemsummary>
+      <listpage>
+        <dateheading>Blog entries posted during {0}</dateheading>
+        <errormessage>A configuration error has occurred. Either IsTagListing or IsDateListing must be true.</errormessage>
+        <tagheading>Blog entries tagged with {0}</tagheading>
+      </listpage>
+      <propertyblogtags>
+        <errormessage>
+          <categorytoolong>At least one of the tag names is too long. (Max. {0} characters)</categorytoolong>
+        </errormessage>
+        <existingtagsbutton>Add tags</existingtagsbutton>
+        <existingtagslabel>Existing tags</existingtagslabel>
+        <selectedtagslabel>Selected tags</selectedtagslabel>
+      </propertyblogtags>
+      <secondarylist>
+        <aboutme>About me</aboutme>
+        <archive>Archive</archive>
+        <tagcloud>Tag cloud</tagcloud>
+      </secondarylist>
+      <tagstatisticsupdater>
+        <description>Used for updating the blog tag statistics.</description>
+        <displayname>Update tag statistics</displayname>
+      </tagstatisticsupdater>
+    </blog>
+    <calendar>
+      <noeventonday>No events have been planned for this day</noeventonday>
+      <selectedperiod>Selected period</selectedperiod>
+    </calendar>
+    <captcha>
+      <errormessage>The entered text does not match the text shown in the image.</errormessage>
+      <heading>User verification</heading>
+      <imagealternativetext>Image for user verification</imagealternativetext>
+      <label>Please enter the text shown in the image:</label>
+    </captcha>
+    <common>
+      <messages>
+        <confirmdelete>Are you sure you want to delete this item?</confirmdelete>
+      </messages>
+    </common>
+    <document>
+      <download>下载:</download>
+    </document>
+    <dynamiccontenttypes>
+      <dynamiccontent name="MapDynamicContentDemo">
+        <caption>Google Maps</caption>
+        <description>Add and configure Google Maps</description>
+      </dynamiccontent>
+    </dynamiccontenttypes>
+    <editorstyleoptions>
+      <classic>Classic</classic>
+      <heading_1>Heading 1</heading_1>
+      <heading_2>Heading 2</heading_2>
+      <heading_3>Heading 3</heading_3>
+      <highlighted>Highlighted</highlighted>
+      <image_border>Image border</image_border>
+      <image_styles>Image Styles</image_styles>
+      <introduction>Introduction</introduction>
+      <left_aligned>Left-aligned</left_aligned>
+      <paragraph>Paragraph</paragraph>
+      <right_aligned>Right-aligned</right_aligned>
+      <table_styles>Table Styles</table_styles>
+      <top_left>Top left</top_left>
+      <top_right>Top right</top_right>
+    </editorstyleoptions>
+    <error>
+      <document>未设置页属性“Document path”。</document>
+      <mainmenucontainer>未设置动态属性“MainMenuContainer”。</mainmenucontainer>
+    </error>
+    <filemanager>
+      <button>
+        <back>Back</back>
+        <deleteversion>Delete version</deleteversion>
+        <rename>Rename</rename>
+        <replacefile>Replace File</replacefile>
+        <restore>Restore to this version</restore>
+        <upload>Upload</upload>
+      </button>
+      <choosefile>Select file:</choosefile>
+      <deletefilesandfoldersheading>Delete files/folders</deletefilesandfoldersheading>
+      <disabledfunctions>Some functions are unavailable due to insufficient access rights for this folder.</disabledfunctions>
+      <editfilesummaryheading>Edit file summary</editfilesummaryheading>
+      <errormessage>
+        <cannotchange>Unable to move, rename, delete or update the selected file. This file may be checked out by someone else.</cannotchange>
+        <checkedout>A file with the same name already exists and is checked out by someone else.</checkedout>
+        <containscheckedout>Unable to move or delete the selected folder. The folder may contain a file that is checked out by someone else.</containscheckedout>
+        <insufficientaccess>You have insufficient access rights to create or modify files in this folder.</insufficientaccess>
+        <insufficientaccesscreatefolder>You have insufficient access rights to create folders at this location.</insufficientaccesscreatefolder>
+        <insufficientaccessmetadata>You have insufficient access rights to modify this file.</insufficientaccessmetadata>
+        <insufficientaccessmove>You have insufficient access rights to move this item.</insufficientaccessmove>
+        <insufficientaccessremove>You have insufficient access rights to remove the selected items.</insufficientaccessremove>
+        <insufficientaccessrename>You have insufficient access rights to rename the selected item.</insufficientaccessrename>
+        <readonlyfile>A read-only file with the same name already exists.</readonlyfile>
+        <replacefile>A file with the same name already exists. Do you want to replace the file {0}?</replacefile>
+        <versionisnotfound>Unable to perform the operation. Version {0} cannot be found.</versionisnotfound>
+      </errormessage>
+      <filecomment>Comment:</filecomment>
+      <filelistheading>
+        <checkedout>Checked out</checkedout>
+        <lastchanged>Last changed</lastchanged>
+        <name>Name</name>
+        <size>Size</size>
+      </filelistheading>
+      <filename>File name</filename>
+      <files>Files</files>
+      <filesummary>
+        <author>Author</author>
+        <category>Category</category>
+        <comments>Comments</comments>
+        <keywords>Keywords</keywords>
+        <subject>Description</subject>
+        <title>Title</title>
+      </filesummary>
+      <filesummaryheading>File summary for</filesummaryheading>
+      <foldername>Folder name:</foldername>
+      <foldernotempty>The folder is not empty</foldernotempty>
+      <foldernotemptywarning>Some of the folders are not empty. Any content in the folders will be deleted.</foldernotemptywarning>
+      <folders>Folders</folders>
+      <maxuploadmessage>The size of the file to be uploaded may not exceed {0}.</maxuploadmessage>
+      <missingfoldererror>The file could not be created. Either a target folder is missing or you are not authorized to create files in the specified folder.</missingfoldererror>
+      <newfolder>New folder</newfolder>
+      <parentfolder>Parent Folder</parentfolder>
+      <renamefile>Rename file</renamefile>
+      <renamefolder>Rename folder</renamefolder>
+      <selectfilemessage>Select a file with the Browse button below and then click "Upload".</selectfilemessage>
+      <switchview>
+        <addfile>Add file</addfile>
+        <addfolder>Add folder</addfolder>
+        <checkin>Check in</checkin>
+        <checkout>Check out</checkout>
+        <copy>Copy</copy>
+        <cut>Cut</cut>
+        <delete>Delete</delete>
+        <details>Details</details>
+        <paste>Paste</paste>
+        <rename>Rename</rename>
+        <undocheckout>Undo</undocheckout>
+        <version>Version</version>
+        <view>View</view>
+      </switchview>
+      <uploadbutton>Upload</uploadbutton>
+      <uploadheading>File upload</uploadheading>
+      <validation>
+        <folderexists>A folder or file with the same name already exists.</folderexists>
+        <folderwithsamename>A folder with the name '{0}' exists in the current folder.</folderwithsamename>
+        <illigalchar>The name cannot contain /, ?, &lt;, &gt;, \, :, *, |, # or ".</illigalchar>
+        <nametolong>The folder name cannot be longer than 255 characters.</nametolong>
+        <requiredfile>Select a file.</requiredfile>
+        <requiredname>Enter a name.</requiredname>
+      </validation>
+      <versionfileheading>Versions for</versionfileheading>
+      <versionlistheading>
+        <comments>Comments</comments>
+        <created>Created</created>
+        <createdby>Created By</createdby>
+        <size>Size</size>
+        <version>Version</version>
+      </versionlistheading>
+    </filemanager>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+    <form>
+      <numberofvotes>投票数: {0}</numberofvotes>
+      <postedmessage>感谢您的发布！</postedmessage>
+      <showform>至表单</showform>
+      <showstat>显示统计信息</showstat>
+    </form>
+    <forum>
+      <forumform>
+        <allowforumslabel>Allow forums:</allowforumslabel>
+        <allowthreadslabel>Allow threads:</allowthreadslabel>
+        <createbutton>Create forum</createbutton>
+        <heading>Create forum</heading>
+        <icondropdown>
+          <auction>Auction</auction>
+          <default>Default</default>
+          <information>Information</information>
+        </icondropdown>
+        <iconlabel>Icon:</iconlabel>
+        <titleerror>Title cannot be empty</titleerror>
+        <titlelabel>Title:</titlelabel>
+      </forumform>
+      <forumlist>
+        <createbutton>Add subforum</createbutton>
+        <deleteforumbutton>Delete this forum</deleteforumbutton>
+        <heading>Subforums</heading>
+        <setupbutton>Configure automatically</setupbutton>
+        <setuperror>The page is not set up correctly. Please verify your settings.</setuperror>
+        <title>Forum</title>
+        <updated>Latest updated thread</updated>
+      </forumlist>
+      <thread>
+        <addreply>Add reply</addreply>
+        <deletereply>Delete reply</deletereply>
+        <deletethread>Delete thread</deletethread>
+        <lock>Lock thread</lock>
+        <postedby>Posted by:</postedby>
+        <reply>Reply</reply>
+        <replyempty>Reply cannot be empty</replyempty>
+        <sticky>Sticky thread</sticky>
+        <toforum>To forum</toforum>
+        <unlock>Unlock thread</unlock>
+        <unsticky>Unsticky thread</unsticky>
+      </thread>
+      <threadform>
+        <contenterror>Text cannot be empty</contenterror>
+        <contentlabel>Text:</contentlabel>
+        <createbutton>Create Thread</createbutton>
+        <heading>Create Thread</heading>
+        <titleerror>Title cannot be empty</titleerror>
+        <titlelabel>Title:</titlelabel>
+      </threadform>
+      <threadlist>
+        <createbutton>Add thread</createbutton>
+        <createdby>Created by</createdby>
+        <heading>Threads</heading>
+        <replies>Replies</replies>
+        <title>Thread</title>
+        <updated>Last updated</updated>
+      </threadlist>
+      <today>Today</today>
+      <Yesterday>Yesterday</Yesterday>
+    </forum>
+    <headings>
+      <heading name="Flash Content">
+        <description>Flash Content</description>
+      </heading>
+      <heading name="Listings">
+        <description>Listings</description>
+      </heading>
+      <heading name="News &amp; Calendar">
+        <description>新闻和日历</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>站点配置</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>注册</becomemember>
+      <currentuser>Current user:</currentuser>
+      <editdetails>我的设置</editdetails>
+      <email>填写您的电子邮件地址:</email>
+      <error>
+        <loginfail>登录失败。 提供的用户名或密码不正确。</loginfail>
+        <password>您必须填写密码</password>
+        <username>您必须指定用户名</username>
+      </error>
+      <forgotpassword>忘记密码?</forgotpassword>
+      <login>登录</login>
+      <logout>注销</logout>
+      <password>密码</password>
+    </login>
+    <navigation>
+      <help>帮助</help>
+      <listen>收听</listen>
+      <readmore>了解更多信息</readmore>
+      <search>搜索</search>
+      <skipnavigation>转到内容</skipnavigation>
+      <startpage>启动</startpage>
+      <startpagelinktitle>启动页</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>更多新闻</morenews>
+      <publishdate>发布时间</publishdate>
+      <writername>作者</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="AboutTheSite">
+          <caption>About The Website Link List (footer)</caption>
+          <help>List of about the website links shown in the footer of the page</help>
+        </property>
+        <property name="AboutTheSiteHeading">
+          <caption>About The Website Heading (footer)</caption>
+          <help>Heading for the about the website links shown in the footer of the page</help>
+        </property>
+        <property name="ActiveThreadContainer">
+          <caption>Container for active threads</caption>
+          <help>The container for the active threads in this forum.</help>
+        </property>
+        <property name="Address1">
+          <caption>Address1</caption>
+          <help>Address1</help>
+        </property>
+        <property name="Address2">
+          <caption>Address2</caption>
+          <help>Address2</help>
+        </property>
+        <property name="Address3">
+          <caption>Address3</caption>
+          <help>Address3</help>
+        </property>
+        <property name="AllowForums">
+          <caption>Allow subforums in this forum</caption>
+          <help>State whether this forum can contain subforums.</help>
+        </property>
+        <property name="AllowThreads">
+          <caption>Allow threads in this forum</caption>
+          <help>State whether this forum can contain threads.</help>
+        </property>
+        <property name="ArchiveThreadContainer">
+          <caption>Container for archived threads</caption>
+          <help>The container for the archived threads in this forum.</help>
+        </property>
+        <property name="Author">
+          <caption>Author</caption>
+          <help>Enter the name of the author</help>
+        </property>
+        <property name="BlogStart">
+          <caption>Blog start page</caption>
+          <help>The start page of the blog to which this blog item belongs.</help>
+        </property>
+        <property name="CalendarContainer">
+          <caption>Show calendar from</caption>
+          <help>Specify a place in the tree structure from where the calendar events will be displayed. If your  events are subpages of this page, select "This page".</help>
+        </property>
+        <property name="CalendarItemContainer">
+          <caption>Calendar start</caption>
+          <help>Show calendar events from this page.</help>
+        </property>
+        <property name="ClientsArea">
+          <caption>Clients area</caption>
+          <help>The content of this field will be shown in the wide box. You can use both text and images for layout. Note that images should not be larger than the box area.</help>
+        </property>
+        <property name="CommentPageTypeName">
+          <caption>Blog Comment Page Type</caption>
+          <help>Blog Comment Page Type</help>
+        </property>
+        <property name="CompanyName">
+          <caption>Company name</caption>
+          <help>Name of the company</help>
+        </property>
+        <property name="ConfirmationMessage">
+          <caption>确认邮件</caption>
+          <help>要在确认电子邮件中发送的文本。</help>
+        </property>
+        <property name="ContactName">
+          <caption>Contact name</caption>
+          <help>Contact name</help>
+        </property>
+        <property name="ContactPage">
+          <caption>联系人页</caption>
+          <help>链接到包含联系人信息的页面。</help>
+        </property>
+        <property name="Country">
+          <caption>Country</caption>
+          <help>Country</help>
+        </property>
+        <property name="CountryPresence">
+          <caption>Presence in the following countries</caption>
+          <help>Presence in the following countries</help>
+        </property>
+        <property name="DateContainer">
+          <caption>Container for date pages</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="Description">
+          <caption>RSS 源的标题</caption>
+          <help>指定 RSS 源的标题 </help>
+        </property>
+        <property name="Details">
+          <caption>Personal details</caption>
+          <help>Enter a short description of the blogger.</help>
+        </property>
+        <property name="DisableAnonymousComments">
+          <caption>Deny comments from anonymous users</caption>
+          <help>State whether anonymous users are allowed to post comments to blog entries.</help>
+        </property>
+        <property name="DisableCompany">
+          <caption>Editing company is not allowed</caption>
+          <help>Editing company is not allowed</help>
+        </property>
+        <property name="DisableCountry">
+          <caption>Editing country is not allowed</caption>
+          <help>Editing country is not allowed</help>
+        </property>
+        <property name="DisableEmail">
+          <caption>Editing e-mail is not allowed</caption>
+          <help>Editing e-mail is not allowed</help>
+        </property>
+        <property name="DisableFirstname">
+          <caption>Editing first name is not allowed</caption>
+          <help>Editing first name is not allowed</help>
+        </property>
+        <property name="DisableLanguage">
+          <caption>Editing language is not allowed</caption>
+          <help>Editing language is not allowed</help>
+        </property>
+        <property name="DisableLastname">
+          <caption>Editing last name is not allowed</caption>
+          <help>Editing last name is not allowed</help>
+        </property>
+        <property name="DisableTitle">
+          <caption>Editing title is not allowed</caption>
+          <help>Editing title is not allowed</help>
+        </property>
+        <property name="DisplayDate">
+          <caption>Display date in the main list</caption>
+          <help>Display date for each item</help>
+        </property>
+        <property name="DisplayDocumentLink">
+          <caption>Display document link in the main list</caption>
+          <help>Display document link in the main list</help>
+        </property>
+        <property name="DocumentInternalPath">
+          <caption>Document path</caption>
+          <help>Path to document</help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>文章列表的获取位置</caption>
+          <help>指定要从中获取文章列表的页面。 如果未设置，则不会显示页面列表。</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>文档路径</caption>
+          <help>文档路径。</help>
+        </property>
+        <property name="Email">
+          <caption>E-mail</caption>
+          <help>E-mail address</help>
+        </property>
+        <property name="EmailBody">
+          <caption>电子邮件正文</caption>
+          <help>要发送的电子邮件地址内容。</help>
+        </property>
+        <property name="EmailSender">
+          <caption>电子邮件发件人</caption>
+          <help>用作发件人地址的电子邮件地址。</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>电子邮件主题</caption>
+          <help>要发送的电子邮件的主题。</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Flash 影片的高度</caption>
+          <help>指定 Flash 影片的高度，以像素表示。</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Flash 影片的宽度</caption>
+          <help>指定 Flash 影片的宽度，以像素表示。</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Flash 影片的路径</caption>
+          <help>指定 Flash 影片的地址</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>显示统计信息</caption>
+          <help>在页上显示访问者统计信息。</help>
+        </property>
+        <property name="EPiWebSites">
+          <caption>EPiServer Website List (footer)</caption>
+          <help>List of EPiServer websites shown in the footer of the page</help>
+        </property>
+        <property name="EPiWebSitesHeading">
+          <caption>EPiServer Websites Heading (footer)</caption>
+          <help>Heading for the EPiServer websites shown in the footer of the page</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>激活订阅</caption>
+          <help>激活订阅该页</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>阻止订阅该页</caption>
+          <help>选中此复选框可阻止该页的订阅更新。</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>不要在订阅页上显示</caption>
+          <help>在订阅页上隐藏此页</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>订阅根页</caption>
+          <help>在树中指定一个页面，作为订阅的起始页。</help>
+        </property>
+        <property name="EventsCount">
+          <caption>事件项数</caption>
+          <help>项数限制。</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>事件列表页</caption>
+          <help>所链接页的子页将用于生成事件列表。 如果未设置，则不会显示事件列表。</help>
+        </property>
+        <property name="EventStartDate">
+          <caption>Start date</caption>
+          <help>Specify the start date for the activity.</help>
+        </property>
+        <property name="EventStopDate">
+          <caption>Stop date</caption>
+          <help>Specify the stop date for the activity.</help>
+        </property>
+        <property name="FeedCount">
+          <caption>Number of items in a feed</caption>
+          <help>The number of items that should be sent out in an RSS/Atom feed.</help>
+        </property>
+        <property name="ForumPageTypeName">
+          <caption>Forum Page Type</caption>
+          <help>Forum Page Type</help>
+        </property>
+        <property name="ForumStart">
+          <caption>Forum start page</caption>
+          <help>The start page of the forum to which the forum item belongs.</help>
+        </property>
+        <property name="Heading">
+          <caption>标题</caption>
+          <help>指定将显示此页面主题的标题。 如果未设置此属性，则使用页面名称作为标题。</help>
+        </property>
+        <property name="HistoryLength">
+          <caption>Max. age of listed items</caption>
+          <help>Maximum age of items, in days, that should be viewed in the list.</help>
+        </property>
+        <property name="Icon">
+          <caption>The icon for this forum</caption>
+          <help>The name of the icon that this forum should use.</help>
+        </property>
+        <property name="Image">
+          <caption>图像</caption>
+          <help>指定起始页上将显示的图像(900*341 像素)</help>
+        </property>
+        <property name="IndexContainer">
+          <caption>Display content from page</caption>
+          <help>Specify the page from which the index will start.</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>站点地图根页</caption>
+          <help>将从此页开始创建站点地图。</help>
+        </property>
+        <property name="IsDateListing">
+          <caption>Date listing</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>上载源文档的完整 HTML 版本和副本</caption>
+          <help>选择此选项可显示完整 HTML 版本</help>
+        </property>
+        <property name="IsLocked">
+          <caption>Thread is locked</caption>
+          <help>States whether this thread is locked.</help>
+        </property>
+        <property name="IsTagListing">
+          <caption>Tag listing</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="IsTeamLevel">
+          <caption>Team level</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="ItemPageTypeName">
+          <caption>Blog Page Type</caption>
+          <help>Blog Page type to be used</help>
+        </property>
+        <property name="ListCount">
+          <caption>Display number of pages in the main list</caption>
+          <help>Specify how many pages should be displayed in the listing</help>
+        </property>
+        <property name="ListingSlideContainer">
+          <caption>Downloading presentations</caption>
+          <help>Select the page from which you want to download a presentation.</help>
+        </property>
+        <property name="ListingSlideCount">
+          <caption>Show number of pages in presentation</caption>
+          <help>Specify how many pages, in whole numbers, are to be displayed in the presentation.</help>
+        </property>
+        <property name="ListPageTypeName">
+          <caption>Blog List Page Type</caption>
+          <help>Blog List Page Type</help>
+        </property>
+        <property name="ListRoot">
+          <caption>Fetch main listing from</caption>
+          <help>Specify the page from which you want to fetch the listing. The list will be shown in the main content area. If not set the page list will not be shown.</help>
+        </property>
+        <property name="Location">
+          <caption>Show location of an event</caption>
+          <help>Select one location for this event</help>
+        </property>
+        <property name="LoginPage">
+          <caption>登录页</caption>
+          <help>指定网站此部分的登录页面。</help>
+        </property>
+        <property name="Logotype">
+          <caption>徽标类型</caption>
+          <help>徽标类型图像的 URL。</help>
+        </property>
+        <property name="MainBody">
+          <caption>主要正文</caption>
+          <help>主要正文将显示在页面的主要内容区。 可以使用 XHTML 编辑器在其中插入文本、图像和表格等内容。</help>
+        </property>
+        <property name="MainIntro">
+          <caption>简介</caption>
+          <help>新闻内容的简短摘要。 此文本在适用情形下将用于新闻列表中。</help>
+        </property>
+        <property name="MainLinksCount">
+          <caption>Display number of links</caption>
+          <help>Specify the number of links to be displayed in the listing.</help>
+        </property>
+        <property name="MainLinksHeading">
+          <caption>Main list heading</caption>
+          <help>Heading text for main link list</help>
+        </property>
+        <property name="MainLinksRoot">
+          <caption>Fetch left listing from</caption>
+          <help>Specify the page from which you want to fetch the listing.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>列表中的主列表项数</caption>
+          <help>项数限制。</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>主列表页</caption>
+          <help>指定要从中获取列表的页面。 此列表将显示在主要内容区。 如果未设置，则不会显示页面列表。</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>开始显示菜单的位置</caption>
+          <help>在菜单树中指定一个位置，菜单将从此处显示在所选页上</help>
+        </property>
+        <property name="MaxCount">
+          <caption>Max. number of posts</caption>
+          <help>Maximum number of posts viewed in the list.</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>作者</caption>
+          <help>指定搜索引擎将使用的文本的作者。 如果未设置，则改用动态属性中的值。</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>页说明</caption>
+          <help>说明页的内容</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>页的标准搜索字</caption>
+          <help>指定与该页匹配的搜索字的逗号分隔列表</help>
+        </property>
+        <property name="nDaysToRender">
+          <caption>Number of days to show in calendar</caption>
+          <help>Specify how many days you want the calendar to show.</help>
+        </property>
+        <property name="NewsCount">
+          <caption>新闻项数</caption>
+          <help>项数限制。</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>新闻列表页</caption>
+          <help>所链接页的子页将用于生成新闻列表。 如果未设置，则不会显示新闻列表。</help>
+        </property>
+        <property name="NoEmployees">
+          <caption>Number of employees</caption>
+          <help>Number of employees</help>
+        </property>
+        <property name="NumberOfReplies">
+          <caption>Number of replies</caption>
+          <help>The number of replies that has been made to this thread.</help>
+        </property>
+        <property name="OtherWebSites">
+          <caption>Other Website List (footer)</caption>
+          <help>List of other websites shown in the footer of the page</help>
+        </property>
+        <property name="OtherWebSitesHeading">
+          <caption>Other Websites Heading (footer)</caption>
+          <help>Heading for the other websites shown in the footer of the page</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>密码更改成功</caption>
+          <help>密码更改成功时显示的正文文本。</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>密码长度</caption>
+          <help>允许的最短密码。</help>
+        </property>
+        <property name="PersonalStartPageTypeName">
+          <caption>Blog Person Start Page Type</caption>
+          <help>Blog Person Start Page Type used by blogging</help>
+        </property>
+        <property name="Phone">
+          <caption>Phone</caption>
+          <help>Phone</help>
+        </property>
+        <property name="PostPageTypeName">
+          <caption>Forum Post Page Type</caption>
+          <help>Forum Post Page Type</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>隐私页</caption>
+          <help>链接到包含法律信息的页面。</help>
+        </property>
+        <property name="RecentContainer">
+          <caption>Display pages from</caption>
+          <help>Specify the page from which you want to display the recently changed pages.</help>
+        </property>
+        <property name="RecentHours">
+          <caption>Display the pages that have been changed in the past x hours</caption>
+          <help>Specify how many hours in the past that you want to display changed pages.</help>
+        </property>
+        <property name="RefreshRate">
+          <caption>Number of seconds each page is to be displayed</caption>
+          <help>Specify how many seconds each page should be displayed in the presentation.</help>
+        </property>
+        <property name="RelatedSites">
+          <caption>Related Website List (footer)</caption>
+          <help>List of related websites shown in the footer of the page</help>
+        </property>
+        <property name="RelatedSitesHeading">
+          <caption>Related Websites Heading (footer)</caption>
+          <help>Heading for the related websites shown in the footer of the page</help>
+        </property>
+        <property name="ResellerDescription">
+          <caption>Description</caption>
+          <help>Description</help>
+        </property>
+        <property name="ResellerID">
+          <caption>Reseller ID</caption>
+          <help>Reseller ID</help>
+        </property>
+        <property name="RootFolder">
+          <caption>文件夹路径</caption>
+          <help>文件夹树从此页开始。</help>
+        </property>
+        <property name="RssContainer">
+          <caption>RSS 容器</caption>
+          <help>所有 RSS 源页的容器</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS 源页面</caption>
+          <help>在树中指定一个页面，作为此网站上 RSS 内容的源页面。</help>
+        </property>
+        <property name="RssUrl">
+          <caption>搜索 RSS 源的路径</caption>
+          <help>指定 RSS 格式的地址内容。 通常为 Web 地址。</help>
+        </property>
+        <property name="SearchPage">
+          <caption>搜索页</caption>
+          <help>链接到网站此部分的搜索页面。</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>搜索根页</caption>
+          <help>搜索从此页开始。</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>次要正文</caption>
+          <help>次要正文将显示在页面的右侧栏中。 可以使用文本和图像来设置布局。 请注意，图像大小不应超过右侧区域大小。</help>
+        </property>
+        <property name="SecondaryLinksCount">
+          <caption>Display number of links</caption>
+          <help>Specify how many links should be displayed in the listing.</help>
+        </property>
+        <property name="SecondaryLinksDisplayDate">
+          <caption>Display date for each item in secondary list</caption>
+          <help>Indicates if date should be displayed for each list item</help>
+        </property>
+        <property name="SecondaryLinksHeading">
+          <caption>Secondary list heading</caption>
+          <help>Heading text for secondary link list</help>
+        </property>
+        <property name="SecondaryLinksRoot">
+          <caption>Fetch right listing from</caption>
+          <help>Specify the page from which you want to fetch the listing.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>列表中的次要列表项数</caption>
+          <help>将次要列表中的项数限定为此值。</help>
+        </property>
+        <property name="SecondaryListDisplayDate">
+          <caption>Display date in the secondary list</caption>
+          <help>Display date for each item</help>
+        </property>
+        <property name="SecondaryListHeading">
+          <caption>Secondary list heading</caption>
+          <help>Secondary list heading</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>次要列表页面</caption>
+          <help>此链接所指向的父页面将用于在右侧栏生成页面列表。 如果未设置，则不会显示页面列表。</help>
+        </property>
+        <property name="SelectedWebPart">
+          <caption>Select web part</caption>
+          <help>Selects which web part to use on the page</help>
+        </property>
+        <property name="SEODescription">
+          <caption>Page description</caption>
+          <help>Description of the page</help>
+        </property>
+        <property name="SEORobots">
+          <caption>Search robots</caption>
+          <help>Specify how search robots should handle the page</help>
+        </property>
+        <property name="SEOTitle">
+          <caption>Page title</caption>
+          <help>The title of the page</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>网站地图页面</caption>
+          <help>链接到网站地图页面。</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>文件排序方式</caption>
+          <help>文件夹树排序顺序。</help>
+        </property>
+        <property name="Speaker">
+          <caption>Show speaker of an event</caption>
+          <help>Select one speaker for this event</help>
+        </property>
+        <property name="StickyThreadContainer">
+          <caption>Container for sticky threads</caption>
+          <help>The container for the sticky threads in this forum.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>订阅电子邮件的简介文本</caption>
+          <help>输入订阅电子邮件的邮件正文。</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>订阅电子邮件的发件人地址</caption>
+          <help>订阅电子邮件的发件人的电子邮件地址。</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>订阅电子邮件中的链接文本</caption>
+          <help>此文本将构成用户可在订阅电子邮件中单击的链接文本。</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>订阅电子邮件的主题</caption>
+          <help>这是订阅电子邮件的主题字段。</help>
+        </property>
+        <property name="SummaryLength">
+          <caption>Summary length</caption>
+          <help>Length of summary for each list item</help>
+        </property>
+        <property name="SummaryTextLength">
+          <caption>Length of text summary</caption>
+          <help>Number of characters used to truncate the summary text.</help>
+        </property>
+        <property name="TagCloudValue">
+          <caption>Tag cloud value</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="TagContainer">
+          <caption>Container for tag pages</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="Tags">
+          <caption>Tags</caption>
+          <help>Enter a comma-separated list and/or add from existing tags.</help>
+        </property>
+        <property name="TeamStartPageTypeName">
+          <caption>Blog Team Start Page Type</caption>
+          <help>Blog Team Start Page Type to be used for blogging</help>
+        </property>
+        <property name="TemplateContainer">
+          <caption>Workroom templates</caption>
+          <help>A reference to the container that contains avaliable workroom templates.</help>
+        </property>
+        <property name="ThirdBody">
+          <caption>Third body</caption>
+          <help>The content of this field will be shown in box 3 of the page. You can use both text and images for layout. Note that images should not be larger than the box area.</help>
+        </property>
+        <property name="ThreadContainerPageTypeName">
+          <caption>Forum Thread Container Page Type</caption>
+          <help>Forum Thread Container Page Type</help>
+        </property>
+        <property name="ThreadPageTypeName">
+          <caption>Forum Thread Page Type</caption>
+          <help>Forum Thread Page Type</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>缩略图</caption>
+          <help>要在页列表中显示的图像(如有)。</help>
+        </property>
+        <property name="URL">
+          <caption>URL</caption>
+          <help>URL</help>
+        </property>
+        <property name="UsageStatistics">
+          <caption>Statistics for tag usage</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="ValidDays">
+          <caption>Recurring day</caption>
+          <help>Specify if the activity is to recur at set intervals.</help>
+        </property>
+        <property name="VideoSourceURL">
+          <caption>Video file</caption>
+          <help>Specify a video file in .flv format.</help>
+        </property>
+        <property name="WorkroomIcon">
+          <caption>Icon image for this workroom</caption>
+          <help>An image to use as the icon for this workroom.</help>
+        </property>
+        <property name="WorkroomStart">
+          <caption>Start page for this workroom</caption>
+          <help>The start page of the workroom to which this page belongs.</help>
+        </property>
+        <property name="Writer">
+          <caption>Blogger name</caption>
+          <help>Enter the name of the blogger.</help>
+        </property>
+        <property name="XForm">
+          <caption>表单</caption>
+          <help>指定该页将显示的表单。 通过单击按钮，您可以创建自己的表单</help>
+        </property>
+      </common>
+      <pagetype name="[AlloyTech] Blog comment">
+        <description>Page used to store comments to blog items.</description>
+        <name>[AlloyTech] Blog comment</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog item">
+        <description>A blog item page that is used for a single blog entry.</description>
+        <name>[AlloyTech] Blog item</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog list">
+        <description>Listing page used for date listings and tag listings.</description>
+        <name>[AlloyTech] Blog list</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog personal start">
+        <description>The start page for a personal blog.</description>
+        <name>[AlloyTech] Personal blog start</name>
+        <property name="Image">
+          <caption>Image of blogger</caption>
+          <help>Select an image for the blogger.</help>
+        </property>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog team start">
+        <description>The start page for a team blog.</description>
+        <name>[AlloyTech] Team blog start</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar">
+        <description>A page showing calendar events.</description>
+        <name>[AlloyTech] Calendar</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar event">
+        <description>Page for an event in the calendar.</description>
+        <name>[AlloyTech] Calendar event</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Changed recently">
+        <description>Page that displays a list of pages that have recently been changed.</description>
+        <name>[AlloyTech] Changed recently</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Company Facts">
+        <description>Container used for company facts as dynamic content</description>
+        <name>[AlloyTech] Company Facts</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Document">
+        <description>这种类型的页面用于从 Microsoft Office 发布文档。</description>
+        <name>[AlloyTech]文档</name>
+      </pagetype>
+      <pagetype name="EventItemPage">
+        <description>Page that shows a specific event</description>
+        <name>[AlloyTech] Event item</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum">
+        <description>A forum page.</description>
+        <name>[AlloyTech] Forum</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum post">
+        <description>A reply to a forum thread.</description>
+        <name>[AlloyTech] Forum post</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread">
+        <description>A thread in a forum.</description>
+        <name>[AlloyTech] Forum thread</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread container">
+        <description>A container for threads in a forum.</description>
+        <name>[AlloyTech] Forum thread container</name>
+      </pagetype>
+      <pagetype name="ListingPage">
+        <description>Shows page summary</description>
+        <name>[AlloyTech] Listing</name>
+      </pagetype>
+      <pagetype name="LoginPage">
+        <description>这种类型的页面用于创建网站登录页面。</description>
+        <name>[AlloyTech]登录</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] My Settings">
+        <description>A settings page where users can change their personal settings.</description>
+        <name>[AlloyTech] My settings</name>
+      </pagetype>
+      <pagetype name="NewsItemPage">
+        <description>这种类型的页面包含某条新闻的数据。</description>
+        <name>[AlloyTech]新闻项</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Notification Email">
+        <description>Notification E-mail Template</description>
+        <name>[AlloyTech] Notification E-mail</name>
+      </pagetype>
+      <pagetype name="RegistrationPage">
+        <description>这种类型的页面供访问者在网站上注册。</description>
+        <name>[AlloyTech]注册</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Reseller">
+        <description>This page shows data about resellers.</description>
+        <name>[AlloyTech] Reseller</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] RSS source">
+        <description>这种类型的页面以 RSS 格式显示来自 EPiServer 的信息。</description>
+        <name>[AlloyTech] RSS 源</name>
+      </pagetype>
+      <pagetype name="SearchPage">
+        <description>这种类型的页面用于显示快速搜索栏和高级搜索界面返回的搜索结果。</description>
+        <name>[AlloyTech]搜索页</name>
+      </pagetype>
+      <pagetype name="SitemapPage">
+        <description>这种类型的页面用于创建网站全部或部分内容的列表。</description>
+        <name>[AlloyTech]网站地图</name>
+      </pagetype>
+      <pagetype name="StandardPage">
+        <description>这种类型的页面是网站中最常用的一种页面。 它也可以用作普通页面以及新闻和活动页面。</description>
+        <name>[AlloyTech]标准页</name>
+      </pagetype>
+      <pagetype name="StartPage">
+        <description>The start page is the main entrance to the website containing primary and secondary content fields as well as different listings of links.</description>
+        <name>[AlloyTech] Start page</name>
+      </pagetype>
+      <pagetype name="SubscriptionPage">
+        <description>这种类型的页面供访问者选择订阅信息。</description>
+        <name>[AlloyTech]订阅</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] User profile">
+        <description>User profile</description>
+        <name>[AlloyTech] User profile</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar">
+        <description>A calendar page in a workroom.</description>
+        <name>[AlloyTech] Workroom calendar</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar event">
+        <description>Page for an event in the calendar.</description>
+        <name>[AlloyTech] Workroom calendar event</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom File Manager">
+        <description>File management in a workroom.</description>
+        <name>[AlloyTech] Workroom File Manager</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom list">
+        <description>Page that lists all available workrooms.</description>
+        <name>[AlloyTech] Workroom list</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Membership Manager">
+        <description>Page for adding or modifying membership in a workroom.</description>
+        <name>[AlloyTech] Workroom Membership Manager</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom news list">
+        <description>A news page in a workroom.</description>
+        <name>[AlloyTech] Workroom newslist</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Settings">
+        <description>Page for changing settings for a workroom.</description>
+        <name>[AlloyTech] Workroom settings</name>
+      </pagetype>
+      <pagetype name="XFormPage">
+        <description>这种类型的页面用于通过表单扩展标准页面。</description>
+        <name>[AlloyTech]表单页</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>衷心感谢</confirmation>
+      <error>
+        <confirmpassword>Please confirm the password you entered</confirmpassword>
+        <couldnotsave>Unable to save changes</couldnotsave>
+        <email>请输入您的电子邮件地址</email>
+        <firstname>请输入您的名字</firstname>
+        <incorrectemail>输入的电子邮件地址不正确</incorrectemail>
+        <lastname>请输入您的姓氏</lastname>
+        <password>请输入密码</password>
+        <passwordlength>输入的密码太短。 最小长度： </passwordlength>
+        <passwordrepeat>输入的密码不正确</passwordrepeat>
+      </error>
+      <password>输入密码</password>
+      <repeatpassword>重新输入密码</repeatpassword>
+      <signupbutton>注册</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>高级搜索</advancedsearch>
+      <button>搜索</button>
+      <findsimilar>查找近似项</findsimilar>
+      <nosearchresult>No matching results were found</nosearchresult>
+      <onlywholewords>全字匹配</onlywholewords>
+      <percentrelevancy>相关性百分比</percentrelevancy>
+      <relevancy>相关性</relevancy>
+      <searchfiles>在文件中搜索</searchfiles>
+      <searchfor>搜索:</searchfor>
+      <searchresult>搜索结果:</searchresult>
+      <searchstring>在此处搜索</searchstring>
+    </search>
+    <subscription>
+      <daily>每天一次</daily>
+      <email>电子邮件地址</email>
+      <error>
+        <email>请输入您的电子邮件地址</email>
+        <incorrectemail>输入的电子邮件地址不正确</incorrectemail>
+      </error>
+      <fastaspossible>尽快</fastaspossible>
+      <interval>间隔</interval>
+      <monthly>每月一次</monthly>
+      <subscribe>订阅</subscribe>
+      <subscription>订阅</subscription>
+      <weekly>每周一次</weekly>
+    </subscription>
+    <templates>
+      <changedpages>
+        <header>Last changed files</header>
+        <lastmodified>Last changed</lastmodified>
+        <page>Page</page>
+        <updatedpages>Latest updated pages</updatedpages>
+      </changedpages>
+      <dynamiccontent>
+        <map>
+          <addresslabel>Address</addresslabel>
+          <altlabel>Image alt text</altlabel>
+          <displaystaticimagelabel>Display as image</displaystaticimagelabel>
+          <emptysearchresults>Address is not found</emptysearchresults>
+          <heighterrormessage>The map height value must be between 100 and 2000</heighterrormessage>
+          <heightlabel>Map height</heightlabel>
+          <hidesearchresults>Hide</hidesearchresults>
+          <missingmapdata>The map settings could not be loaded</missingmapdata>
+          <searchbuttonlabel>Search</searchbuttonlabel>
+          <searchresultslabel>Search results</searchresultslabel>
+          <selectionerrormessage>A map cannot be saved without a location. Select a location by double-clicking on a map or a search result marker.</selectionerrormessage>
+          <selectiontextmessage>Please select a location.</selectiontextmessage>
+          <unabletoinitializemessage>Unable to initialize maps</unabletoinitializemessage>
+          <widtherrormessage>The map width value must be between 100 and 2000</widtherrormessage>
+          <widthlabel>Map width</widthlabel>
+        </map>
+      </dynamiccontent>
+      <events>
+        <location>Location</location>
+        <speaker>Speaker</speaker>
+      </events>
+      <personalsettings>
+        <validation>
+          <emailexists>The e-mail address that you entered is already in use</emailexists>
+        </validation>
+      </personalsettings>
+      <reseller>
+        <address>Address</address>
+        <contacts>Contacts</contacts>
+        <name>Name</name>
+        <url>URL</url>
+      </reseller>
+    </templates>
+    <usersettings>
+      <changepassword>更改密码</changepassword>
+      <confirmpassword>确认密码</confirmpassword>
+      <email>电子邮件地址</email>
+      <firstname>名字</firstname>
+      <lastname>姓氏</lastname>
+      <mysettings>我的设置</mysettings>
+      <newpassword>新密码</newpassword>
+      <username>用户名</username>
+    </usersettings>
+    <workroom>
+      <calendar>
+        <buttonaddevent>Add Event</buttonaddevent>
+        <buttondeletecalendar>Delete Calendar</buttondeletecalendar>
+        <buttoneditname>Edit Name</buttoneditname>
+        <createheading>Create Event</createheading>
+        <dateformat>Example: 11/25/2007</dateformat>
+        <editheading>Edit Event</editheading>
+        <invalidstartdate>The start date is not a valid date</invalidstartdate>
+        <invalidstopdate>The end date is not a valid date</invalidstopdate>
+        <latestarttime>The start time must occur before the end time.</latestarttime>
+        <nameempty>Enter a title</nameempty>
+        <selectedperiod>Selected period:</selectedperiod>
+        <starttimeempty>Enter a start date</starttimeempty>
+        <starttimelabel>Start date:</starttimelabel>
+        <stoptimeempty>Enter an end date </stoptimeempty>
+        <stoptimelabel>End date:</stoptimelabel>
+      </calendar>
+      <calendarlist>
+        <calendaraddnew>Add Calendar</calendaraddnew>
+        <calendaritemfrom>From:</calendaritemfrom>
+        <calendaritemto>To:</calendaritemto>
+        <calendarsectionname>Calendar name</calendarsectionname>
+      </calendarlist>
+      <edit>Edit</edit>
+      <editablecontent>
+        <labeltext>Edit the content and click "Save".</labeltext>
+      </editablecontent>
+      <editdescription>Edit Description</editdescription>
+      <eventlist>
+        <heading>Upcoming events</heading>
+      </eventlist>
+      <filelist>
+        <errormessage>The workroom root folder could not be found or you have insufficient access rights for the folder.</errormessage>
+        <errormissingindex>An index has not been configured for the workroom root folder. An index is required to show the recently changed files.</errormissingindex>
+        <heading>Recent files</heading>
+      </filelist>
+      <membershiplevel>
+        <administer>Administrator</administer>
+        <modify>Participating Member</modify>
+        <read>Read-Only Member</read>
+      </membershiplevel>
+      <membershipmanager>
+        <button>
+          <addmembers>Add members</addmembers>
+          <editmembers>Edit members</editmembers>
+          <invite>Invite</invite>
+          <remove>Remove</remove>
+          <sendinvitation>Send invitation</sendinvitation>
+        </button>
+        <confirmremovemember>Are you sure you want to remove selected members from the workroom?</confirmremovemember>
+        <email>E-mail address</email>
+        <emptysearchresult>Your search didn't return any matching users.</emptysearchresult>
+        <inviteheading>Invite user</inviteheading>
+        <invitemembermessage>Send an e-mail membership invitation to the user.</invitemembermessage>
+        <invitemembership>Status to assign</invitemembership>
+        <inviteunfiledsenderemail>E-mail address is not specified in your profile.</inviteunfiledsenderemail>
+        <invitewithoutstatus>Status to assign is missed.</invitewithoutstatus>
+        <managemembersheading>Manage workroom members</managemembersheading>
+        <membershiplevel>Membership status</membershiplevel>
+        <removeheading>Remove member</removeheading>
+        <searchheading>Search for users</searchheading>
+        <searchresultheading>Search results</searchresultheading>
+        <searchtext>Search</searchtext>
+        <sendinvitationerror>Send invitation error.</sendinvitationerror>
+        <sendinvitationok>Invitation successfully sent.</sendinvitationok>
+        <sendnotifications>Send notifications about membership status change?</sendnotifications>
+        <sendnotificationsno>No</sendnotificationsno>
+        <sendnotificationsyes>Yes</sendnotificationsyes>
+        <status>Assigned status</status>
+        <unabletosendnotification>Some notifications may not be sent.</unabletosendnotification>
+        <username>Username</username>
+        <viewmembersheading>Workroom members</viewmembersheading>
+      </membershipmanager>
+      <newslist>
+        <heading>News</heading>
+        <newssectionname>Newsroom name</newssectionname>
+      </newslist>
+      <newslistpage>
+        <addnewsitem>Add News Item</addnewsitem>
+        <addnewssection>Add Newsroom</addnewssection>
+        <bodylabel>Description:</bodylabel>
+        <createheading>Create News Item</createheading>
+        <deletenewssection>Delete Newsroom</deletenewssection>
+        <editheading>Edit News Item</editheading>
+        <editnewssection>Edit Newsroom</editnewssection>
+        <headinglabel>Title:</headinglabel>
+        <titleempty>Enter a title</titleempty>
+      </newslistpage>
+      <settings>
+        <availablefunctions>Available functions</availablefunctions>
+      </settings>
+      <userprofile>
+        <confirmpassword>Confirm password</confirmpassword>
+        <email>E-mail address</email>
+        <error>
+          <firstnamerequired>Enter a first name</firstnamerequired>
+          <lastnamerequired>Enter a last name</lastnamerequired>
+          <logout>You are logged in as a different user. Log out and try again.</logout>
+          <membership>The current security settings do not allow new users to be registered. Please contact the administrator for additional information.</membership>
+          <passworddiffers>The passwords must be the same</passworddiffers>
+          <passwordrequired>Enter a password</passwordrequired>
+          <passwordweak>The password does not meet the password policy requirements</passwordweak>
+          <unavailable>You do not have access rights to this page.</unavailable>
+          <usernameexists>The username already exists</usernameexists>
+          <usernamerequired>Enter a username</usernamerequired>
+        </error>
+        <firstname>First name</firstname>
+        <lastname>Last name</lastname>
+        <password>Password</password>
+        <role>Role</role>
+        <username>Username</username>
+      </userprofile>
+      <workroomlist>
+        <addworkroom>Add Workroom</addworkroom>
+        <createheading>Create Workroom</createheading>
+        <descriptionlabel>Description:</descriptionlabel>
+        <duplicatename>There is already a workroom with this name.</duplicatename>
+        <nameempty>Enter a name</nameempty>
+        <namelabel>Name:</namelabel>
+        <templateempty>Enter a template</templateempty>
+        <templatelabel>Select template:</templatelabel>
+        <viewheading>My Workrooms</viewheading>
+      </workroomlist>
+    </workroom>
+  </language>
+</languages>

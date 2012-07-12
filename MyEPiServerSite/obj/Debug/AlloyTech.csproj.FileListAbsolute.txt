@@ -1,0 +1,7 @@
+C:\EPiServer\Sites\MyEPiServerSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sevo\Documents\Visual Studio 2010\Projects\Localization T4\MyEPiServerSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sevo\Documents\Visual Studio 2010\Projects\Localization T4\MyEPiServerSite\bin\EPiServer.Templates.AlloyTech.dll
+C:\Users\sevo\Documents\Visual Studio 2010\Projects\Localization T4\MyEPiServerSite\bin\EPiServer.Templates.AlloyTech.pdb
+C:\Users\sevo\Documents\Visual Studio 2010\Projects\Localization T4\MyEPiServerSite\obj\Debug\EPiServer.Templates.AlloyTech.dll
+C:\Users\sevo\Documents\Visual Studio 2010\Projects\Localization T4\MyEPiServerSite\obj\Debug\EPiServer.Templates.AlloyTech.pdb
+C:\Users\sevo\Documents\Visual Studio 2010\Projects\Localization T4\MyEPiServerSite\bin\log4net.dll

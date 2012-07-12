@@ -1,0 +1,133 @@
+﻿<#@ template hostspecific="True" debug="True" #>
+<#@ output extension="cs" #>
+<#@ Assembly Name="System.Core.dll" #>
+<#@ Assembly Name="System.Configuration.dll" #>
+<#@ Assembly Name="$(ProjectDir)$(OutDir)EPiServer.Framework.dll" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="EPiServer.Framework.Localization" #>
+<#@ import namespace="EPiServer.Framework.Localization.XmlResources" #>
+using EPiServer.Framework.Localization;
+<#+
+	const string RootClassName = "Resources";
+	const string Indent = "    ";
+	
+  	void GenerateTypedLocalizations(string dir, string rootNamespace)
+	{
+		var di = new DirectoryInfo(dir);
+		var provider = new XmlLocalizationProvider();
+		if (!string.IsNullOrEmpty(rootNamespace)) 
+		{
+			WriteLine("namespace " + rootNamespace);
+			WriteLine("{");
+			this.PushIndent(Indent);
+		}
+		// Load all resources files from directory
+		foreach (FileInfo fileInfo in di.GetFiles("*.xml"))
+		{
+            using (var stream = fileInfo.OpenRead())
+            {
+                provider.Load(stream);
+            }
+		}
+		WriteProviderResources(provider, rootNamespace);
+
+		if (!string.IsNullOrEmpty(rootNamespace)) 
+		{
+			this.PopIndent();
+			WriteLine("}");
+		}
+	}
+	
+	void WriteProviderResources(LocalizationProvider provider, string rootNamespace)
+	{
+		var keyHandler = new ResourceKeyHandler();
+
+		foreach (ResourceItem resource in provider.GetAllStrings("", new string[] {}, System.Globalization.CultureInfo.GetCultureInfo("en"))) 
+		{
+			string[] normalized = keyHandler.NormalizeKey(resource.Key);
+			System.Diagnostics.Debugger.Launch();
+			var ns = GetNamespace(normalized, rootNamespace);
+			// Skip root resources for now
+			if (string.IsNullOrEmpty(ns)) { continue; }
+			
+			if (!string.IsNullOrEmpty(ns)) 
+			{
+				WriteLine("namespace " + ns);
+				WriteLine("{");
+				PushIndent(Indent);
+			}
+
+			// Class
+			WriteLine("public static partial class " + GetClassName(normalized));
+			WriteLine("{");
+			PushIndent(Indent);
+			
+			// Property
+			WriteLine("/// <summary>");
+			WriteLine("/// Value: '" + resource.Value + "'");
+			WriteLine("/// </summary>");
+			WriteLine("public static string " + GetName(normalized));
+			WriteLine("{");
+			PushIndent(Indent);
+			WriteLine("get { return LocalizationService.Current.GetString(\"" + resource.Key + "\"); }");
+			PopIndent();
+			WriteLine("}");
+			
+			// Class end
+			PopIndent();
+			WriteLine("}");
+			
+			if (!string.IsNullOrEmpty(ns)) 
+			{
+				PopIndent();
+				WriteLine("}");
+			}			
+			WriteLine(string.Empty);
+		}
+	}
+
+	static string GetNamespace(string[] normalized, string rootNamespace) 
+	{
+		if (normalized.Length > 2) 
+		{
+			string ns = string.Join(".", normalized.Take(normalized.Length - 2).ToArray());
+			if (ns.StartsWith(rootNamespace))
+			{
+				return ns.Substring(rootNamespace.Length).TrimStart('.');
+			}
+			return ns;
+		}
+		return null;
+	}
+
+	static string GetClassName(string[] normalized) 
+	{
+		if (normalized.Length > 1) 
+		{
+			return normalized[normalized.Length-2];
+		}
+		return RootClassName;
+	}
+
+	static string GetName(string[] normalized) 
+	{
+		return normalized.Last();
+	}
+	
+    static string UppercaseFirst(string s)
+    {
+		if (string.IsNullOrEmpty(s))
+		{
+		    return string.Empty;
+		}
+		char[] a = s.ToCharArray();
+		a[0] = char.ToUpper(a[0]);
+		return new string(a);
+    }
+#>

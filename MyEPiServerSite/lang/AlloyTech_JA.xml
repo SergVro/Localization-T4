@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="日本語 (Japanese)" id="ja">
+    <blog>
+      <item>
+        <comment>Comment:</comment>
+        <commentheading>Comments:</commentheading>
+        <commentlegend>Post a comment</commentlegend>
+        <errormessages>
+          <requiredcomment>Please fill in the Comment field.</requiredcomment>
+          <requiredname>Please fill in the Name field.</requiredname>
+        </errormessages>
+        <name>Name:</name>
+        <permanentlink>Permanent link</permanentlink>
+        <postedby>by:</postedby>
+        <posteddate>Posted date:</posteddate>
+        <send>Send</send>
+        <tags>Tags:</tags>
+      </item>
+      <itemsummary>
+        <readblog>Read blog:</readblog>
+      </itemsummary>
+      <listpage>
+        <dateheading>Blog entries posted during {0}</dateheading>
+        <errormessage>A configuration error has occurred. Either IsTagListing or IsDateListing must be true.</errormessage>
+        <tagheading>Blog entries tagged with {0}</tagheading>
+      </listpage>
+      <propertyblogtags>
+        <errormessage>
+          <categorytoolong>At least one of the tag names is too long. (Max. {0} characters)</categorytoolong>
+        </errormessage>
+        <existingtagsbutton>Add tags</existingtagsbutton>
+        <existingtagslabel>Existing tags</existingtagslabel>
+        <selectedtagslabel>Selected tags</selectedtagslabel>
+      </propertyblogtags>
+      <secondarylist>
+        <aboutme>About me</aboutme>
+        <archive>Archive</archive>
+        <tagcloud>Tag cloud</tagcloud>
+      </secondarylist>
+      <tagstatisticsupdater>
+        <description>Used for updating the blog tag statistics.</description>
+        <displayname>Update tag statistics</displayname>
+      </tagstatisticsupdater>
+    </blog>
+    <calendar>
+      <noeventonday>No events have been planned for this day</noeventonday>
+      <selectedperiod>Selected period</selectedperiod>
+    </calendar>
+    <captcha>
+      <errormessage>The entered text does not match the text shown in the image.</errormessage>
+      <heading>User verification</heading>
+      <imagealternativetext>Image for user verification</imagealternativetext>
+      <label>Please enter the text shown in the image:</label>
+    </captcha>
+    <common>
+      <messages>
+        <confirmdelete>Are you sure you want to delete this item?</confirmdelete>
+      </messages>
+    </common>
+    <document>
+      <download>ダウンロード:</download>
+    </document>
+    <dynamiccontenttypes>
+      <dynamiccontent name="MapDynamicContentDemo">
+        <caption>Google Maps</caption>
+        <description>Add and configure Google Maps</description>
+      </dynamiccontent>
+    </dynamiccontenttypes>
+    <editorstyleoptions>
+      <classic>Classic</classic>
+      <heading_1>Heading 1</heading_1>
+      <heading_2>Heading 2</heading_2>
+      <heading_3>Heading 3</heading_3>
+      <highlighted>Highlighted</highlighted>
+      <image_border>Image border</image_border>
+      <image_styles>Image Styles</image_styles>
+      <introduction>Introduction</introduction>
+      <left_aligned>Left-aligned</left_aligned>
+      <paragraph>Paragraph</paragraph>
+      <right_aligned>Right-aligned</right_aligned>
+      <table_styles>Table Styles</table_styles>
+      <top_left>Top left</top_left>
+      <top_right>Top right</top_right>
+    </editorstyleoptions>
+    <error>
+      <document>ページ プロパティ "ドキュメント パス" が設定されていません。</document>
+      <mainmenucontainer>動的プロパティ "MainMenuContainer" が設定されていません。</mainmenucontainer>
+    </error>
+    <filemanager>
+      <button>
+        <back>Back</back>
+        <deleteversion>Delete version</deleteversion>
+        <rename>Rename</rename>
+        <replacefile>Replace File</replacefile>
+        <restore>Restore to this version</restore>
+        <upload>Upload</upload>
+      </button>
+      <choosefile>Select file:</choosefile>
+      <deletefilesandfoldersheading>Delete files/folders</deletefilesandfoldersheading>
+      <disabledfunctions>Some functions are unavailable due to insufficient access rights for this folder.</disabledfunctions>
+      <editfilesummaryheading>Edit file summary</editfilesummaryheading>
+      <errormessage>
+        <cannotchange>Unable to move, rename, delete or update the selected file. This file may be checked out by someone else.</cannotchange>
+        <checkedout>A file with the same name already exists and is checked out by someone else.</checkedout>
+        <containscheckedout>Unable to move or delete the selected folder. The folder may contain a file that is checked out by someone else.</containscheckedout>
+        <insufficientaccess>You have insufficient access rights to create or modify files in this folder.</insufficientaccess>
+        <insufficientaccesscreatefolder>You have insufficient access rights to create folders at this location.</insufficientaccesscreatefolder>
+        <insufficientaccessmetadata>You have insufficient access rights to modify this file.</insufficientaccessmetadata>
+        <insufficientaccessmove>You have insufficient access rights to move this item.</insufficientaccessmove>
+        <insufficientaccessremove>You have insufficient access rights to remove the selected items.</insufficientaccessremove>
+        <insufficientaccessrename>You have insufficient access rights to rename the selected item.</insufficientaccessrename>
+        <readonlyfile>A read-only file with the same name already exists.</readonlyfile>
+        <replacefile>A file with the same name already exists. Do you want to replace the file {0}?</replacefile>
+        <versionisnotfound>Unable to perform the operation. Version {0} cannot be found.</versionisnotfound>
+      </errormessage>
+      <filecomment>Comment:</filecomment>
+      <filelistheading>
+        <checkedout>Checked out</checkedout>
+        <lastchanged>Last changed</lastchanged>
+        <name>Name</name>
+        <size>Size</size>
+      </filelistheading>
+      <filename>File name</filename>
+      <files>Files</files>
+      <filesummary>
+        <author>Author</author>
+        <category>Category</category>
+        <comments>Comments</comments>
+        <keywords>Keywords</keywords>
+        <subject>Description</subject>
+        <title>Title</title>
+      </filesummary>
+      <filesummaryheading>File summary for</filesummaryheading>
+      <foldername>Folder name:</foldername>
+      <foldernotempty>The folder is not empty</foldernotempty>
+      <foldernotemptywarning>Some of the folders are not empty. Any content in the folders will be deleted.</foldernotemptywarning>
+      <folders>Folders</folders>
+      <maxuploadmessage>The size of the file to be uploaded may not exceed {0}.</maxuploadmessage>
+      <missingfoldererror>The file could not be created. Either a target folder is missing or you are not authorized to create files in the specified folder.</missingfoldererror>
+      <newfolder>New folder</newfolder>
+      <parentfolder>Parent Folder</parentfolder>
+      <renamefile>Rename file</renamefile>
+      <renamefolder>Rename folder</renamefolder>
+      <selectfilemessage>Select a file with the Browse button below and then click "Upload".</selectfilemessage>
+      <switchview>
+        <addfile>Add file</addfile>
+        <addfolder>Add folder</addfolder>
+        <checkin>Check in</checkin>
+        <checkout>Check out</checkout>
+        <copy>Copy</copy>
+        <cut>Cut</cut>
+        <delete>Delete</delete>
+        <details>Details</details>
+        <paste>Paste</paste>
+        <rename>Rename</rename>
+        <undocheckout>Undo</undocheckout>
+        <version>Version</version>
+        <view>View</view>
+      </switchview>
+      <uploadbutton>Upload</uploadbutton>
+      <uploadheading>File upload</uploadheading>
+      <validation>
+        <folderexists>A folder or file with the same name already exists.</folderexists>
+        <folderwithsamename>A folder with the name '{0}' exists in the current folder.</folderwithsamename>
+        <illigalchar>The name cannot contain /, ?, &lt;, &gt;, \, :, *, |, # or ".</illigalchar>
+        <nametolong>The folder name cannot be longer than 255 characters.</nametolong>
+        <requiredfile>Select a file.</requiredfile>
+        <requiredname>Enter a name.</requiredname>
+      </validation>
+      <versionfileheading>Versions for</versionfileheading>
+      <versionlistheading>
+        <comments>Comments</comments>
+        <created>Created</created>
+        <createdby>Created By</createdby>
+        <size>Size</size>
+        <version>Version</version>
+      </versionlistheading>
+    </filemanager>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Documents">
+          <name>Documents</name>
+        </virtualpathroot>
+        <virtualpathroot name="Global Files">
+          <name>Global Files</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+    <form>
+      <numberofvotes>投票数: {0}</numberofvotes>
+      <postedmessage>ご投稿ありがとうございます!</postedmessage>
+      <showform>フォームに移動</showform>
+      <showstat>統計の表示</showstat>
+    </form>
+    <forum>
+      <forumform>
+        <allowforumslabel>Allow forums:</allowforumslabel>
+        <allowthreadslabel>Allow threads:</allowthreadslabel>
+        <createbutton>Create forum</createbutton>
+        <heading>Create forum</heading>
+        <icondropdown>
+          <auction>Auction</auction>
+          <default>Default</default>
+          <information>Information</information>
+        </icondropdown>
+        <iconlabel>Icon:</iconlabel>
+        <titleerror>Title cannot be empty</titleerror>
+        <titlelabel>Title:</titlelabel>
+      </forumform>
+      <forumlist>
+        <createbutton>Add subforum</createbutton>
+        <deleteforumbutton>Delete this forum</deleteforumbutton>
+        <heading>Subforums</heading>
+        <setupbutton>Configure automatically</setupbutton>
+        <setuperror>The page is not set up correctly. Please verify your settings.</setuperror>
+        <title>Forum</title>
+        <updated>Latest updated thread</updated>
+      </forumlist>
+      <thread>
+        <addreply>Add reply</addreply>
+        <deletereply>Delete reply</deletereply>
+        <deletethread>Delete thread</deletethread>
+        <lock>Lock thread</lock>
+        <postedby>Posted by:</postedby>
+        <reply>Reply</reply>
+        <replyempty>Reply cannot be empty</replyempty>
+        <sticky>Sticky thread</sticky>
+        <toforum>To forum</toforum>
+        <unlock>Unlock thread</unlock>
+        <unsticky>Unsticky thread</unsticky>
+      </thread>
+      <threadform>
+        <contenterror>Text cannot be empty</contenterror>
+        <contentlabel>Text:</contentlabel>
+        <createbutton>Create Thread</createbutton>
+        <heading>Create Thread</heading>
+        <titleerror>Title cannot be empty</titleerror>
+        <titlelabel>Title:</titlelabel>
+      </threadform>
+      <threadlist>
+        <createbutton>Add thread</createbutton>
+        <createdby>Created by</createdby>
+        <heading>Threads</heading>
+        <replies>Replies</replies>
+        <title>Thread</title>
+        <updated>Last updated</updated>
+      </threadlist>
+      <today>Today</today>
+      <Yesterday>Yesterday</Yesterday>
+    </forum>
+    <headings>
+      <heading name="Flash Content">
+        <description>Flash Content</description>
+      </heading>
+      <heading name="Listings">
+        <description>Listings</description>
+      </heading>
+      <heading name="News &amp; Calendar">
+        <description>ニュースとカレンダー</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>サイトの構成</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>登録</becomemember>
+      <currentuser>Current user:</currentuser>
+      <editdetails>個人用設定</editdetails>
+      <email>自身の電子メール アドレスを入力してください:</email>
+      <error>
+        <loginfail>ログインは失敗しました。 指定されたユーザー名またはパスワードが正しくありません。</loginfail>
+        <password>パスワードを入力する必要があります</password>
+        <username>ユーザー名を指定する必要があります</username>
+      </error>
+      <forgotpassword>パスワードをお忘れですか?</forgotpassword>
+      <login>ログイン</login>
+      <logout>ログアウト</logout>
+      <password>パスワード</password>
+    </login>
+    <navigation>
+      <help>ヘルプ</help>
+      <listen>聞く</listen>
+      <readmore>詳細</readmore>
+      <search>検索</search>
+      <skipnavigation>コンテンツに移動</skipnavigation>
+      <startpage>開始</startpage>
+      <startpagelinktitle>開始ページに移動</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>その他のニュース</morenews>
+      <publishdate>公開日</publishdate>
+      <writername>作成者</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="AboutTheSite">
+          <caption>About The Website Link List (footer)</caption>
+          <help>List of about the website links shown in the footer of the page</help>
+        </property>
+        <property name="AboutTheSiteHeading">
+          <caption>About The Website Heading (footer)</caption>
+          <help>Heading for the about the website links shown in the footer of the page</help>
+        </property>
+        <property name="ActiveThreadContainer">
+          <caption>Container for active threads</caption>
+          <help>The container for the active threads in this forum.</help>
+        </property>
+        <property name="Address1">
+          <caption>Address1</caption>
+          <help>Address1</help>
+        </property>
+        <property name="Address2">
+          <caption>Address2</caption>
+          <help>Address2</help>
+        </property>
+        <property name="Address3">
+          <caption>Address3</caption>
+          <help>Address3</help>
+        </property>
+        <property name="AllowForums">
+          <caption>Allow subforums in this forum</caption>
+          <help>State whether this forum can contain subforums.</help>
+        </property>
+        <property name="AllowThreads">
+          <caption>Allow threads in this forum</caption>
+          <help>State whether this forum can contain threads.</help>
+        </property>
+        <property name="ArchiveThreadContainer">
+          <caption>Container for archived threads</caption>
+          <help>The container for the archived threads in this forum.</help>
+        </property>
+        <property name="Author">
+          <caption>Author</caption>
+          <help>Enter the name of the author</help>
+        </property>
+        <property name="BlogStart">
+          <caption>Blog start page</caption>
+          <help>The start page of the blog to which this blog item belongs.</help>
+        </property>
+        <property name="CalendarContainer">
+          <caption>Show calendar from</caption>
+          <help>Specify a place in the tree structure from where the calendar events will be displayed. If your  events are subpages of this page, select "This page".</help>
+        </property>
+        <property name="CalendarItemContainer">
+          <caption>Calendar start</caption>
+          <help>Show calendar events from this page.</help>
+        </property>
+        <property name="ClientsArea">
+          <caption>Clients area</caption>
+          <help>The content of this field will be shown in the wide box. You can use both text and images for layout. Note that images should not be larger than the box area.</help>
+        </property>
+        <property name="CommentPageTypeName">
+          <caption>Blog Comment Page Type</caption>
+          <help>Blog Comment Page Type</help>
+        </property>
+        <property name="CompanyName">
+          <caption>Company name</caption>
+          <help>Name of the company</help>
+        </property>
+        <property name="ConfirmationMessage">
+          <caption>確認のメッセージ</caption>
+          <help>確認の電子メールで送信されるテキストです。</help>
+        </property>
+        <property name="ContactName">
+          <caption>Contact name</caption>
+          <help>Contact name</help>
+        </property>
+        <property name="ContactPage">
+          <caption>連絡先ページ</caption>
+          <help>連絡先情報があるページへのリンクです。</help>
+        </property>
+        <property name="Country">
+          <caption>Country</caption>
+          <help>Country</help>
+        </property>
+        <property name="CountryPresence">
+          <caption>Presence in the following countries</caption>
+          <help>Presence in the following countries</help>
+        </property>
+        <property name="DateContainer">
+          <caption>Container for date pages</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="Description">
+          <caption>RSS ソースの見出し</caption>
+          <help>RSS ソースの見出しを指定します </help>
+        </property>
+        <property name="Details">
+          <caption>Personal details</caption>
+          <help>Enter a short description of the blogger.</help>
+        </property>
+        <property name="DisableAnonymousComments">
+          <caption>Deny comments from anonymous users</caption>
+          <help>State whether anonymous users are allowed to post comments to blog entries.</help>
+        </property>
+        <property name="DisableCompany">
+          <caption>Editing company is not allowed</caption>
+          <help>Editing company is not allowed</help>
+        </property>
+        <property name="DisableCountry">
+          <caption>Editing country is not allowed</caption>
+          <help>Editing country is not allowed</help>
+        </property>
+        <property name="DisableEmail">
+          <caption>Editing e-mail is not allowed</caption>
+          <help>Editing e-mail is not allowed</help>
+        </property>
+        <property name="DisableFirstname">
+          <caption>Editing first name is not allowed</caption>
+          <help>Editing first name is not allowed</help>
+        </property>
+        <property name="DisableLanguage">
+          <caption>Editing language is not allowed</caption>
+          <help>Editing language is not allowed</help>
+        </property>
+        <property name="DisableLastname">
+          <caption>Editing last name is not allowed</caption>
+          <help>Editing last name is not allowed</help>
+        </property>
+        <property name="DisableTitle">
+          <caption>Editing title is not allowed</caption>
+          <help>Editing title is not allowed</help>
+        </property>
+        <property name="DisplayDate">
+          <caption>Display date in the main list</caption>
+          <help>Display date for each item</help>
+        </property>
+        <property name="DisplayDocumentLink">
+          <caption>Display document link in the main list</caption>
+          <help>Display document link in the main list</help>
+        </property>
+        <property name="DocumentInternalPath">
+          <caption>Document path</caption>
+          <help>Path to document</help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>ドキュメント リストの取り出し元</caption>
+          <help>ドキュメント リストの取り出し元のページを指定します。 設定されていない場合、ページ リストは表示されません。 </help>
+        </property>
+        <property name="DocumentPath">
+          <caption>ドキュメント パス</caption>
+          <help>ドキュメントへのパスです。</help>
+        </property>
+        <property name="Email">
+          <caption>E-mail</caption>
+          <help>E-mail address</help>
+        </property>
+        <property name="EmailBody">
+          <caption>電子メールの本文</caption>
+          <help>送信される電子メール アドレスの内容です。</help>
+        </property>
+        <property name="EmailSender">
+          <caption>電子メールの差出人</caption>
+          <help>差出人アドレスとして使用される電子メール アドレスです。</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>電子メールの件名</caption>
+          <help>送信される電子メールの件名です。</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>フラッシュ ムービーの高さ</caption>
+          <help>フラッシュ ムービーの高さをピクセル単位で指定します。</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>フラッシュ ムービーの幅</caption>
+          <help>フラッシュ ムービーの幅をピクセル単位で指定します。</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>フラッシュ ムービーへのパス</caption>
+          <help>フラッシュ ムービーへのアドレスを指定します</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>統計の表示</caption>
+          <help>訪問者の統計をページに表示します。</help>
+        </property>
+        <property name="EPiWebSites">
+          <caption>EPiServer Website List (footer)</caption>
+          <help>List of EPiServer websites shown in the footer of the page</help>
+        </property>
+        <property name="EPiWebSitesHeading">
+          <caption>EPiServer Websites Heading (footer)</caption>
+          <help>Heading for the EPiServer websites shown in the footer of the page</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>サブスクリプションのアクティブ化</caption>
+          <help>このページのサブスクリプションをアクティブ化します</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>このページのサブスクリプションをブロック</caption>
+          <help>このページのサブスクリプション更新をブロックする場合は、このチェック ボックスを選択します。</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>サブスクリプション ページに表示しない</caption>
+          <help>サブスクリプション ページでこのページを非表示にします</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>サブスクリプションのルート ページ</caption>
+          <help>サブスクリプションの開始場所である、ツリー内のページを指定します。</help>
+        </property>
+        <property name="EventsCount">
+          <caption>イベント項目数</caption>
+          <help>項目数を制限します。</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>イベント リスト ページ</caption>
+          <help>子をイベント リストの生成に使用するページにポイントします。 設定されていない場合、イベント リストは表示されません。</help>
+        </property>
+        <property name="EventStartDate">
+          <caption>Start date</caption>
+          <help>Specify the start date for the activity.</help>
+        </property>
+        <property name="EventStopDate">
+          <caption>Stop date</caption>
+          <help>Specify the stop date for the activity.</help>
+        </property>
+        <property name="FeedCount">
+          <caption>Number of items in a feed</caption>
+          <help>The number of items that should be sent out in an RSS/Atom feed.</help>
+        </property>
+        <property name="ForumPageTypeName">
+          <caption>Forum Page Type</caption>
+          <help>Forum Page Type</help>
+        </property>
+        <property name="ForumStart">
+          <caption>Forum start page</caption>
+          <help>The start page of the forum to which the forum item belongs.</help>
+        </property>
+        <property name="Heading">
+          <caption>見出し</caption>
+          <help>このページのメイン タイトルとして表示される見出しを指定します。 このプロパティが設定されていない場合は、代わりにページ名が見出しとして使用されます。</help>
+        </property>
+        <property name="HistoryLength">
+          <caption>Max. age of listed items</caption>
+          <help>Maximum age of items, in days, that should be viewed in the list.</help>
+        </property>
+        <property name="Icon">
+          <caption>The icon for this forum</caption>
+          <help>The name of the icon that this forum should use.</help>
+        </property>
+        <property name="Image">
+          <caption>イメージ</caption>
+          <help>開始ページに表示するイメージを指定します (900*341 ピクセル)</help>
+        </property>
+        <property name="IndexContainer">
+          <caption>Display content from page</caption>
+          <help>Specify the page from which the index will start.</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>サイト マップ ルート ページ</caption>
+          <help>このページからサイト マップの作成が開始されます。</help>
+        </property>
+        <property name="IsDateListing">
+          <caption>Date listing</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>完全版 HTML とソース ドキュメントのコピーのアップロード</caption>
+          <help>完全版 HTML を表示可能にする場合はこのオプションを選択します。</help>
+        </property>
+        <property name="IsLocked">
+          <caption>Thread is locked</caption>
+          <help>States whether this thread is locked.</help>
+        </property>
+        <property name="IsTagListing">
+          <caption>Tag listing</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="IsTeamLevel">
+          <caption>Team level</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="ItemPageTypeName">
+          <caption>Blog Page Type</caption>
+          <help>Blog Page type to be used</help>
+        </property>
+        <property name="ListCount">
+          <caption>Display number of pages in the main list</caption>
+          <help>Specify how many pages should be displayed in the listing</help>
+        </property>
+        <property name="ListingSlideContainer">
+          <caption>Downloading presentations</caption>
+          <help>Select the page from which you want to download a presentation.</help>
+        </property>
+        <property name="ListingSlideCount">
+          <caption>Show number of pages in presentation</caption>
+          <help>Specify how many pages, in whole numbers, are to be displayed in the presentation.</help>
+        </property>
+        <property name="ListPageTypeName">
+          <caption>Blog List Page Type</caption>
+          <help>Blog List Page Type</help>
+        </property>
+        <property name="ListRoot">
+          <caption>Fetch main listing from</caption>
+          <help>Specify the page from which you want to fetch the listing. The list will be shown in the main content area. If not set the page list will not be shown.</help>
+        </property>
+        <property name="Location">
+          <caption>Show location of an event</caption>
+          <help>Select one location for this event</help>
+        </property>
+        <property name="LoginPage">
+          <caption>ログイン ページ</caption>
+          <help>サイトのこの部分に対するログイン ページを指定します。</help>
+        </property>
+        <property name="Logotype">
+          <caption>ロゴ タイプ</caption>
+          <help>ロゴ タイプ イメージへの URL です。</help>
+        </property>
+        <property name="MainBody">
+          <caption>本文 (メイン)</caption>
+          <help>本文 (メイン) は、ページのメイン コンテンツ領域に表示されます。 XHTML エディタを使用すると、テキスト、イメージ、テーブルなどを挿入できます。</help>
+        </property>
+        <property name="MainIntro">
+          <caption>導入</caption>
+          <help>ニュース コンテンツの短いバージョンです。 利用可能な場合、このテキストはニュース リストで使用されます。</help>
+        </property>
+        <property name="MainLinksCount">
+          <caption>Display number of links</caption>
+          <help>Specify the number of links to be displayed in the listing.</help>
+        </property>
+        <property name="MainLinksHeading">
+          <caption>Main list heading</caption>
+          <help>Heading text for main link list</help>
+        </property>
+        <property name="MainLinksRoot">
+          <caption>Fetch left listing from</caption>
+          <help>Specify the page from which you want to fetch the listing.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>リストのメイン リスト項目数</caption>
+          <help>項目数を制限します。</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>メイン リスト ページ</caption>
+          <help>リストの取り出し元のページを指定します。 リストは、メイン コンテンツ領域に表示されます。 設定されていない場合、ページ リストは表示されません。 </help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>メニュー表示の起点</caption>
+          <help>メニュー表示の起点となる選択ページ上のメニュー ツリーの場所を指定します</help>
+        </property>
+        <property name="MaxCount">
+          <caption>Max. number of posts</caption>
+          <help>Maximum number of posts viewed in the list.</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>作成者</caption>
+          <help>検索エンジンによって使用されるテキストの作成者を指定します。 設定されていない場合は、代わりに動的プロパティの値が使用されます。</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>ページの説明</caption>
+          <help>ページのコンテンツを説明します</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>ページの標準検索ワード</caption>
+          <help>このページとマッチングさせる検索ワードのコンマ区切りリストを指定します</help>
+        </property>
+        <property name="nDaysToRender">
+          <caption>Number of days to show in calendar</caption>
+          <help>Specify how many days you want the calendar to show.</help>
+        </property>
+        <property name="NewsCount">
+          <caption>ニュース項目数</caption>
+          <help>項目数を制限します。</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>ニュース リスト ページ</caption>
+          <help>子をニュース リストの生成に使用するページにポイントします。 設定されていない場合、ニュース リストは表示されません。</help>
+        </property>
+        <property name="NoEmployees">
+          <caption>Number of employees</caption>
+          <help>Number of employees</help>
+        </property>
+        <property name="NumberOfReplies">
+          <caption>Number of replies</caption>
+          <help>The number of replies that has been made to this thread.</help>
+        </property>
+        <property name="OtherWebSites">
+          <caption>Other Website List (footer)</caption>
+          <help>List of other websites shown in the footer of the page</help>
+        </property>
+        <property name="OtherWebSitesHeading">
+          <caption>Other Websites Heading (footer)</caption>
+          <help>Heading for the other websites shown in the footer of the page</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>パスワード変更の成功</caption>
+          <help>パスワードの変更が成功したときに表示される本文テキストです。</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>パスワードの長さ</caption>
+          <help>許可されるパスワードの最小長です。</help>
+        </property>
+        <property name="PersonalStartPageTypeName">
+          <caption>Blog Person Start Page Type</caption>
+          <help>Blog Person Start Page Type used by blogging</help>
+        </property>
+        <property name="Phone">
+          <caption>Phone</caption>
+          <help>Phone</help>
+        </property>
+        <property name="PostPageTypeName">
+          <caption>Forum Post Page Type</caption>
+          <help>Forum Post Page Type</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>プライバシー ページ</caption>
+          <help>法律情報があるページへのリンクです。</help>
+        </property>
+        <property name="RecentContainer">
+          <caption>Display pages from</caption>
+          <help>Specify the page from which you want to display the recently changed pages.</help>
+        </property>
+        <property name="RecentHours">
+          <caption>Display the pages that have been changed in the past x hours</caption>
+          <help>Specify how many hours in the past that you want to display changed pages.</help>
+        </property>
+        <property name="RefreshRate">
+          <caption>Number of seconds each page is to be displayed</caption>
+          <help>Specify how many seconds each page should be displayed in the presentation.</help>
+        </property>
+        <property name="RelatedSites">
+          <caption>Related Website List (footer)</caption>
+          <help>List of related websites shown in the footer of the page</help>
+        </property>
+        <property name="RelatedSitesHeading">
+          <caption>Related Websites Heading (footer)</caption>
+          <help>Heading for the related websites shown in the footer of the page</help>
+        </property>
+        <property name="ResellerDescription">
+          <caption>Description</caption>
+          <help>Description</help>
+        </property>
+        <property name="ResellerID">
+          <caption>Reseller ID</caption>
+          <help>Reseller ID</help>
+        </property>
+        <property name="RootFolder">
+          <caption>フォルダ パス</caption>
+          <help>このページからフォルダ ツリーを開始します。</help>
+        </property>
+        <property name="RssContainer">
+          <caption>RSS コンテナ</caption>
+          <help>すべての RSS ソース ページのコンテナです</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS ソース ページ</caption>
+          <help>この Web サイト上の RSS コンテンツのソース ページである、ツリー内のページを指定します。</help>
+        </property>
+        <property name="RssUrl">
+          <caption>RSS ソースへの検索パス</caption>
+          <help>アドレスの内容を RSS 形式で指定します。 これは通常 Web アドレスです。</help>
+        </property>
+        <property name="SearchPage">
+          <caption>検索ページ</caption>
+          <help>サイトのこの部分に対する検索ページへのリンクです。</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>検索ルート ページ</caption>
+          <help>このページから検索を開始します。</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>本文 (サブ)</caption>
+          <help>本文 (サブ) は、ページの右の列に表示されます。 レイアウトには、テキストとイメージの両方を使用できます。 イメージは、右の領域よりも小さい必要があります。</help>
+        </property>
+        <property name="SecondaryLinksCount">
+          <caption>Display number of links</caption>
+          <help>Specify how many links should be displayed in the listing.</help>
+        </property>
+        <property name="SecondaryLinksDisplayDate">
+          <caption>Display date for each item in secondary list</caption>
+          <help>Indicates if date should be displayed for each list item</help>
+        </property>
+        <property name="SecondaryLinksHeading">
+          <caption>Secondary list heading</caption>
+          <help>Heading text for secondary link list</help>
+        </property>
+        <property name="SecondaryLinksRoot">
+          <caption>Fetch right listing from</caption>
+          <help>Specify the page from which you want to fetch the listing.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>リストの追加リスト項目数</caption>
+          <help>セカンダリ リストの項目数をこの値に制限します。</help>
+        </property>
+        <property name="SecondaryListDisplayDate">
+          <caption>Display date in the secondary list</caption>
+          <help>Display date for each item</help>
+        </property>
+        <property name="SecondaryListHeading">
+          <caption>Secondary list heading</caption>
+          <help>Secondary list heading</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>追加リスト ページ</caption>
+          <help>このリンクは、右の列にページ リストを生成するために使用される親ページをポイントします。 設定されていない場合、ページ リストは表示されません。</help>
+        </property>
+        <property name="SelectedWebPart">
+          <caption>Select web part</caption>
+          <help>Selects which web part to use on the page</help>
+        </property>
+        <property name="SEODescription">
+          <caption>Page description</caption>
+          <help>Description of the page</help>
+        </property>
+        <property name="SEORobots">
+          <caption>Search robots</caption>
+          <help>Specify how search robots should handle the page</help>
+        </property>
+        <property name="SEOTitle">
+          <caption>Page title</caption>
+          <help>The title of the page</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>サイト マップ ページ</caption>
+          <help>サイト マップ ページへのリンクです。</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>ファイルのソート順</caption>
+          <help>フォルダ ツリーのソート順です。</help>
+        </property>
+        <property name="Speaker">
+          <caption>Show speaker of an event</caption>
+          <help>Select one speaker for this event</help>
+        </property>
+        <property name="StickyThreadContainer">
+          <caption>Container for sticky threads</caption>
+          <help>The container for the sticky threads in this forum.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>サブスクリプション電子メールの導入テキスト</caption>
+          <help>サブスクリプション電子メールのメッセージ本文となるテキストを入力します。</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>サブスクリプション電子メールの差出人アドレス</caption>
+          <help>サブスクリプション電子メールの差出人として使用される電子メール アドレスです。</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>サブスクリプション電子メールのリンク テキスト</caption>
+          <help>このテキストは、ユーザーがクリックできるサブスクリプション電子メール上のリンク テキストをビルドします。</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>サブスクリプション電子メールの件名</caption>
+          <help>サブスクリプション電子メールの件名フィールドです。</help>
+        </property>
+        <property name="SummaryLength">
+          <caption>Summary length</caption>
+          <help>Length of summary for each list item</help>
+        </property>
+        <property name="SummaryTextLength">
+          <caption>Length of text summary</caption>
+          <help>Number of characters used to truncate the summary text.</help>
+        </property>
+        <property name="TagCloudValue">
+          <caption>Tag cloud value</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="TagContainer">
+          <caption>Container for tag pages</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="Tags">
+          <caption>Tags</caption>
+          <help>Enter a comma-separated list and/or add from existing tags.</help>
+        </property>
+        <property name="TeamStartPageTypeName">
+          <caption>Blog Team Start Page Type</caption>
+          <help>Blog Team Start Page Type to be used for blogging</help>
+        </property>
+        <property name="TemplateContainer">
+          <caption>Workroom templates</caption>
+          <help>A reference to the container that contains avaliable workroom templates.</help>
+        </property>
+        <property name="ThirdBody">
+          <caption>Third body</caption>
+          <help>The content of this field will be shown in box 3 of the page. You can use both text and images for layout. Note that images should not be larger than the box area.</help>
+        </property>
+        <property name="ThreadContainerPageTypeName">
+          <caption>Forum Thread Container Page Type</caption>
+          <help>Forum Thread Container Page Type</help>
+        </property>
+        <property name="ThreadPageTypeName">
+          <caption>Forum Thread Page Type</caption>
+          <help>Forum Thread Page Type</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>サムネール イメージ</caption>
+          <help>適用先のページ リストに表示されるイメージです。</help>
+        </property>
+        <property name="URL">
+          <caption>URL</caption>
+          <help>URL</help>
+        </property>
+        <property name="UsageStatistics">
+          <caption>Statistics for tag usage</caption>
+          <help>Should be set automatically.</help>
+        </property>
+        <property name="ValidDays">
+          <caption>Recurring day</caption>
+          <help>Specify if the activity is to recur at set intervals.</help>
+        </property>
+        <property name="VideoSourceURL">
+          <caption>Video file</caption>
+          <help>Specify a video file in .flv format.</help>
+        </property>
+        <property name="WorkroomIcon">
+          <caption>Icon image for this workroom</caption>
+          <help>An image to use as the icon for this workroom.</help>
+        </property>
+        <property name="WorkroomStart">
+          <caption>Start page for this workroom</caption>
+          <help>The start page of the workroom to which this page belongs.</help>
+        </property>
+        <property name="Writer">
+          <caption>Blogger name</caption>
+          <help>Enter the name of the blogger.</help>
+        </property>
+        <property name="XForm">
+          <caption>フォーム</caption>
+          <help>このページに表示するフォームを指定します。 ボタンをクリックすると、独自のフォームを作成できます。</help>
+        </property>
+      </common>
+      <pagetype name="[AlloyTech] Blog comment">
+        <description>Page used to store comments to blog items.</description>
+        <name>[AlloyTech] Blog comment</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog item">
+        <description>A blog item page that is used for a single blog entry.</description>
+        <name>[AlloyTech] Blog item</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog list">
+        <description>Listing page used for date listings and tag listings.</description>
+        <name>[AlloyTech] Blog list</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog personal start">
+        <description>The start page for a personal blog.</description>
+        <name>[AlloyTech] Personal blog start</name>
+        <property name="Image">
+          <caption>Image of blogger</caption>
+          <help>Select an image for the blogger.</help>
+        </property>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog team start">
+        <description>The start page for a team blog.</description>
+        <name>[AlloyTech] Team blog start</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar">
+        <description>A page showing calendar events.</description>
+        <name>[AlloyTech] Calendar</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar event">
+        <description>Page for an event in the calendar.</description>
+        <name>[AlloyTech] Calendar event</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Changed recently">
+        <description>Page that displays a list of pages that have recently been changed.</description>
+        <name>[AlloyTech] Changed recently</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Company Facts">
+        <description>Container used for company facts as dynamic content</description>
+        <name>[AlloyTech] Company Facts</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Document">
+        <description>このページ タイプは、Microsoft Office からドキュメントを公開するために使用されます。</description>
+        <name>[AlloyTech] ドキュメント</name>
+      </pagetype>
+      <pagetype name="EventItemPage">
+        <description>Page that shows a specific event</description>
+        <name>[AlloyTech] Event item</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum">
+        <description>A forum page.</description>
+        <name>[AlloyTech] Forum</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum post">
+        <description>A reply to a forum thread.</description>
+        <name>[AlloyTech] Forum post</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread">
+        <description>A thread in a forum.</description>
+        <name>[AlloyTech] Forum thread</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread container">
+        <description>A container for threads in a forum.</description>
+        <name>[AlloyTech] Forum thread container</name>
+      </pagetype>
+      <pagetype name="ListingPage">
+        <description>Shows page summary</description>
+        <name>[AlloyTech] Listing</name>
+      </pagetype>
+      <pagetype name="LoginPage">
+        <description>このページ タイプは、Web サイトへのログイン ページを作成するために使用されます。</description>
+        <name>[AlloyTech] ログイン</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] My Settings">
+        <description>A settings page where users can change their personal settings.</description>
+        <name>[AlloyTech] My settings</name>
+      </pagetype>
+      <pagetype name="NewsItemPage">
+        <description>このページ タイプには、1 つのニュース項目のデータが含まれます。</description>
+        <name>[AlloyTech] ニュース項目</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Notification Email">
+        <description>Notification E-mail Template</description>
+        <name>[AlloyTech] Notification E-mail</name>
+      </pagetype>
+      <pagetype name="RegistrationPage">
+        <description>このページ タイプは、訪問者が自らを登録できる Web サイトです。</description>
+        <name>[AlloyTech] 登録</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Reseller">
+        <description>This page shows data about resellers.</description>
+        <name>[AlloyTech] Reseller</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] RSS source">
+        <description>このページ タイプは、EPiServer からの情報を RSS 形式で表示します。</description>
+        <name>[AlloyTech] RSS ソース</name>
+      </pagetype>
+      <pagetype name="SearchPage">
+        <description>このページ タイプには、クイック検索バーの検索結果と高度な検索のインターフェースが表示されます。</description>
+        <name>[AlloyTech] 検索ページ</name>
+      </pagetype>
+      <pagetype name="SitemapPage">
+        <description>このページ タイプは、Web サイトのすべてまたは一部のコンテンツのリストを作成します。</description>
+        <name>[AlloyTech] サイト マップ</name>
+      </pagetype>
+      <pagetype name="StandardPage">
+        <description>このページ タイプは、Web サイト上で最もよく使用するページです。 通常のページやニュース、イベント用として使用できます。</description>
+        <name>[AlloyTech] 標準ページ</name>
+      </pagetype>
+      <pagetype name="StartPage">
+        <description>The start page is the main entrance to the website containing primary and secondary content fields as well as different listings of links.</description>
+        <name>[AlloyTech] Start page</name>
+      </pagetype>
+      <pagetype name="SubscriptionPage">
+        <description>このページ タイプは、訪問者がサブスクリプション情報を選択するために使用されます。</description>
+        <name>[AlloyTech] サブスクリプション</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] User profile">
+        <description>User profile</description>
+        <name>[AlloyTech] User profile</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar">
+        <description>A calendar page in a workroom.</description>
+        <name>[AlloyTech] Workroom calendar</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar event">
+        <description>Page for an event in the calendar.</description>
+        <name>[AlloyTech] Workroom calendar event</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom File Manager">
+        <description>File management in a workroom.</description>
+        <name>[AlloyTech] Workroom File Manager</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom list">
+        <description>Page that lists all available workrooms.</description>
+        <name>[AlloyTech] Workroom list</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Membership Manager">
+        <description>Page for adding or modifying membership in a workroom.</description>
+        <name>[AlloyTech] Workroom Membership Manager</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom news list">
+        <description>A news page in a workroom.</description>
+        <name>[AlloyTech] Workroom newslist</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Settings">
+        <description>Page for changing settings for a workroom.</description>
+        <name>[AlloyTech] Workroom settings</name>
+      </pagetype>
+      <pagetype name="XFormPage">
+        <description>このページ タイプは、標準ページにフォームを拡張したものです。</description>
+        <name>[AlloyTech] フォーム ページ</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>ありがとうございます</confirmation>
+      <error>
+        <confirmpassword>Please confirm the password you entered</confirmpassword>
+        <couldnotsave>Unable to save changes</couldnotsave>
+        <email>電子メール アドレスを入力してください</email>
+        <firstname>名を入力してください</firstname>
+        <incorrectemail>入力された電子メール アドレスは正しくありません</incorrectemail>
+        <lastname>姓を入力してください</lastname>
+        <password>パスワードを入力してください</password>
+        <passwordlength>入力されたパスワードは短すぎます。 最小長: </passwordlength>
+        <passwordrepeat>入力されたパスワードは一致しません</passwordrepeat>
+      </error>
+      <password>パスワードの入力</password>
+      <repeatpassword>パスワードの繰り返し</repeatpassword>
+      <signupbutton>サインアップ</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>高度な検索</advancedsearch>
+      <button>検索</button>
+      <findsimilar>類似文字列を検索</findsimilar>
+      <nosearchresult>No matching results were found</nosearchresult>
+      <onlywholewords>完全ワード一致</onlywholewords>
+      <percentrelevancy>% の関連性</percentrelevancy>
+      <relevancy>関連性</relevancy>
+      <searchfiles>ファイル内を検索</searchfiles>
+      <searchfor>検索する文字列:</searchfor>
+      <searchresult>検索結果:</searchresult>
+      <searchstring>ここを検索</searchstring>
+    </search>
+    <subscription>
+      <daily>毎日</daily>
+      <email>電子メール アドレス</email>
+      <error>
+        <email>電子メール アドレスを入力してください</email>
+        <incorrectemail>入力された電子メール アドレスは正しくありません</incorrectemail>
+      </error>
+      <fastaspossible>できるだけ早く</fastaspossible>
+      <interval>間隔</interval>
+      <monthly>毎月</monthly>
+      <subscribe>サブスクライブ</subscribe>
+      <subscription>サブスクリプション</subscription>
+      <weekly>毎週</weekly>
+    </subscription>
+    <templates>
+      <changedpages>
+        <header>Last changed files</header>
+        <lastmodified>Last changed</lastmodified>
+        <page>Page</page>
+        <updatedpages>Latest updated pages</updatedpages>
+      </changedpages>
+      <dynamiccontent>
+        <map>
+          <addresslabel>Address</addresslabel>
+          <altlabel>Image alt text</altlabel>
+          <displaystaticimagelabel>Display as image</displaystaticimagelabel>
+          <emptysearchresults>Address is not found</emptysearchresults>
+          <heighterrormessage>The map height value must be between 100 and 2000</heighterrormessage>
+          <heightlabel>Map height</heightlabel>
+          <hidesearchresults>Hide</hidesearchresults>
+          <missingmapdata>The map settings could not be loaded</missingmapdata>
+          <searchbuttonlabel>Search</searchbuttonlabel>
+          <searchresultslabel>Search results</searchresultslabel>
+          <selectionerrormessage>A map cannot be saved without a location. Select a location by double-clicking on a map or a search result marker.</selectionerrormessage>
+          <selectiontextmessage>Please select a location.</selectiontextmessage>
+          <unabletoinitializemessage>Unable to initialize maps</unabletoinitializemessage>
+          <widtherrormessage>The map width value must be between 100 and 2000</widtherrormessage>
+          <widthlabel>Map width</widthlabel>
+        </map>
+      </dynamiccontent>
+      <events>
+        <location>Location</location>
+        <speaker>Speaker</speaker>
+      </events>
+      <personalsettings>
+        <validation>
+          <emailexists>The e-mail address that you entered is already in use</emailexists>
+        </validation>
+      </personalsettings>
+      <reseller>
+        <address>Address</address>
+        <contacts>Contacts</contacts>
+        <name>Name</name>
+        <url>URL</url>
+      </reseller>
+    </templates>
+    <usersettings>
+      <changepassword>パスワードの変更</changepassword>
+      <confirmpassword>パスワードの確認</confirmpassword>
+      <email>電子メール アドレス</email>
+      <firstname>名</firstname>
+      <lastname>姓</lastname>
+      <mysettings>個人用設定</mysettings>
+      <newpassword>新規パスワード</newpassword>
+      <username>ユーザー名</username>
+    </usersettings>
+    <workroom>
+      <calendar>
+        <buttonaddevent>Add Event</buttonaddevent>
+        <buttondeletecalendar>Delete Calendar</buttondeletecalendar>
+        <buttoneditname>Edit Name</buttoneditname>
+        <createheading>Create Event</createheading>
+        <dateformat>Example: 11/25/2007</dateformat>
+        <editheading>Edit Event</editheading>
+        <invalidstartdate>The start date is not a valid date</invalidstartdate>
+        <invalidstopdate>The end date is not a valid date</invalidstopdate>
+        <latestarttime>The start time must occur before the end time.</latestarttime>
+        <nameempty>Enter a title</nameempty>
+        <selectedperiod>Selected period:</selectedperiod>
+        <starttimeempty>Enter a start date</starttimeempty>
+        <starttimelabel>Start date:</starttimelabel>
+        <stoptimeempty>Enter an end date </stoptimeempty>
+        <stoptimelabel>End date:</stoptimelabel>
+      </calendar>
+      <calendarlist>
+        <calendaraddnew>Add Calendar</calendaraddnew>
+        <calendaritemfrom>From:</calendaritemfrom>
+        <calendaritemto>To:</calendaritemto>
+        <calendarsectionname>Calendar name</calendarsectionname>
+      </calendarlist>
+      <edit>Edit</edit>
+      <editablecontent>
+        <labeltext>Edit the content and click "Save".</labeltext>
+      </editablecontent>
+      <editdescription>Edit Description</editdescription>
+      <eventlist>
+        <heading>Upcoming events</heading>
+      </eventlist>
+      <filelist>
+        <errormessage>The workroom root folder could not be found or you have insufficient access rights for the folder.</errormessage>
+        <errormissingindex>An index has not been configured for the workroom root folder. An index is required to show the recently changed files.</errormissingindex>
+        <heading>Recent files</heading>
+      </filelist>
+      <membershiplevel>
+        <administer>Administrator</administer>
+        <modify>Participating Member</modify>
+        <read>Read-Only Member</read>
+      </membershiplevel>
+      <membershipmanager>
+        <button>
+          <addmembers>Add members</addmembers>
+          <editmembers>Edit members</editmembers>
+          <invite>Invite</invite>
+          <remove>Remove</remove>
+          <sendinvitation>Send invitation</sendinvitation>
+        </button>
+        <confirmremovemember>Are you sure you want to remove selected members from the workroom?</confirmremovemember>
+        <email>E-mail address</email>
+        <emptysearchresult>Your search didn't return any matching users.</emptysearchresult>
+        <inviteheading>Invite user</inviteheading>
+        <invitemembermessage>Send an e-mail membership invitation to the user.</invitemembermessage>
+        <invitemembership>Status to assign</invitemembership>
+        <inviteunfiledsenderemail>E-mail address is not specified in your profile.</inviteunfiledsenderemail>
+        <invitewithoutstatus>Status to assign is missed.</invitewithoutstatus>
+        <managemembersheading>Manage workroom members</managemembersheading>
+        <membershiplevel>Membership status</membershiplevel>
+        <removeheading>Remove member</removeheading>
+        <searchheading>Search for users</searchheading>
+        <searchresultheading>Search results</searchresultheading>
+        <searchtext>Search</searchtext>
+        <sendinvitationerror>Send invitation error.</sendinvitationerror>
+        <sendinvitationok>Invitation successfully sent.</sendinvitationok>
+        <sendnotifications>Send notifications about membership status change?</sendnotifications>
+        <sendnotificationsno>No</sendnotificationsno>
+        <sendnotificationsyes>Yes</sendnotificationsyes>
+        <status>Assigned status</status>
+        <unabletosendnotification>Some notifications may not be sent.</unabletosendnotification>
+        <username>Username</username>
+        <viewmembersheading>Workroom members</viewmembersheading>
+      </membershipmanager>
+      <newslist>
+        <heading>News</heading>
+        <newssectionname>Newsroom name</newssectionname>
+      </newslist>
+      <newslistpage>
+        <addnewsitem>Add News Item</addnewsitem>
+        <addnewssection>Add Newsroom</addnewssection>
+        <bodylabel>Description:</bodylabel>
+        <createheading>Create News Item</createheading>
+        <deletenewssection>Delete Newsroom</deletenewssection>
+        <editheading>Edit News Item</editheading>
+        <editnewssection>Edit Newsroom</editnewssection>
+        <headinglabel>Title:</headinglabel>
+        <titleempty>Enter a title</titleempty>
+      </newslistpage>
+      <settings>
+        <availablefunctions>Available functions</availablefunctions>
+      </settings>
+      <userprofile>
+        <confirmpassword>Confirm password</confirmpassword>
+        <email>E-mail address</email>
+        <error>
+          <firstnamerequired>Enter a first name</firstnamerequired>
+          <lastnamerequired>Enter a last name</lastnamerequired>
+          <logout>You are logged in as a different user. Log out and try again.</logout>
+          <membership>The current security settings do not allow new users to be registered. Please contact the administrator for additional information.</membership>
+          <passworddiffers>The passwords must be the same</passworddiffers>
+          <passwordrequired>Enter a password</passwordrequired>
+          <passwordweak>The password does not meet the password policy requirements</passwordweak>
+          <unavailable>You do not have access rights to this page.</unavailable>
+          <usernameexists>The username already exists</usernameexists>
+          <usernamerequired>Enter a username</usernamerequired>
+        </error>
+        <firstname>First name</firstname>
+        <lastname>Last name</lastname>
+        <password>Password</password>
+        <role>Role</role>
+        <username>Username</username>
+      </userprofile>
+      <workroomlist>
+        <addworkroom>Add Workroom</addworkroom>
+        <createheading>Create Workroom</createheading>
+        <descriptionlabel>Description:</descriptionlabel>
+        <duplicatename>There is already a workroom with this name.</duplicatename>
+        <nameempty>Enter a name</nameempty>
+        <namelabel>Name:</namelabel>
+        <templateempty>Enter a template</templateempty>
+        <templatelabel>Select template:</templatelabel>
+        <viewheading>My Workrooms</viewheading>
+      </workroomlist>
+    </workroom>
+  </language>
+</languages>

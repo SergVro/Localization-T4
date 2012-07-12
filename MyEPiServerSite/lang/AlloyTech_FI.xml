@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="suomi" id="fi">
+    <blog>
+      <item>
+        <comment>Kommentti:</comment>
+        <commentheading>Kommentit:</commentheading>
+        <commentlegend>Lähetä huomautus</commentlegend>
+        <errormessages>
+          <requiredcomment>Kirjoita Kommentti-kenttään.</requiredcomment>
+          <requiredname>Täytä Nimi-kenttä.</requiredname>
+        </errormessages>
+        <name>Nimi:</name>
+        <permanentlink>Pysyvä linkki</permanentlink>
+        <postedby>tekijä:</postedby>
+        <posteddate>Julkaisupäivämäärä:</posteddate>
+        <send>Lähetä</send>
+        <tags>Tunnisteet:</tags>
+      </item>
+      <itemsummary>
+        <readblog>Lue blogia:</readblog>
+      </itemsummary>
+      <listpage>
+        <dateheading>Julkaistut blogimerkinnät aikavälillä {0}</dateheading>
+        <errormessage>Tapahtui virhe järjestelmän määrityksissä. Joko ominaisuuden IsTagListing tai IsDateListing arvon pitää olla tosi.</errormessage>
+        <tagheading>Blogimerkinnät, joissa tunnisteina {0}</tagheading>
+      </listpage>
+      <propertyblogtags>
+        <errormessage>
+          <categorytoolong>Ainakin yksi tunnisteiden nimistä on liian pitkä. (Enintään {0} merkkiä)</categorytoolong>
+        </errormessage>
+        <existingtagsbutton>Lisää tunnisteita</existingtagsbutton>
+        <existingtagslabel>Olemassa olevat tunnisteet</existingtagslabel>
+        <selectedtagslabel>Valitut tunnisteet</selectedtagslabel>
+      </propertyblogtags>
+      <secondarylist>
+        <aboutme>Tietoja itsestäni</aboutme>
+        <archive>Arkisto</archive>
+        <tagcloud>Tunnistepilvi</tagcloud>
+      </secondarylist>
+      <tagstatisticsupdater>
+        <description>Käytetään blogin tunnistetilastojen päivittämiseen.</description>
+        <displayname>Päivitä tunnistetilastot</displayname>
+      </tagstatisticsupdater>
+    </blog>
+    <calendar>
+      <noeventonday>Ei suunniteltuja tapahtumia tänään</noeventonday>
+      <selectedperiod>Valittu ajanjakso</selectedperiod>
+    </calendar>
+    <captcha>
+      <errormessage>Kirjoitettu teksti ei ole sama kuin kuvassa näkyvä teksti.</errormessage>
+      <heading>Käyttäjän vahvistaminen</heading>
+      <imagealternativetext>Kuva käyttäjän vahvistamiseen</imagealternativetext>
+      <label>Kirjoita oheisessa kuvassa näkyvä teksti:</label>
+    </captcha>
+    <common>
+      <messages>
+        <confirmdelete>Haluatko varmasti poistaa tämän kohteen?</confirmdelete>
+      </messages>
+    </common>
+    <document>
+      <download>Lataa:</download>
+    </document>
+    <dynamiccontenttypes>
+      <dynamiccontent name="MapDynamicContentDemo">
+        <caption>Google Maps</caption>
+        <description>Lisää ja muokkaa Google Maps -karttoja</description>
+      </dynamiccontent>
+    </dynamiccontenttypes>
+    <editorstyleoptions>
+      <classic>Perinteinen</classic>
+      <heading_1>Otsikko 1</heading_1>
+      <heading_2>Otsikko 2</heading_2>
+      <heading_3>Otsikko 3</heading_3>
+      <highlighted>Korostettu</highlighted>
+      <image_border>Kuvan reuna</image_border>
+      <image_styles>Kuvatyylit</image_styles>
+      <introduction>Johdanto</introduction>
+      <left_aligned>Tasaus vasemmalle</left_aligned>
+      <paragraph>Kappale</paragraph>
+      <right_aligned>Tasaus oikealle</right_aligned>
+      <table_styles>Taulukkotyylit</table_styles>
+      <top_left>Vasen ylänurkka</top_left>
+      <top_right>Oikea ylänurkka</top_right>
+    </editorstyleoptions>
+    <error>
+      <document>Sivun Asiakirjan polku -ominaisuutta ei ole määritetty.</document>
+      <mainmenucontainer>Dynaamista ominaisuutta MainMenuContainer ei ole määritetty.</mainmenucontainer>
+    </error>
+    <filemanager>
+      <button>
+        <back>Takaisin</back>
+        <deleteversion>Poista versio</deleteversion>
+        <rename>Muuta nimi</rename>
+        <replacefile>Korvaa tiedosto</replacefile>
+        <restore>Palauta tähän versioon.</restore>
+        <upload>Lataa</upload>
+      </button>
+      <choosefile>Valitse tiedosto:</choosefile>
+      <deletefilesandfoldersheading>Poista tiedostot/hakemistot</deletefilesandfoldersheading>
+      <disabledfunctions>Jotkin toiminnot eivät ole saatavilla, koska tähän hakemistoon ei ole tarvittavia käyttöoikeuksia.</disabledfunctions>
+      <editfilesummaryheading>Muokkaa tiedostoyhteenvetoa</editfilesummaryheading>
+      <errormessage>
+        <cannotchange>Ei voida siirtää, nimetä uudelleen, poistaa tai päivittää valittua tiedostoa. Joku toinen käyttäjä on mahdollisesti kirjannut ulos tämän tiedoston.</cannotchange>
+        <checkedout>Saman niminen tiedosto on jo olemassa, ja joku toinen käyttäjä on kirjannut sen ulos.</checkedout>
+        <containscheckedout>Ei voida siirtää tai poistaa valittua hakemistoa. Hakemistossa saattaa olla tiedosto, jonka joku toinen käyttäjä on kirjannut ulos.</containscheckedout>
+        <insufficientaccess>Sinulla ei ole riittäviä käyttöoikeuksia tiedostojen luomiseen tai muokkaamiseen tässä hakemistossa.</insufficientaccess>
+        <insufficientaccesscreatefolder>Sinulla ei ole riittäviä käyttöoikeuksia hakemistojen luomiseen tässä sijainnissa.</insufficientaccesscreatefolder>
+        <insufficientaccessmetadata>Sinulla ei ole riittäviä käyttöoikeuksia tämän tiedoston muokkaamiseen.</insufficientaccessmetadata>
+        <insufficientaccessmove>Sinulla ei ole riittäviä käyttöoikeuksia tämän kohteen siirtämiseen.</insufficientaccessmove>
+        <insufficientaccessremove>Sinulla ei ole riittäviä käyttöoikeuksia valittujen kohteiden poistamiseen.</insufficientaccessremove>
+        <insufficientaccessrename>Sinulla ei ole riittäviä käyttöoikeuksia valitun kohteen nimen muuttamiseen.</insufficientaccessrename>
+        <readonlyfile>Saman niminen vain-luku-muotoa oleva tiedosto on jo olemassa.</readonlyfile>
+        <replacefile>Saman niminen tiedosto on jo olemassa. Haluatko korvata tiedoston {0}?</replacefile>
+        <versionisnotfound>Ei voida suorittaa toimintoa. Versiota {0} ei löydy.</versionisnotfound>
+      </errormessage>
+      <filecomment>Kommentti:</filecomment>
+      <filelistheading>
+        <checkedout>Kirjattu ulos</checkedout>
+        <lastchanged>Muutettu viimeksi</lastchanged>
+        <name>Nimi</name>
+        <size>Koko</size>
+      </filelistheading>
+      <filename>Tiedoston nimi</filename>
+      <files>Tiedostot</files>
+      <filesummary>
+        <author>Tekijä</author>
+        <category>Luokka</category>
+        <comments>Kommentit</comments>
+        <keywords>Avainsanat</keywords>
+        <subject>Kuvaus</subject>
+        <title>Otsikko</title>
+      </filesummary>
+      <filesummaryheading>Tiedostoyhteenveto kohteelle</filesummaryheading>
+      <foldername>Hakemiston nimi:</foldername>
+      <foldernotempty>Hakemisto ei ole tyhjä</foldernotempty>
+      <foldernotemptywarning>Jotkin hakemistoista eivät ole tyhjiä. Hakemistoista poistetaan kaikki sisältö.</foldernotemptywarning>
+      <folders>Kansiot</folders>
+      <maxuploadmessage>Lähetettävän tiedoston koko ei saa ylittää {0}.</maxuploadmessage>
+      <missingfoldererror>Tiedostoa ei voitu luoda. Joko kohdehakemisto puuttuu tai sinulla ei ole käyttöoikeuksia tiedostojen luomiseen määritetyssä hakemistossa.</missingfoldererror>
+      <newfolder>Uusi hakemisto</newfolder>
+      <parentfolder>Ylähakemisto</parentfolder>
+      <renamefile>Muuta tiedoston nimi</renamefile>
+      <renamefolder>Muuta hakemiston nimi</renamefolder>
+      <selectfilemessage>Valitse tiedosto alla olevan Selaa-painikkeen avulla, ja napsauta sitten Lähetä.</selectfilemessage>
+      <switchview>
+        <addfile>Lisää tiedosto</addfile>
+        <addfolder>Lisää kansio</addfolder>
+        <checkin>Kuittaa sisään</checkin>
+        <checkout>Kirjaa ulos</checkout>
+        <copy>Kopioi</copy>
+        <cut>Leikkaa</cut>
+        <delete>Poista</delete>
+        <details>Tiedot</details>
+        <paste>Liitä</paste>
+        <rename>Muuta nimi</rename>
+        <undocheckout>Kumoa</undocheckout>
+        <version>Versio</version>
+        <view>Näytä</view>
+      </switchview>
+      <uploadbutton>Lataa</uploadbutton>
+      <uploadheading>Tiedoston lähettäminen</uploadheading>
+      <validation>
+        <folderexists>Saman niminen hakemisto tai tiedosto on jo olemassa.</folderexists>
+        <folderwithsamename>Kansio nimeltä '{0}' on jo olemassa nykyisessä kansiossa.</folderwithsamename>
+        <illigalchar>Nimi ei voi sisältää merkkejä /, ?, &lt;, &gt;, \, :, *, |, # tai ".</illigalchar>
+        <nametolong>Hakemiston nimi ei voi olla pidempi kuin 255 merkkiä.</nametolong>
+        <requiredfile>Valitse tiedosto.</requiredfile>
+        <requiredname>Anna nimi.</requiredname>
+      </validation>
+      <versionfileheading>Versiot kohteelle</versionfileheading>
+      <versionlistheading>
+        <comments>Kommentit</comments>
+        <created>Luotu</created>
+        <createdby>Luonut</createdby>
+        <size>Koko</size>
+        <version>Versio</version>
+      </versionlistheading>
+    </filemanager>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Documents">
+          <name>Asiakirjat</name>
+        </virtualpathroot>
+        <virtualpathroot name="Global Files">
+          <name>Yleiset tiedostot</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+    <form>
+      <numberofvotes>Äänien määrä: {0}</numberofvotes>
+      <postedmessage>Kiitos osallistumisesta!</postedmessage>
+      <showform>Lomakkeeseen</showform>
+      <showstat>Näytä tilastot</showstat>
+    </form>
+    <forum>
+      <forumform>
+        <allowforumslabel>Salli keskustelupalstat:</allowforumslabel>
+        <allowthreadslabel>Salli keskusteluketjut:</allowthreadslabel>
+        <createbutton>Luo keskustelupalsta</createbutton>
+        <heading>Luo keskustelupalsta</heading>
+        <icondropdown>
+          <auction>Huutokauppa</auction>
+          <default>Oletus</default>
+          <information>Tiedot</information>
+        </icondropdown>
+        <iconlabel>Kuvake:</iconlabel>
+        <titleerror>Otsikko ei voi olla tyhjä</titleerror>
+        <titlelabel>Otsikko:</titlelabel>
+      </forumform>
+      <forumlist>
+        <createbutton>Lisää alikeskustelupalsta</createbutton>
+        <deleteforumbutton>Poista tämä keskustelupalsta</deleteforumbutton>
+        <heading>Alikeskustelupalstat</heading>
+        <setupbutton>Määritä automaattisesti</setupbutton>
+        <setuperror>Sivua ei ole määritetty oikein. Tarkista asetuksesi.</setuperror>
+        <title>Keskustelupalsta</title>
+        <updated>Viimeisin päivitetty keskusteluketju</updated>
+      </forumlist>
+      <thread>
+        <addreply>Lisää vastaus</addreply>
+        <deletereply>Poista vastaus</deletereply>
+        <deletethread>Poista keskusteluketju</deletethread>
+        <lock>Lukitse keskusteluketju</lock>
+        <postedby>Lähettänyt:</postedby>
+        <reply>Vastaa</reply>
+        <replyempty>Vastaus ei voi olla tyhjä</replyempty>
+        <sticky>Pysyvä keskusteluketju</sticky>
+        <toforum>Keskustelupalstalle</toforum>
+        <unlock>Avaa keskusteluketju</unlock>
+        <unsticky>Ei-pysyvä keskusteluketju</unsticky>
+      </thread>
+      <threadform>
+        <contenterror>Tekstikenttä ei voi olla tyhjä</contenterror>
+        <contentlabel>Teksti:</contentlabel>
+        <createbutton>Luo keskusteluketju</createbutton>
+        <heading>Luo keskusteluketju</heading>
+        <titleerror>Otsikkokenttä ei voi olla tyhjä</titleerror>
+        <titlelabel>Otsikko:</titlelabel>
+      </threadform>
+      <threadlist>
+        <createbutton>Lisää keskusteluketju</createbutton>
+        <createdby>Luonut</createdby>
+        <heading>Keskusteluketjut</heading>
+        <replies>Vastaukset</replies>
+        <title>Keskusteluketju</title>
+        <updated>Viimeksi päivitetty</updated>
+      </threadlist>
+      <today>Tänään</today>
+      <Yesterday>Eilen</Yesterday>
+    </forum>
+    <headings>
+      <heading name="Flash Content">
+        <description>Flash-sisältö</description>
+      </heading>
+      <heading name="Listings">
+        <description>Luettelot</description>
+      </heading>
+      <heading name="News &amp; Calendar">
+        <description>Uutiset &amp; kalenteri</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Sivuston määrittäminen</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Rekisteröi</becomemember>
+      <currentuser>Nykyinen käyttäjä:</currentuser>
+      <editdetails>Omat asetukset</editdetails>
+      <email>Kirjoita sähköpostiosoitteesi:</email>
+      <error>
+        <loginfail>Sisäänkirjautuminen epäonnistui. Määritetty käyttäjänimi tai salasana on virheellinen.</loginfail>
+        <password>Kirjoita salasana</password>
+        <username>Määritä käyttäjänimi</username>
+      </error>
+      <forgotpassword>Unohditko salasanan?</forgotpassword>
+      <login>Kirjaudu sisään</login>
+      <logout>Kirjaudu ulos</logout>
+      <password>Salasana</password>
+    </login>
+    <navigation>
+      <help>Ohje</help>
+      <listen>Kuuntele</listen>
+      <readmore>Lue lisää</readmore>
+      <search>Etsi</search>
+      <skipnavigation>Siirry sisältöön</skipnavigation>
+      <startpage>Aloitussivu</startpage>
+      <startpagelinktitle>Aloitussivulle</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Lisää uutisia</morenews>
+      <publishdate>Julkaistu</publishdate>
+      <writername>Kirjoittaja</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="AboutTheSite">
+          <caption>Tietoja sivustosta -linkkien luettelo (alatunniste)</caption>
+          <help>Sivun alatunnisteessa näytettävä tietoja sivustosta -linkkien luettelo</help>
+        </property>
+        <property name="AboutTheSiteHeading">
+          <caption>Tietoja sivustosta -otsikko (alatunniste)</caption>
+          <help>Sivun alatunnisteessa näytettävä tietoja sivustosta -linkkien otsikko</help>
+        </property>
+        <property name="ActiveThreadContainer">
+          <caption>Aktiivisten keskusteluketjujen säilö</caption>
+          <help>Tämän keskustelupalstan aktiivisten keskusteluketjujen säilö.</help>
+        </property>
+        <property name="Address1">
+          <caption>Osoite1</caption>
+          <help>Osoite1</help>
+        </property>
+        <property name="Address2">
+          <caption>Osoite2</caption>
+          <help>Osoite2</help>
+        </property>
+        <property name="Address3">
+          <caption>Osoite3</caption>
+          <help>Osoite3</help>
+        </property>
+        <property name="AllowForums">
+          <caption>Salli alikeskustelupalstat tällä keskustelupalstalla</caption>
+          <help>Määritä, voiko tämä keskustelupalsta sisältää alikeskustelupalstoja.</help>
+        </property>
+        <property name="AllowThreads">
+          <caption>Salli keskusteluketjut tällä keskustelupalstalla</caption>
+          <help>Määritä, voiko tämä keskustelupalsta sisältää keskusteluketjuja.</help>
+        </property>
+        <property name="ArchiveThreadContainer">
+          <caption>Arkistoitujen keskusteluketjujen säilö</caption>
+          <help>Tämän keskustelupalstan arkistoitujen keskusteluketjujen säilö.</help>
+        </property>
+        <property name="Author">
+          <caption>Tekijä</caption>
+          <help>Kirjoita tekijän nimi</help>
+        </property>
+        <property name="BlogStart">
+          <caption>Blogin aloitussivu</caption>
+          <help>Blogin aloitussivu, johon tämä blogi sisältyy.</help>
+        </property>
+        <property name="CalendarContainer">
+          <caption>Näytä kalenterit kohteesta</caption>
+          <help>Määritä puurakenteessa paikka, mistä kalenteritapahtumat näytetään. Jos tapahtumasi ovat tämän sivun alisivuja, valitse This page (Tämä sivu)</help>
+        </property>
+        <property name="CalendarItemContainer">
+          <caption>Kalenterin aloitus</caption>
+          <help>Näytä kalenteritapahtumat tältä sivulta.</help>
+        </property>
+        <property name="ClientsArea">
+          <caption>Asiakasosio</caption>
+          <help>Tämän kentän sisältö näytetään leveässä laatikossa. Asettelussa voidaan käyttää sekä tekstiä että kuvia. Huomaa, että kuvat eivät voi olla suurempia kuin laatikon koko.</help>
+        </property>
+        <property name="CommentPageTypeName">
+          <caption>Blogin kommenttisivun tyyppi</caption>
+          <help>Blogin kommenttisivun tyyppi</help>
+        </property>
+        <property name="CompanyName">
+          <caption>Yrityksen nimi</caption>
+          <help>Yrityksen nimi</help>
+        </property>
+        <property name="ConfirmationMessage">
+          <caption>Vahvistusviesti</caption>
+          <help>Teksti, joka lähetetään vahvistussähköpostiviestissä.</help>
+        </property>
+        <property name="ContactName">
+          <caption>Yhteyshenkilön nimi</caption>
+          <help>Yhteyshenkilön nimi</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Yhteystietosivu</caption>
+          <help>Linkki yhteystietosivulle.</help>
+        </property>
+        <property name="Country">
+          <caption>Maa</caption>
+          <help>Maa</help>
+        </property>
+        <property name="CountryPresence">
+          <caption>Toimintaa seuraavissa maissa</caption>
+          <help>Toimintaa seuraavissa maissa</help>
+        </property>
+        <property name="DateContainer">
+          <caption>Päivämääräsivujen säilö</caption>
+          <help>Pitää asettaa automaattisesti.</help>
+        </property>
+        <property name="Description">
+          <caption>RSS-lähteen otsikko</caption>
+          <help>Määritä RSS-lähteen otsikko </help>
+        </property>
+        <property name="Details">
+          <caption>Henkilötiedot</caption>
+          <help>Kirjoita lyhyt kuvaus blogin kirjoittajasta.</help>
+        </property>
+        <property name="DisableAnonymousComments">
+          <caption>Estä kommentit anonyymeiltä käyttäjiltä</caption>
+          <help>Määritä, saavatko anonyymit käyttäjät lähettää kommentteja blogikirjoituksiin.</help>
+        </property>
+        <property name="DisableCompany">
+          <caption>Yrityksen muokkaaminen ei ole sallittu</caption>
+          <help>Yrityksen muokkaaminen ei ole sallittu</help>
+        </property>
+        <property name="DisableCountry">
+          <caption>Maan muokkaaminen ei ole sallittu</caption>
+          <help>Maan muokkaaminen ei ole sallittu</help>
+        </property>
+        <property name="DisableEmail">
+          <caption>Sähköpostin muokkaaminen ei ole sallittu</caption>
+          <help>Sähköpostin muokkaaminen ei ole sallittu</help>
+        </property>
+        <property name="DisableFirstname">
+          <caption>Etunimen muokkaaminen ei ole sallittu</caption>
+          <help>Etunimen muokkaaminen ei ole sallittu</help>
+        </property>
+        <property name="DisableLanguage">
+          <caption>Kielen muokkaaminen ei ole sallittu</caption>
+          <help>Kielen muokkaaminen ei ole sallittu</help>
+        </property>
+        <property name="DisableLastname">
+          <caption>Sukunimen muokkaaminen ei ole sallittu</caption>
+          <help>Sukunimen muokkaaminen ei ole sallittu</help>
+        </property>
+        <property name="DisableTitle">
+          <caption>Otsikon muokkaaminen ei ole sallittu</caption>
+          <help>Otsikon muokkaaminen ei ole sallittu</help>
+        </property>
+        <property name="DisplayDate">
+          <caption>Näytä päivämäärä pääluettelossa</caption>
+          <help>Näytä kaikkien kohteiden päivämäärä</help>
+        </property>
+        <property name="DisplayDocumentLink">
+          <caption>Näytä linkki asiakirjaan pääluettelossa</caption>
+          <help>Näytä linkki asiakirjaan pääluettelossa</help>
+        </property>
+        <property name="DocumentInternalPath">
+          <caption>Asiakirjan polku</caption>
+          <help>Asiakirjan polku</help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Asiakirjaluettelosivu</caption>
+          <help>Määritä sivu, jolta haluat hakea asiakirjaluettelon. Jos arvoa ei määritetä, sivuluetteloa ei näytetä.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Asiakirjan polku</caption>
+          <help>Asiakirjan polku.</help>
+        </property>
+        <property name="Email">
+          <caption>Sähköposti</caption>
+          <help>Sähköpostiosoite</help>
+        </property>
+        <property name="EmailBody">
+          <caption>Sähköpostiviestin tekstiosa</caption>
+          <help>Lähetettävän sähköpostiosoitteen sisältö.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Sähköpostiviestin lähettäjä</caption>
+          <help>Sähköpostiosoite, josta sähköpostiviesti lähetetään.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Sähköpostiviestin aihe</caption>
+          <help>Lähetettävän sähköpostiviestin aihe.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Korkeus</caption>
+          <help>Määritä Flash-elokuvan korkeus kuvapisteinä.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Leveys</caption>
+          <help>Määritä Flash-elokuvan leveys kuvapisteinä.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Flash-animaation polku</caption>
+          <help>Määritä Flash-animaation osoite</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Näytä tilastot</caption>
+          <help>Näyttää käyttäjälle tuloksen postitetuista tiedoista</help>
+        </property>
+        <property name="EPiWebSites">
+          <caption>EPiServer-sivustojen luettelo (alatunniste)</caption>
+          <help>Sivun alatunnisteessa näytettävä EPiServer-sivustojen luettelo</help>
+        </property>
+        <property name="EPiWebSitesHeading">
+          <caption>EPiServer-sivustojen otsikko (alatunniste)</caption>
+          <help>Sivun alatunnisteessa näytettävä EPiServer-sivustojen otsikko</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Aktivoi tilaus</caption>
+          <help>Aktivoi tämän sivun tilauksen</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Estä tämän sivun tilaus</caption>
+          <help>Valitsemalla tämän valintaruudun voit estää tämän sivun tilauspäivitykset.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Älä näytä tilaussivulla</caption>
+          <help>Piilottaa tämän sivun tilaussivulla</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Tilauksen juurisivu</caption>
+          <help>Määritä puun sivu, josta tilaus alkaa.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Tapahtumakohteiden määrä</caption>
+          <help>Rajaa kohteiden määrän.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Tapahtumaluettelosivu</caption>
+          <help>Johtaa sivulle, jonka alisivujen avulla luodaan tapahtumaluettelo. Jos arvoa ei määritetä, tapahtumaluetteloa ei näytetä.</help>
+        </property>
+        <property name="EventStartDate">
+          <caption>Alkamispäivämäärä</caption>
+          <help>Määritä toiminnan alkupäivämäärä.</help>
+        </property>
+        <property name="EventStopDate">
+          <caption>Loppupäivämäärä</caption>
+          <help>Määritä toiminnan loppupäivämäärä.</help>
+        </property>
+        <property name="FeedCount">
+          <caption>Kohteiden määrä syötteessä</caption>
+          <help>Kohteiden määrä, joka pitäisi lähettää RSS-/Atom-syötteeseen.</help>
+        </property>
+        <property name="ForumPageTypeName">
+          <caption>Keskustelupalstasivun tyyppi</caption>
+          <help>Keskustelupalstasivun tyyppi</help>
+        </property>
+        <property name="ForumStart">
+          <caption>Keskustelupalstan aloitussivu</caption>
+          <help>Keskustelupalstan aloitussivu, johon kyseinen keskustelupalsta sisältyy.</help>
+        </property>
+        <property name="Heading">
+          <caption>Otsikko</caption>
+          <help>Määritä otsikko, joka sisältää sivun pääotsikon. Jos tätä ominaisuutta ei määritetä, otsikkona käytetään sivun nimeä.</help>
+        </property>
+        <property name="HistoryLength">
+          <caption>Luettelon kohteiden enimmäisikä</caption>
+          <help>Luettelossa näytettävien kohteiden enimmäisikä päivinä.</help>
+        </property>
+        <property name="Icon">
+          <caption>Tämän keskustelupalstan kuvake</caption>
+          <help>Nimi kuvakkeelle, jota tämän keskustelupalstan tulisi käyttää.</help>
+        </property>
+        <property name="Image">
+          <caption>Kuva</caption>
+          <help>Määritä aloitussivulla näkyvä kuva(900 x 341 kuvapistettä)</help>
+        </property>
+        <property name="IndexContainer">
+          <caption>Näytä sisältöä sivulta</caption>
+          <help>Määritä sivu, josta indeksin pitäisi alkaa</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Sivustokartan juurisivu</caption>
+          <help>Sivustokartan luominen aloitetaan tästä sivusta.</help>
+        </property>
+        <property name="IsDateListing">
+          <caption>Päivämääräluettelo</caption>
+          <help>Pitää asettaa automaattisesti.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Lataa täydellinen HTML-versio ja lähdeasiakirja</caption>
+          <help>Jos valitset tämän vaihtoehdon, täydellinen HTML-versio tulee näkyviin.</help>
+        </property>
+        <property name="IsLocked">
+          <caption>Keskusteluketju on lukittu</caption>
+          <help>Määrittää, onko tämä keskusteluketju lukittu.</help>
+        </property>
+        <property name="IsTagListing">
+          <caption>Tunnisteluettelo</caption>
+          <help>Pitää asettaa automaattisesti.</help>
+        </property>
+        <property name="IsTeamLevel">
+          <caption>Ryhmätaso</caption>
+          <help>Pitää asettaa automaattisesti.</help>
+        </property>
+        <property name="ItemPageTypeName">
+          <caption>Blogisivun tyyppi</caption>
+          <help>Käytettävä blogisivun tyyppi</help>
+        </property>
+        <property name="ListCount">
+          <caption>Näytä pääluettelon sivujen määrä</caption>
+          <help>Määritä, kuinka monta sivua luettelossa näytetään</help>
+        </property>
+        <property name="ListingSlideContainer">
+          <caption>Esityksien lataaminen</caption>
+          <help>Määritä sivu, jolta haluat ladata esityksen.</help>
+        </property>
+        <property name="ListingSlideCount">
+          <caption>Näytä esityksen sivujen määrä</caption>
+          <help>Määritä kokonaislukuna, kuinka monta sivua esityksessä näytetään.</help>
+        </property>
+        <property name="ListPageTypeName">
+          <caption>Blogiluettelosivun tyyppi</caption>
+          <help>Blogiluettelosivun tyyppi</help>
+        </property>
+        <property name="ListRoot">
+          <caption>Hae pääluettelo sijainnista</caption>
+          <help>Määritä sivu, jolta haluat hakea sivuluettelon. Luettelo sijaitsee sisällön pääalueella. Jos arvoa ei määritetä, sivuluetteloa ei näytetä.</help>
+        </property>
+        <property name="Location">
+          <caption>Näytä tapahtuman sijainti</caption>
+          <help>Valitse sijainti tälle tapahtumalle</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Kirjautumissivu</caption>
+          <help>Määritä sivuston tämän osan kirjautumissivu.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logo</caption>
+          <help>Logokuvan URL.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Pääosa</caption>
+          <help>Pääosa sijaitsee sivun sisällön pääalueella. Voit lisätä XHTML-editorilla pääosaan esimerkiksi tekstiä, kuvia ja taulukoita.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Johdanto</caption>
+          <help>Lyhennelmä uutisten sisällöstä. Tekstiä käytetään mahdollisesti käytettävissä olevissa uutisluetteloissa.</help>
+        </property>
+        <property name="MainLinksCount">
+          <caption>Näytä linkkien määrä</caption>
+          <help>Määritä luettelossa näytettävien linkkien määrä.</help>
+        </property>
+        <property name="MainLinksHeading">
+          <caption>Pääluettelon otsikko</caption>
+          <help>Otsikkoteksti päälinkkiluettelolle</help>
+        </property>
+        <property name="MainLinksRoot">
+          <caption>Hae vasen luettelo sijainnista</caption>
+          <help>Määritä sivu, jolta haluat hakea sivuluettelon.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Luettelon pääluettelokohteiden määrä</caption>
+          <help>Rajaa kohteiden määrän.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Pääluettelosivu</caption>
+          <help>Määritä sivu, jolta haluat hakea sivuluettelon. Luettelo sijaitsee sisällön pääalueella. Jos arvoa ei määritetä, sivuluetteloa ei näytetä.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Näytä valikot kohteesta</caption>
+          <help>Määritä valikkopuun sivu, josta haluat näyttää valikot valitulla sivulla</help>
+        </property>
+        <property name="MaxCount">
+          <caption>Julkaisujen enimmäismäärä</caption>
+          <help>Luettelossa näytettävien julkaisujen enimmäismäärä.</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Kirjoittaja</caption>
+          <help>Määritä hakukoneiden käyttämän tekstin kirjoittaja. Jos arvoa ei määritetä, käytetään dynaamista ominaisuutta.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Sivunselostus</caption>
+          <help>Syötä lyhyt selostus sivun sisällöstä</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Sivujen vakiohakusana</caption>
+          <help>Luetteloi pilkulla erottaen hakusanat, jotka vastaavat tätä sivua</help>
+        </property>
+        <property name="nDaysToRender">
+          <caption>Kalenterissa näytettävien päivien määrä</caption>
+          <help>Määritä, kuinka monta päivää haluat näyttää kalenterissa.</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Uutiskohteiden määrä</caption>
+          <help>Rajaa kohteiden määrän.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Uutisluettelosivu</caption>
+          <help>Johtaa sivulle, jonka alisivujen avulla luodaan uutisluettelo. Jos arvoa ei määritetä, uutisluetteloa ei näytetä.</help>
+        </property>
+        <property name="NoEmployees">
+          <caption>Työntekijöiden määrä</caption>
+          <help>Työntekijöiden määrä</help>
+        </property>
+        <property name="NumberOfReplies">
+          <caption>Vastausten määrä</caption>
+          <help>Tähän keskusteluketjuun lähetettyjen vastausten määrä.</help>
+        </property>
+        <property name="OtherWebSites">
+          <caption>Muiden sivustojen luettelo (alatunniste)</caption>
+          <help>Sivun alatunnisteessa näytettävä muiden sivustojen luettelo</help>
+        </property>
+        <property name="OtherWebSitesHeading">
+          <caption>Muiden sivustojen otsikko (alatunniste)</caption>
+          <help>Sivun alatunnisteessa näytettävä muiden sivustojen otsikko</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Salasanan vaihdon vahvistus</caption>
+          <help>Teksti, joka näytetään, kun salasanan vaihtaminen onnistuu.</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Salasanan pituus</caption>
+          <help>Salasanan vähimmäispituus.</help>
+        </property>
+        <property name="PersonalStartPageTypeName">
+          <caption>Henkilökohtaisen blogin aloitussivun tyyppi</caption>
+          <help>Blogimerkintöihin käytettävän henkilökohtaisen blogin aloitussivun tyyppi</help>
+        </property>
+        <property name="Phone">
+          <caption>Puhelin</caption>
+          <help>Puhelin</help>
+        </property>
+        <property name="PostPageTypeName">
+          <caption>Keskustelupalstan julkaisusivun tyyppi</caption>
+          <help>Keskustelupalstan julkaisusivun tyyppi</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Tietosuojasivu</caption>
+          <help>Linkki lakisääteisten tietojen sivulle.</help>
+        </property>
+        <property name="RecentContainer">
+          <caption>Näytä muutetut sivut sivulla</caption>
+          <help>Määritä sivu, jolla haluat näyttää viimeksi muuttuneet sivut.</help>
+        </property>
+        <property name="RecentHours">
+          <caption>Näytä sivut, joita on muutettu viimeisen x tunnin sisällä</caption>
+          <help>Määritä, kuinka monta tuntia taaksepäin haluat näyttää muutetut sivut.</help>
+        </property>
+        <property name="RefreshRate">
+          <caption>Sekunnit, joiden ajan sivuja näytetään</caption>
+          <help>Määritä, kuinka monta sekuntia kutakin sivua esityksessä näytetään.</help>
+        </property>
+        <property name="RelatedSites">
+          <caption>Liittyvien sivustojen luettelo (alatunniste)</caption>
+          <help>Sivun alatunnisteessa näytettävä liittyvien sivustojen luettelo</help>
+        </property>
+        <property name="RelatedSitesHeading">
+          <caption>Liittyvien sivustojen otsikko (alatunniste)</caption>
+          <help>Sivun alatunnisteessa näytettävä liittyvien sivustojen otsikko</help>
+        </property>
+        <property name="ResellerDescription">
+          <caption>Kuvaus</caption>
+          <help>Kuvaus</help>
+        </property>
+        <property name="ResellerID">
+          <caption>Jälleenmyyjän tunnus</caption>
+          <help>Jälleenmyyjän tunnus</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Kansion polku</caption>
+          <help>Kansiopuu alkaa tältä sivulta.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>Rss-säilö</caption>
+          <help>Rss-lähdesivujen säilö</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS-lähdesivu</caption>
+          <help>Määritä puun sivu, joka on tämän Web-sivuston RSS-sisällön lähdesivu.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Etsi RSS-lähteen polku</caption>
+          <help>Määritä osoite RSS-muodossa. Yleensä se on Web-osoite.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Hakusivu</caption>
+          <help>Linkki sivuston tämän osan hakusivulle.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Haun juurisivu</caption>
+          <help>Haku aloitetaan tältä sivulta.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Toissijainen osa</caption>
+          <help>Toissijainen osa sijaitsee sivun oikeassa sarakkeessa. Asettelussa voidaan käyttää sekä tekstiä että kuvia. Huomaa, että kuvien on oltava oikealla sijaitsevaa aluetta pienempiä.</help>
+        </property>
+        <property name="SecondaryLinksCount">
+          <caption>Näytä linkkien määrä</caption>
+          <help>Määritä, kuinka monta linkkiä luettelossa näytetään.</help>
+        </property>
+        <property name="SecondaryLinksDisplayDate">
+          <caption>Näytä päivämäärä kullekin toissijaisen luettelon kohteelle</caption>
+          <help>Määrittää näytetäänkö jokaiselle luettelon kohteelle päivämäärä</help>
+        </property>
+        <property name="SecondaryLinksHeading">
+          <caption>Toissijaisen luettelon otsikko</caption>
+          <help>Otsikkoteksti toissijaiselle linkkiluettelolle</help>
+        </property>
+        <property name="SecondaryLinksRoot">
+          <caption>Hae oikeanpuoleinen luettelo sijainnista</caption>
+          <help>Määritä sivu, jolta haluat hakea sivuluettelon.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Luettelon toissijaisten luettelokohteiden määrä</caption>
+          <help>Rajaa toissijaisen luettelon kohteiden määrä tämän arvon mukaisesti.</help>
+        </property>
+        <property name="SecondaryListDisplayDate">
+          <caption>Näytä päivämäärä toissijaisessa luettelossa</caption>
+          <help>Näytä kaikkien kohteiden päivämäärä</help>
+        </property>
+        <property name="SecondaryListHeading">
+          <caption>Toissijaisen luettelon otsikko</caption>
+          <help>Toissijaisen luettelon otsikko</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Lisäluettelosivu</caption>
+          <help>Linkki johtaa pääsivulle, jota käytetään sivuluettelon luontiin oikeanpuoleiseen sarakkeeseen. Jos arvoa ei määritetä, sivuluetteloa ei näytetä.</help>
+        </property>
+        <property name="SelectedWebPart">
+          <caption>Valitse web-osa</caption>
+          <help>Valitsee sivulla käytettävät web-osat.</help>
+        </property>
+        <property name="SEODescription">
+          <caption>Sivun kuvaus</caption>
+          <help>Kuvaus sivusta</help>
+        </property>
+        <property name="SEORobots">
+          <caption>Hakurobotit</caption>
+          <help>Määritä, kuinka hakurobottien tulisi käsitellä sivua</help>
+        </property>
+        <property name="SEOTitle">
+          <caption>Sivun otsikko</caption>
+          <help>Sivun otsikko</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Sivustokarttasivu</caption>
+          <help>Linkki sivustokarttasivulle.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Tiedostojen lajitteluperuste</caption>
+          <help>Kansiopuun lajittelujärjestys.</help>
+        </property>
+        <property name="Speaker">
+          <caption>Näytä tapahtuman puhuja</caption>
+          <help>Valitse puhuja tälle tapahtumalle</help>
+        </property>
+        <property name="StickyThreadContainer">
+          <caption>Pysyvien keskusteluketjujen säilö</caption>
+          <help>Tämän keskustelupalstan pysyvien keskusteluketjujen säilö.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Tilaussähköpostiviestin esittelyteksti</caption>
+          <help>Kirjoita teksti, josta tulee tilaussähköpostiviestin tekstiosa.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>Tilaussähköpostiviestin lähettäjän osoite</caption>
+          <help>Sähköpostiosoite, josta tilaussähköpostiviesti lähetetään.</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Tilaussähköpostiviestin linkin teksti</caption>
+          <help>Tämä teksti muodostaa linkin, jota käyttäjä voi napsauttaa tilaussähköpostiviestissä.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Tilaussähköpostiviestin aihe</caption>
+          <help>Tämä on tilaussähköpostiviestin aihekenttä.</help>
+        </property>
+        <property name="SummaryLength">
+          <caption>Yhteenvedon pituus</caption>
+          <help>Luettelon kohteiden yhteenvedon pituus</help>
+        </property>
+        <property name="SummaryTextLength">
+          <caption>Yhteenvetotekstin pituus</caption>
+          <help>Merkkien määrä, jonka jälkeen yhteenvetoteksti katkaistaan.</help>
+        </property>
+        <property name="TagCloudValue">
+          <caption>Tunnistepilven arvo</caption>
+          <help>Pitää asettaa automaattisesti.</help>
+        </property>
+        <property name="TagContainer">
+          <caption>Tunnistesivujen säilö</caption>
+          <help>Pitää asettaa automaattisesti.</help>
+        </property>
+        <property name="Tags">
+          <caption>Tunnisteet</caption>
+          <help>Kirjoita pilkkuerotettu lista ja/tai lisää olemassa olevista tunnisteista.</help>
+        </property>
+        <property name="TeamStartPageTypeName">
+          <caption>Ryhmäblogin aloitussivun tyyppi</caption>
+          <help>Blogimerkintöihin käytettävän ryhmäblogin aloitussivun tyyppi</help>
+        </property>
+        <property name="TemplateContainer">
+          <caption>Työtilan mallit</caption>
+          <help>Viittaus säilöön, joka sisältää saatavilla olevia työtilan malleja.</help>
+        </property>
+        <property name="ThirdBody">
+          <caption>Kolmas osio</caption>
+          <help>Tämän kentän sisältö näytetään sivun kolmannessa laatikossa. Asettelussa voidaan käyttää sekä tekstiä että kuvia. Huomaa, että kuvat eivät voi olla suurempia kuin laatikon koko.</help>
+        </property>
+        <property name="ThreadContainerPageTypeName">
+          <caption>Keskustelupalstan keskusteluketjujen säilösivun tyyppi</caption>
+          <help>Keskustelupalstan keskusteluketjujen säilösivun tyyppi</help>
+        </property>
+        <property name="ThreadPageTypeName">
+          <caption>Keskustelupalstan keskusteluketjusivun tyyppi</caption>
+          <help>Keskustelupalstan keskusteluketjusivun tyyppi</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Pikkukuva</caption>
+          <help>Kuva, joka näytetään sivuluettelojen yhteydessä.</help>
+        </property>
+        <property name="URL">
+          <caption>URL</caption>
+          <help>URL</help>
+        </property>
+        <property name="UsageStatistics">
+          <caption>Tunnisteiden käytön tilastot</caption>
+          <help>Pitää asettaa automaattisesti.</help>
+        </property>
+        <property name="ValidDays">
+          <caption>Toistuva päivä</caption>
+          <help>Määritä, toistuuko toiminta määrätyin väliajoin.</help>
+        </property>
+        <property name="VideoSourceURL">
+          <caption>Videotiedosto</caption>
+          <help>Määritä videotiedosto .flv-muodossa.</help>
+        </property>
+        <property name="WorkroomIcon">
+          <caption>Tämän työtilan kuvake</caption>
+          <help>Kuva, jota käytetään tämän työtilan kuvakkeena.</help>
+        </property>
+        <property name="WorkroomStart">
+          <caption>Tämän työtilan aloitussivu</caption>
+          <help>Työtilan aloitussivu, johon tämä sivu sisältyy.</help>
+        </property>
+        <property name="Writer">
+          <caption>Blogin kirjoittajan nimi</caption>
+          <help>Kirjoita blogin kirjoittajan nimi.</help>
+        </property>
+        <property name="XForm">
+          <caption>Lomake</caption>
+          <help>Määrittää lomakkeen, joka näkyy tällä sivulla. Napsauttamalla painiketta voit luoda omia lomakkeita.</help>
+        </property>
+      </common>
+      <pagetype name="[AlloyTech] Blog comment">
+        <description>Sivu, jota käytetään tallentamaan blogikirjoitusten kommentit.</description>
+        <name>[AlloyTech] Blogin kommentti</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog item">
+        <description>Blogi, jota käytetään ainoastaan yhteen blogikirjoitukseen.</description>
+        <name>[AlloyTech] Blogi</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog list">
+        <description>Luettelosivu, jota käytetään päivämäärien ja tunnisteiden luettelointiin.</description>
+        <name>[AlloyTech] Blogiluettelo</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog personal start">
+        <description>Henkilökohtaisen blogin aloitussivu.</description>
+        <name>[AlloyTech] Henkilökohtaisen blogin aloitussivu</name>
+        <property name="Image">
+          <caption>Blogin kirjoittajan kuva</caption>
+          <help>Valitse kuva blogin kirjoittajalle.</help>
+        </property>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog team start">
+        <description>Ryhmäblogin aloitussivu.</description>
+        <name>[AlloyTech] Ryhmäblogin aloitussivu</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar">
+        <description>Sivu, joka näyttää kalenteritapahtumat.</description>
+        <name>[AlloyTech] Kalenteri</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar event">
+        <description>Sivu kalenterin tapahtumalle.</description>
+        <name>[AlloyTech] Kalenteritapahtuma</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Changed recently">
+        <description>Sivu, joka näyttää luettelon äskettäin muutetuista sivuista.</description>
+        <name>[AlloyTech] Muutettu äskettäin</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Company Facts">
+        <description>Kansio, joka sisältää dynaamisena sisältonä käytettävää tietoa yrityksestä</description>
+        <name>[AlloyTech] Tietoa yrityksestä</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Document">
+        <description>Tämän sivutyypin avulla julkaistaan asiakirjoja Microsoft Office -sovelluksesta.</description>
+        <name>[AlloyTech] Asiakirja</name>
+      </pagetype>
+      <pagetype name="EventItemPage">
+        <description>Sivu, joka näyttää tietyn tapahtuman.</description>
+        <name>[AlloyTech] Tapahtuma</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum">
+        <description>Keskustelupalstasivu.</description>
+        <name>[AlloyTech] Keskustelupalsta</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum post">
+        <description>Vastaus keskustelupalstan keskusteluketjuun.</description>
+        <name>[AlloyTech] Keskustelupalstan kirjoitus</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread">
+        <description>Keskustelupalstan keskusteluketju.</description>
+        <name>[AlloyTech] Keskustelupalstan keskusteluketju</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread container">
+        <description>Keskustelupalstan keskusteluketjujen säilö.</description>
+        <name>[AlloyTech] Keskustelupalstan keskusteluketjujen säilö</name>
+      </pagetype>
+      <pagetype name="ListingPage">
+        <description>Näyttää sivuyhteenvedon</description>
+        <name>[AlloyTech] Listaus</name>
+      </pagetype>
+      <pagetype name="LoginPage">
+        <description>Tämän sivutyypin avulla luodaan Web-sivuston kirjautumissivu.</description>
+        <name>[AlloyTech] Kirjautuminen</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] My Settings">
+        <description>Asetussivu, jossa käyttäjät voivat muuttaa henkilökohtaisia asetuksiaan.</description>
+        <name>[AlloyTech] Omat asetukset</name>
+      </pagetype>
+      <pagetype name="NewsItemPage">
+        <description>Tämä sivutyyppi sisältää yhden uutiskohteen tiedot.</description>
+        <name>[AlloyTech] Uutiskohde</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Notification Email">
+        <description>Sähköpostisivupohja ilmoitusta varten</description>
+        <name>[AlloyTech] Ilmoitussähköposti</name>
+      </pagetype>
+      <pagetype name="RegistrationPage">
+        <description>Tämän tyyppinen sivu on sivu, jolla kävijät voivat rekisteröityä Web-sivustoon.</description>
+        <name>[AlloyTech] Rekisteröinti</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Reseller">
+        <description>Tämä sivu näyttää tietoja jälleenmyyjistä.</description>
+        <name>[AlloyTech] Jälleenmyyjä</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] RSS source">
+        <description>Tämä sivutyyppi näyttää EPiServer-palvelimen tiedot RSS-muodossa.</description>
+        <name>[AlloyTech] RSS-lähde</name>
+      </pagetype>
+      <pagetype name="SearchPage">
+        <description>Tämä sivutyyppi sisältää pikahakupalkin hakutulokset sekä tarkennetun haun käyttöliittymän.</description>
+        <name>[AlloyTech] Hakusivu</name>
+      </pagetype>
+      <pagetype name="SitemapPage">
+        <description>Tämä sivutyyppi luo sisällysluettelon koko Web-sivuston tai sen osan sisällöstä.</description>
+        <name>[AlloyTech] Sivustokartta</name>
+      </pagetype>
+      <pagetype name="StandardPage">
+        <description>Tämä sivutyyppi on Web-sivuston käytetyin sivu. Sitä voidaan käyttää niin tavallisina sivuina kuin uutis- ja tapahtumasivuina.</description>
+        <name>[AlloyTech] Vakiosivu</name>
+      </pagetype>
+      <pagetype name="StartPage">
+        <description>Aloitussivu on sivuston pääsisäänkäynti, ja se sisältää kenttiä ensisijaiselle ja toissijaiselle sisällölle, kuten myös erilaisia linkkien luetteloita.</description>
+        <name>[AlloyTech] Aloitussivu</name>
+      </pagetype>
+      <pagetype name="SubscriptionPage">
+        <description>Tämän tyyppinen sivu on sivu, jolta kävijät voivat valita tilaustiedot.</description>
+        <name>[AlloyTech] Tilaus</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] User profile">
+        <description>Käyttäjäprofiili</description>
+        <name>[AlloyTech] Käyttäjäprofiili</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar">
+        <description>Työtilan kalenterisivu.</description>
+        <name>[AlloyTech] Työtilan kalenteri</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar event">
+        <description>Sivu kalenterin tapahtumalle.</description>
+        <name>[AlloyTech] Työtilan kalenterin tapahtuma</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom File Manager">
+        <description>Tiedostonhallinta työtilassa.</description>
+        <name>[AlloyTech] Työtilan tiedostonhallinta</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom list">
+        <description>Sivu, joka listaa saatavilla olevat työtilat.</description>
+        <name>[AlloyTech] Työtilaluettelo</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Membership Manager">
+        <description>Sivu työtilan jäsenyyden lisäämiseen tai muokkaamiseen.</description>
+        <name>[AlloyTech] Työtilan jäsenyyden hallinta</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom news list">
+        <description>Työtilan uutissivu.</description>
+        <name>[AlloyTech] Työtilan uutisluettelo</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Settings">
+        <description>Sivu työtilan asetusten muuttamiseen.</description>
+        <name>[AlloyTech] Työtilan asetukset</name>
+      </pagetype>
+      <pagetype name="XFormPage">
+        <description>Tämä sivutyyppi sisältää sivun vakio-ominaisuuksien lisäksi lomakkeen.</description>
+        <name>[AlloyTech] Lomakesivu</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Kiitos</confirmation>
+      <error>
+        <confirmpassword>Vahvista syöttämäsi salasana</confirmpassword>
+        <couldnotsave>Muutoksia ei voi tallentaa</couldnotsave>
+        <email>Syötä sähköpostiosoite</email>
+        <firstname>Syötä etunimi</firstname>
+        <incorrectemail>Syötetty sähköpostiosoite on virheellinen</incorrectemail>
+        <lastname>Syötä sukunimi</lastname>
+        <password>Syötä salasana</password>
+        <passwordlength>Syötetty salasana on liian lyhyt. Vähimmäispituus:</passwordlength>
+        <passwordrepeat>Syötetyt salasanat eivät vastaa toisiaan</passwordrepeat>
+      </error>
+      <password>Syötä salasana</password>
+      <repeatpassword>Toista salasana</repeatpassword>
+      <signupbutton>Rekisteröidy</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Tarkennettu haku</advancedsearch>
+      <button>Etsi</button>
+      <findsimilar>Etsi samankaltaisia</findsimilar>
+      <nosearchresult>Ei osumia</nosearchresult>
+      <onlywholewords>Koko sana</onlywholewords>
+      <percentrelevancy>%:n asiaankuuluvuus</percentrelevancy>
+      <relevancy>Asiaankuuluvuus</relevancy>
+      <searchfiles>Etsi tiedostoista</searchfiles>
+      <searchfor>Etsi:</searchfor>
+      <searchresult>Hakutulokset:</searchresult>
+      <searchstring>Etsi tästä</searchstring>
+    </search>
+    <subscription>
+      <daily>Päivittäin</daily>
+      <email>Sähköpostiosoite</email>
+      <error>
+        <email>Syötä sähköpostiosoite</email>
+        <incorrectemail>Syötetty sähköpostiosoite on virheellinen</incorrectemail>
+      </error>
+      <fastaspossible>Mahdollisimman pian</fastaspossible>
+      <interval>Väli</interval>
+      <monthly>Kuukausittain</monthly>
+      <subscribe>Tilaa</subscribe>
+      <subscription>Tilaus</subscription>
+      <weekly>Joka viikko</weekly>
+    </subscription>
+    <templates>
+      <changedpages>
+        <header>Viimeksi muutetut tiedostot</header>
+        <lastmodified>Muutettu viimeksi</lastmodified>
+        <page>Sivu</page>
+        <updatedpages>Viimeksi päivitetyt sivut</updatedpages>
+      </changedpages>
+      <dynamiccontent>
+        <map>
+          <addresslabel>Osoite</addresslabel>
+          <altlabel>Kuvan vaihtoehtoinen teksti</altlabel>
+          <displaystaticimagelabel>Näytä kuvana</displaystaticimagelabel>
+          <emptysearchresults>Osoitetta ei löydy.</emptysearchresults>
+          <heighterrormessage>Kartan korkeuden arvon on oltava välillä 100 - 2 000</heighterrormessage>
+          <heightlabel>Kartan korkeus</heightlabel>
+          <hidesearchresults>Piilota</hidesearchresults>
+          <missingmapdata>Kartan asetuksia ei voitu ladata</missingmapdata>
+          <searchbuttonlabel>Haku</searchbuttonlabel>
+          <searchresultslabel>Hakutulokset</searchresultslabel>
+          <selectionerrormessage>Karttaa ei voi tallentaa ilman sijaintia. Valitse sijainti kaksoisnapsauttamalla karttaa tai hakutulosten osoitinta.</selectionerrormessage>
+          <selectiontextmessage>Valitse sijainti.</selectiontextmessage>
+          <unabletoinitializemessage>Ei voida alustaa karttoja</unabletoinitializemessage>
+          <widtherrormessage>Kartan leveyden arvon on oltava välillä 100 - 2 000</widtherrormessage>
+          <widthlabel>Kartan leveys</widthlabel>
+        </map>
+      </dynamiccontent>
+      <events>
+        <location>Paikka</location>
+        <speaker>Puhuja</speaker>
+      </events>
+      <personalsettings>
+        <validation>
+          <emailexists>Syötetty sähköpostiosoite on jo käytössä</emailexists>
+        </validation>
+      </personalsettings>
+      <reseller>
+        <address>Osoite</address>
+        <contacts>Yhteyshenkilöt</contacts>
+        <name>Nimi</name>
+        <url>URL</url>
+      </reseller>
+    </templates>
+    <usersettings>
+      <changepassword>Vaihda salasana</changepassword>
+      <confirmpassword>Vahvista salasana</confirmpassword>
+      <email>Sähköpostiosoite</email>
+      <firstname>Etunimi</firstname>
+      <lastname>Sukunimi</lastname>
+      <mysettings>Omat asetukset</mysettings>
+      <newpassword>Uusi salasana</newpassword>
+      <username>Käyttäjänimi</username>
+    </usersettings>
+    <workroom>
+      <calendar>
+        <buttonaddevent>Lisää tapahtuma</buttonaddevent>
+        <buttondeletecalendar>Poista kalenteri</buttondeletecalendar>
+        <buttoneditname>Muokkaa nimeä</buttoneditname>
+        <createheading>Luo tapahtuma</createheading>
+        <dateformat>Esimerkki: 11/25/2007</dateformat>
+        <editheading>Muokkaa tapahtumaa</editheading>
+        <invalidstartdate>Alkupäivämäärä ei ole kelvollinen päivämäärä</invalidstartdate>
+        <invalidstopdate>Loppupäivämäärä ei ole kelvollinen päivämäärä</invalidstopdate>
+        <latestarttime>Aloitusajan on oltava ennen lopetusaikaa.</latestarttime>
+        <nameempty>Kirjoita otsikko</nameempty>
+        <selectedperiod>Valittu ajanjakso:</selectedperiod>
+        <starttimeempty>Anna alkupäivämäärä</starttimeempty>
+        <starttimelabel>Alkupäivämäärä:</starttimelabel>
+        <stoptimeempty>Anna loppupäivämäärä </stoptimeempty>
+        <stoptimelabel>Loppupäivämäärä:</stoptimelabel>
+      </calendar>
+      <calendarlist>
+        <calendaraddnew>Lisää kalenteri</calendaraddnew>
+        <calendaritemfrom>Mistä:</calendaritemfrom>
+        <calendaritemto>Mihin:</calendaritemto>
+        <calendarsectionname>Kalenterin nimi</calendarsectionname>
+      </calendarlist>
+      <edit>Muokkaa</edit>
+      <editablecontent>
+        <labeltext>Muokkaa sisältöä ja napsauta Save (Tallenna).</labeltext>
+      </editablecontent>
+      <editdescription>Muokkaa kuvausta</editdescription>
+      <eventlist>
+        <heading>Tulevat tapahtumat</heading>
+      </eventlist>
+      <filelist>
+        <errormessage>Työtilan päähakemistoa ei löydetty tai sinulla ei ole riittäviä oikeuksia kyseiseen hakemistoon.</errormessage>
+        <errormissingindex>Työtilan päähakemistolle ei ole määritetty indeksiä. Äskettäin muutettujen sivujen näyttäminen vaatii indeksin.</errormissingindex>
+        <heading>Viimeisimmät tiedostot</heading>
+      </filelist>
+      <membershiplevel>
+        <administer>Järjestelmänvalvoja</administer>
+        <modify>Osallistuva jäsen</modify>
+        <read>Vain-luku-jäsen</read>
+      </membershiplevel>
+      <membershipmanager>
+        <button>
+          <addmembers>Lisää jäseniä</addmembers>
+          <editmembers>Muokkaa jäseniä</editmembers>
+          <invite>Kutsu</invite>
+          <remove>Poista</remove>
+          <sendinvitation>Lähetä kutsu</sendinvitation>
+        </button>
+        <confirmremovemember>Haluatko varmasti poistaa valitut jäsenet työtilasta?</confirmremovemember>
+        <email>Sähköpostiosoite</email>
+        <emptysearchresult>Hakusi ei löytänyt yhtään osumaa käyttäjistä.</emptysearchresult>
+        <inviteheading>Kutsu käyttäjä</inviteheading>
+        <invitemembermessage>Lähetä käyttäjälle jäsenyyskutsu sähköpostilla.</invitemembermessage>
+        <invitemembership>Määritettävä tila</invitemembership>
+        <inviteunfiledsenderemail>Profiilissasi ei ole määritetty sähköpostiosoitetta.</inviteunfiledsenderemail>
+        <invitewithoutstatus>Määritettävä tila puuttuu.</invitewithoutstatus>
+        <managemembersheading>Hallinnoi työtilan jäseniä</managemembersheading>
+        <membershiplevel>Jäsenyyden tila</membershiplevel>
+        <removeheading>Poista jäsen</removeheading>
+        <searchheading>Hae käyttäjiä</searchheading>
+        <searchresultheading>Hakutulokset</searchresultheading>
+        <searchtext>Haku</searchtext>
+        <sendinvitationerror>Virhe kutsun lähettämisessä.</sendinvitationerror>
+        <sendinvitationok>Kutsu lähetetty onnistuneesti.</sendinvitationok>
+        <sendnotifications>Lähetä ilmoitukset jäsenten tilan muuttuessa?</sendnotifications>
+        <sendnotificationsno>Ei</sendnotificationsno>
+        <sendnotificationsyes>Kyllä</sendnotificationsyes>
+        <status>Määritetty-tila</status>
+        <unabletosendnotification>Joitakin ilmoituksia ei mahdollisesti voitu lähettää.</unabletosendnotification>
+        <username>Käyttäjänimi</username>
+        <viewmembersheading>Työtilan jäsenet</viewmembersheading>
+      </membershipmanager>
+      <newslist>
+        <heading>Uutiset</heading>
+        <newssectionname>Uutishuoneen nimi</newssectionname>
+      </newslist>
+      <newslistpage>
+        <addnewsitem>Lisää uutinen</addnewsitem>
+        <addnewssection>Lisää uutishuone</addnewssection>
+        <bodylabel>Kuvaus:</bodylabel>
+        <createheading>Luo uutinen</createheading>
+        <deletenewssection>Poista uutishuone</deletenewssection>
+        <editheading>Muokkaa uutista</editheading>
+        <editnewssection>Muokkaa uutishuonetta</editnewssection>
+        <headinglabel>Otsikko:</headinglabel>
+        <titleempty>Kirjoita otsikko</titleempty>
+      </newslistpage>
+      <settings>
+        <availablefunctions>Käytettävissä olevat toiminnot</availablefunctions>
+      </settings>
+      <userprofile>
+        <confirmpassword>Vahvista salasana</confirmpassword>
+        <email>Sähköpostiosoite</email>
+        <error>
+          <firstnamerequired>Anna etunimi</firstnamerequired>
+          <lastnamerequired>Kirjoita sukunimi</lastnamerequired>
+          <logout>Olet kirjautuneena sisään toisena käyttäjänä. Kirjaudu ulos ja yritä uudelleen.</logout>
+          <membership>Nykyiset tietoturva-asetukset eivät salli uusien käyttäjien rekisteröitymistä. Saat lisätietoja järjestelmänvalvojalta.</membership>
+          <passworddiffers>Salasanojen pitää olla samoja</passworddiffers>
+          <passwordrequired>Kirjoita salasana</passwordrequired>
+          <passwordweak>Salasana ei täytä salasanalle asetettuja vaatimuksia</passwordweak>
+          <unavailable>Sinulla ei ole käyttöoikeuksia tälle sivulle.</unavailable>
+          <usernameexists>Käyttäjänimi on jo olemassa</usernameexists>
+          <usernamerequired>Kirjoita käyttäjänimi</usernamerequired>
+        </error>
+        <firstname>Etunimi</firstname>
+        <lastname>Sukunimi</lastname>
+        <password>Salasana</password>
+        <role>Rooli</role>
+        <username>Käyttäjänimi</username>
+      </userprofile>
+      <workroomlist>
+        <addworkroom>Lisää työtila</addworkroom>
+        <createheading>Luo työtila</createheading>
+        <descriptionlabel>Kuvaus:</descriptionlabel>
+        <duplicatename>Tällä nimellä on jo olemassa työtila.</duplicatename>
+        <nameempty>Kirjoita nimi</nameempty>
+        <namelabel>Nimi:</namelabel>
+        <templateempty>Anna malli</templateempty>
+        <templatelabel>Valitse malli:</templatelabel>
+        <viewheading>Omat työtilat</viewheading>
+      </workroomlist>
+    </workroom>
+  </language>
+</languages>

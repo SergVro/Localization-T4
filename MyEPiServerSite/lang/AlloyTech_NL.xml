@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="Nederlands" id="nl">
+    <blog>
+      <item>
+        <comment>Opmerking:</comment>
+        <commentheading>Opmerkingen:</commentheading>
+        <commentlegend>Opmerking plaatsen</commentlegend>
+        <errormessages>
+          <requiredcomment>Het veld Opmerkingen moet worden ingevuld.</requiredcomment>
+          <requiredname>Het veld Naam moet worden ingevuld.</requiredname>
+        </errormessages>
+        <name>Naam:</name>
+        <permanentlink>Permanente koppeling</permanentlink>
+        <postedby>door:</postedby>
+        <posteddate>Datum van plaatsing:</posteddate>
+        <send>Verzenden</send>
+        <tags>Tags:</tags>
+      </item>
+      <itemsummary>
+        <readblog>Blog lezen:</readblog>
+      </itemsummary>
+      <listpage>
+        <dateheading>Bijdragen aan blog geplaatst in {0}</dateheading>
+        <errormessage>Configuratiefout. IsTagListing of IsDateListing moet ¨waar¨ zijn.</errormessage>
+        <tagheading>Bijdragen aan blog met de tag {0}</tagheading>
+      </listpage>
+      <propertyblogtags>
+        <errormessage>
+          <categorytoolong>Minstens één van de tagnamen is te lang. (Max. {0} tekens)</categorytoolong>
+        </errormessage>
+        <existingtagsbutton>Tags toevoegen</existingtagsbutton>
+        <existingtagslabel>Bestaande tags</existingtagslabel>
+        <selectedtagslabel>Geselecteerde tags</selectedtagslabel>
+      </propertyblogtags>
+      <secondarylist>
+        <aboutme>Persoonlijke info</aboutme>
+        <archive>Archief</archive>
+        <tagcloud>Tagcloud</tagcloud>
+      </secondarylist>
+      <tagstatisticsupdater>
+        <description>Wordt gebruikt voor het bijwerken van de tagstatistieken.</description>
+        <displayname>Tagstatistieken bijwerken</displayname>
+      </tagstatisticsupdater>
+    </blog>
+    <calendar>
+      <noeventonday>Niets gepland voor deze dag</noeventonday>
+      <selectedperiod>Geselecteerde periode</selectedperiod>
+    </calendar>
+    <captcha>
+      <errormessage>De ingevoerde tekst komt niet overeen met de tekst in de afbeelding.</errormessage>
+      <heading>Gebruikersverificatie</heading>
+      <imagealternativetext>Afbeelding voor gebruikersverificatie</imagealternativetext>
+      <label>Voer de tekst in die in de afbeelding wordt weergegeven:</label>
+    </captcha>
+    <common>
+      <messages>
+        <confirmdelete>Weet u zeker dat u dit item wilt verwijderen?</confirmdelete>
+      </messages>
+    </common>
+    <document>
+      <download>Downloaden:</download>
+    </document>
+    <dynamiccontenttypes>
+      <dynamiccontent name="MapDynamicContentDemo">
+        <caption>Google Maps</caption>
+        <description>Google Maps toevoegen en configureren</description>
+      </dynamiccontent>
+    </dynamiccontenttypes>
+    <editorstyleoptions>
+      <classic>Klassiek</classic>
+      <heading_1>Kop 1</heading_1>
+      <heading_2>Kop 2</heading_2>
+      <heading_3>Kop 3</heading_3>
+      <highlighted>Markeren</highlighted>
+      <image_border>Rand</image_border>
+      <image_styles>Afbeeldingstijlen</image_styles>
+      <introduction>Inleiding</introduction>
+      <left_aligned>Links uitlijnen</left_aligned>
+      <paragraph>Alinea:</paragraph>
+      <right_aligned>Rechts uitlijnen</right_aligned>
+      <table_styles>Tabelstijlen</table_styles>
+      <top_left>Linksboven</top_left>
+      <top_right>Rechtsboven</top_right>
+    </editorstyleoptions>
+    <error>
+      <document>De pagina-eigenschap "Pad naar document" is niet ingesteld.</document>
+      <mainmenucontainer>De dynamische eigenschap MainMenuContainer is niet ingesteld.</mainmenucontainer>
+    </error>
+    <filemanager>
+      <button>
+        <back>Terug</back>
+        <deleteversion>Versie verwijderen</deleteversion>
+        <rename>Naam wijzigen</rename>
+        <replacefile>Bestand vervangen</replacefile>
+        <restore>Deze versie herstellen</restore>
+        <upload>Uploaden</upload>
+      </button>
+      <choosefile>Bestand selecteren:</choosefile>
+      <deletefilesandfoldersheading>Bestanden/mappen verwijderen</deletefilesandfoldersheading>
+      <disabledfunctions>Sommige functies zijn niet beschikbaar vanwege beperkte toegangsrechten voor deze map.</disabledfunctions>
+      <editfilesummaryheading>Bestandssamenvatting bewerken</editfilesummaryheading>
+      <errormessage>
+        <cannotchange>Verplaatsen, naam wijzigen, verwijderen of bijwerken van het geselecteerde bestand is niet mogelijk. Dit bestand is mogelijk door iemand anders uitgecheckt.</cannotchange>
+        <checkedout>Er bestaat al een bestand met dezelfde naam dat is uitgecheckt door een andere gebruiker</checkedout>
+        <containscheckedout>Verplaatsen of verwijderen van de geselecteerde map is niet mogelijk. De map bevat mogelijk een bestand dat door iemand anders is uitgecheckt.</containscheckedout>
+        <insufficientaccess>U hebt onvoldoende toegangsrechten voor het maken of wijzigen van bestanden in deze map.</insufficientaccess>
+        <insufficientaccesscreatefolder>U hebt onvoldoende toegangsrechten voor het maken van mappen op deze plaats.</insufficientaccesscreatefolder>
+        <insufficientaccessmetadata>U hebt onvoldoende toegangsrechten voor het wijzigen van dit bestand.</insufficientaccessmetadata>
+        <insufficientaccessmove>U hebt onvoldoende toegangsrechten voor het verplaatsen van dit item.</insufficientaccessmove>
+        <insufficientaccessremove>U hebt onvoldoende toegangsrechten voor het verwijderen van de geselecteerde items.</insufficientaccessremove>
+        <insufficientaccessrename>U hebt onvoldoende toegangsrechten voor het wijzigen van de naam van het geselecteerde item.</insufficientaccessrename>
+        <readonlyfile>Er is al een alleen-lezenbestand met dezelfde naam.</readonlyfile>
+        <replacefile>Er is al een bestand met dezelfde naam. Wilt u het bestand {0} vervangen?</replacefile>
+        <versionisnotfound>De bewerking kan niet worden uitgevoerd. Versie {0} niet gevonden.</versionisnotfound>
+      </errormessage>
+      <filecomment>Opmerking:</filecomment>
+      <filelistheading>
+        <checkedout>Uitgecheckt</checkedout>
+        <lastchanged>Laatst gewijzigd</lastchanged>
+        <name>Naam</name>
+        <size>Grootte</size>
+      </filelistheading>
+      <filename>Bestandsnaam</filename>
+      <files>Bestanden</files>
+      <filesummary>
+        <author>Auteur</author>
+        <category>Categorie</category>
+        <comments>Opmerkingen</comments>
+        <keywords>Trefwoorden</keywords>
+        <subject>Beschrijving</subject>
+        <title>Titel</title>
+      </filesummary>
+      <filesummaryheading>Bestandssamenvatting voor</filesummaryheading>
+      <foldername>Mapnaam:</foldername>
+      <foldernotempty>De map is niet leeg.</foldernotempty>
+      <foldernotemptywarning>Sommige mappen zijn niet leeg. De volledige inhoud van alle mappen wordt verwijderd.</foldernotemptywarning>
+      <folders>Mappen</folders>
+      <maxuploadmessage>Het te uploaden bestand mag niet groter zijn dan {0}.</maxuploadmessage>
+      <missingfoldererror>Bestand kan niet worden gemaakt. De doelmap bestaat niet of u hebt geen machtiging voor het maken van bestanden in de geselecteerde map.</missingfoldererror>
+      <newfolder>Nieuwe map</newfolder>
+      <parentfolder>Bovenliggende map</parentfolder>
+      <renamefile>Bestandsnaam wijzigen</renamefile>
+      <renamefolder>Mapnaam wijzigen</renamefolder>
+      <selectfilemessage>Selecteer een bestand met de knop Bladeren hieronder en klik vervolgens op "Uploaden".</selectfilemessage>
+      <switchview>
+        <addfile>Bestand toevoegen</addfile>
+        <addfolder>Map toevoegen</addfolder>
+        <checkin>Inchecken</checkin>
+        <checkout>Uitchecken</checkout>
+        <copy>Kopiëren</copy>
+        <cut>Knippen</cut>
+        <delete>Verwijderen</delete>
+        <details>Details</details>
+        <paste>Plakken</paste>
+        <rename>Naam wijzigen</rename>
+        <undocheckout>Ongedaan maken</undocheckout>
+        <version>Versie</version>
+        <view>Weergeven</view>
+      </switchview>
+      <uploadbutton>Uploaden</uploadbutton>
+      <uploadheading>Bestand uploaden</uploadheading>
+      <validation>
+        <folderexists>Er bestaat al een map of bestand met dezelfde naam.</folderexists>
+        <folderwithsamename>Er staat een map met de naam '{0}' in de huidige map.</folderwithsamename>
+        <illigalchar>De tekens /, ?, &lt;, &gt;, \, :, *, |, # en " zijn niet toegestaan in een naam.</illigalchar>
+        <nametolong>De naam van de map mag niet langer zijn dan 255 tekens.</nametolong>
+        <requiredfile>Selecteer een bestand.</requiredfile>
+        <requiredname>Voer een naam in.</requiredname>
+      </validation>
+      <versionfileheading>Versies voor</versionfileheading>
+      <versionlistheading>
+        <comments>Opmerkingen</comments>
+        <created>Aangemaakt</created>
+        <createdby>Gemaakt door</createdby>
+        <size>Grootte</size>
+        <version>Versie</version>
+      </versionlistheading>
+    </filemanager>
+    <filemanagernavigator>
+      <virtualpathroots>
+        <virtualpathroot name="Documents">
+          <name>Documenten</name>
+        </virtualpathroot>
+        <virtualpathroot name="Global Files">
+          <name>Globale bestanden</name>
+        </virtualpathroot>
+      </virtualpathroots>
+    </filemanagernavigator>
+    <form>
+      <numberofvotes>Aantal stemmen: {0}</numberofvotes>
+      <postedmessage>Bedankt voor uw bericht!</postedmessage>
+      <showform>Naar het formulier</showform>
+      <showstat>Statistieken weergeven</showstat>
+    </form>
+    <forum>
+      <forumform>
+        <allowforumslabel>Forums toestaan:</allowforumslabel>
+        <allowthreadslabel>Threads toestaan:</allowthreadslabel>
+        <createbutton>Forum maken</createbutton>
+        <heading>Forum maken</heading>
+        <icondropdown>
+          <auction>Veiling</auction>
+          <default>Standaard</default>
+          <information>Informatie</information>
+        </icondropdown>
+        <iconlabel>Pictogram:</iconlabel>
+        <titleerror>Titel kan niet leeg zijn</titleerror>
+        <titlelabel>Titel:</titlelabel>
+      </forumform>
+      <forumlist>
+        <createbutton>Subforum toevoegen</createbutton>
+        <deleteforumbutton>Dit forum verwijderen</deleteforumbutton>
+        <heading>Subforums</heading>
+        <setupbutton>Automatisch configureren</setupbutton>
+        <setuperror>De pagina is niet correct ingesteld. Controleer de instellingen.</setuperror>
+        <title>Forum</title>
+        <updated>Laatst bijgewerkte thread</updated>
+      </forumlist>
+      <thread>
+        <addreply>Reactie toevoegen</addreply>
+        <deletereply>Reactie verwijderen</deletereply>
+        <deletethread>Thread verwijderen</deletethread>
+        <lock>Thread vergrendelen</lock>
+        <postedby>Geplaatst door:</postedby>
+        <reply>Reageren</reply>
+        <replyempty>Reactie kan niet leeg zijn</replyempty>
+        <sticky>Sticky thread</sticky>
+        <toforum>Naar forum</toforum>
+        <unlock>Thread vrijgeven</unlock>
+        <unsticky>Unsticky thread</unsticky>
+      </thread>
+      <threadform>
+        <contenterror>Tekst kan niet leeg zijn</contenterror>
+        <contentlabel>Tekst:</contentlabel>
+        <createbutton>Thread maken</createbutton>
+        <heading>Thread maken</heading>
+        <titleerror>Titel kan niet leeg zijn</titleerror>
+        <titlelabel>Titel:</titlelabel>
+      </threadform>
+      <threadlist>
+        <createbutton>Thread toevoegen</createbutton>
+        <createdby>Gemaakt door</createdby>
+        <heading>Threads</heading>
+        <replies>Reacties</replies>
+        <title>Thread</title>
+        <updated>Laatst bijgewerkt</updated>
+      </threadlist>
+      <today>Vandaag</today>
+      <Yesterday>Gisteren</Yesterday>
+    </forum>
+    <headings>
+      <heading name="Flash Content">
+        <description>Flash-inhoud</description>
+      </heading>
+      <heading name="Listings">
+        <description>Lijsten</description>
+      </heading>
+      <heading name="News &amp; Calendar">
+        <description>Nieuws &amp; Kalender</description>
+      </heading>
+      <heading name="SiteConfiguration">
+        <description>Siteconfiguratie</description>
+      </heading>
+    </headings>
+    <login>
+      <becomemember>Registreren</becomemember>
+      <currentuser>Huidige gebruiker:</currentuser>
+      <editdetails>Mijn instellingen</editdetails>
+      <email>Geef uw e-mailadres op:</email>
+      <error>
+        <loginfail>Aanmelden is mislukt. De opgegeven gebruikersnaam of het opgegeven wachtwoord zijn niet juist.</loginfail>
+        <password>U moet een wachtwoord invullen</password>
+        <username>U moet een gebruikersnaam opgeven</username>
+      </error>
+      <forgotpassword>Wachtwoord vergeten?</forgotpassword>
+      <login>Aanmelden</login>
+      <logout>Afmelden</logout>
+      <password>Wachtwoord</password>
+    </login>
+    <navigation>
+      <help>Help</help>
+      <listen>Luisteren</listen>
+      <readmore>Meer lezen</readmore>
+      <search>Zoeken</search>
+      <skipnavigation>Ga naar inhoud</skipnavigation>
+      <startpage>Start</startpage>
+      <startpagelinktitle>Naar startpagina</startpagelinktitle>
+    </navigation>
+    <news>
+      <morenews>Meer nieuws</morenews>
+      <publishdate>Gepubliceerd</publishdate>
+      <writername>Auteur</writername>
+    </news>
+    <pagetypes>
+      <common>
+        <property name="AboutTheSite">
+          <caption>Lijst koppelingen Info website (voettekst)</caption>
+          <help>Lijst van koppelingen naar info over de website, zoals weergegeven in de voettekst van de pagina.</help>
+        </property>
+        <property name="AboutTheSiteHeading">
+          <caption>Kop Info website (voettekst)</caption>
+          <help>Koptekst voor de koppelingen naar info over de website, zoals weergegeven in de voettekst van de pagina.</help>
+        </property>
+        <property name="ActiveThreadContainer">
+          <caption>Container voor actieve threads</caption>
+          <help>De container voor actieve threads in dit forum.</help>
+        </property>
+        <property name="Address1">
+          <caption>Adres1</caption>
+          <help>Eerste adres.</help>
+        </property>
+        <property name="Address2">
+          <caption>Adres2</caption>
+          <help>Tweede adres.</help>
+        </property>
+        <property name="Address3">
+          <caption>Adres3</caption>
+          <help>Derde adres.</help>
+        </property>
+        <property name="AllowForums">
+          <caption>Subforums toestaan voor dit forum</caption>
+          <help>Geef aan of het forum subforums kan bevatten.</help>
+        </property>
+        <property name="AllowThreads">
+          <caption>Threads toestaan voor dit forum</caption>
+          <help>Geef aan of het forum threads kan bevatten.</help>
+        </property>
+        <property name="ArchiveThreadContainer">
+          <caption>Container voor gearchiveerde threads</caption>
+          <help>De container voor gearchiveerde threads in dit forum.</help>
+        </property>
+        <property name="Author">
+          <caption>Auteur</caption>
+          <help>Geef de naam op van de auteur.</help>
+        </property>
+        <property name="BlogStart">
+          <caption>Startpagina blog</caption>
+          <help>De startpagina van de blog waar dit item deel van uitmaakt.</help>
+        </property>
+        <property name="CalendarContainer">
+          <caption>Agenda weergeven vanaf</caption>
+          <help>Geef de plaats in de boomstructuur aan vanwaaraf gebeurtenissen uit de agenda moeten worden weergegeven. Als de gebeurtenissen subpagina´s zijn van deze pagina, selecteert u "Deze pagina".</help>
+        </property>
+        <property name="CalendarItemContainer">
+          <caption>Agendastart</caption>
+          <help>Agendagebeurtenissen weergeven vanaf deze pagina.</help>
+        </property>
+        <property name="ClientsArea">
+          <caption>Clientgedeelte</caption>
+          <help>De inhoud van dit veld wordt weergegeven in het brede tekstvak. Behalve tekst kunt u ook afbeeldingen in het vak plaatsen. Let daarbij wel op de afmetingen: de afbeelding moet in het vak passen.</help>
+        </property>
+        <property name="CommentPageTypeName">
+          <caption>Paginatype blogcommentaar</caption>
+          <help>Het type pagina voor blogcommentaar.</help>
+        </property>
+        <property name="CompanyName">
+          <caption>Bedrijfsnaam</caption>
+          <help>De naam van het bedrijf.</help>
+        </property>
+        <property name="ConfirmationMessage">
+          <caption>Bevestigingsbericht</caption>
+          <help>Tekst die wordt verzonden in het bevestigingsbericht.</help>
+        </property>
+        <property name="ContactName">
+          <caption>Naam contactpersoon</caption>
+          <help>De naam van de contactpersoon.</help>
+        </property>
+        <property name="ContactPage">
+          <caption>Contactpagina</caption>
+          <help>Koppeling naar de pagina met contactgegevens.</help>
+        </property>
+        <property name="Country">
+          <caption>Land</caption>
+          <help>Land</help>
+        </property>
+        <property name="CountryPresence">
+          <caption>Aanwezig in de volgende landen</caption>
+          <help>De landen waar het bedrijf vertegenwoordigd is.</help>
+        </property>
+        <property name="DateContainer">
+          <caption>Container voor datumpagina´s</caption>
+          <help>Normaal gesproken automatisch ingesteld.</help>
+        </property>
+        <property name="Description">
+          <caption>Kop voor RSS-bron</caption>
+          <help>Geef een kop op voor de RSS-bron </help>
+        </property>
+        <property name="Details">
+          <caption>Persoonlijke gegevens</caption>
+          <help>Geef een korte beschrijving van de blogger.</help>
+        </property>
+        <property name="DisableAnonymousComments">
+          <caption>Anonieme reacties weigeren</caption>
+          <help>Geef aan of anonieme reacties op teksten in de blog al dan niet zijn toegestaan.</help>
+        </property>
+        <property name="DisableCompany">
+          <caption>Wijzigen van het bedrijf is niet toegestaan</caption>
+          <help>Wijzigen van het bedrijf is niet toegestaan</help>
+        </property>
+        <property name="DisableCountry">
+          <caption>Wijzigen van het land is niet toegestaan</caption>
+          <help>Wijzigen van het land is niet toegestaan</help>
+        </property>
+        <property name="DisableEmail">
+          <caption>Wijzigen van het e-mailadres is niet toegestaan</caption>
+          <help>Wijzigen van het e-mailadres is niet toegestaan</help>
+        </property>
+        <property name="DisableFirstname">
+          <caption>Wijzigen van de voornaam is niet toegestaan</caption>
+          <help>Wijzigen van de voornaam is niet toegestaan</help>
+        </property>
+        <property name="DisableLanguage">
+          <caption>Wijzigen van de taal is niet toegestaan</caption>
+          <help>Wijzigen van de taal is niet toegestaan</help>
+        </property>
+        <property name="DisableLastname">
+          <caption>Wijzigen van de achternaam is niet toegestaan</caption>
+          <help>Wijzigen van de achternaam is niet toegestaan</help>
+        </property>
+        <property name="DisableTitle">
+          <caption>Wijzigen van de titel is niet toegestaan</caption>
+          <help>Wijzigen van de titel is niet toegestaan</help>
+        </property>
+        <property name="DisplayDate">
+          <caption>Datums in de eerste lijst weergeven</caption>
+          <help>Geef aan of datums moeten worden weergegeven voor de items in de lijst.</help>
+        </property>
+        <property name="DisplayDocumentLink">
+          <caption>Documentkoppelingen in de eerste lijst weergeven</caption>
+          <help>Geef aan of documentkoppelingen in de eerste lijst moeten worden weergeven.</help>
+        </property>
+        <property name="DocumentInternalPath">
+          <caption>Documentpad</caption>
+          <help>Het pad naar het document.</help>
+        </property>
+        <property name="DocumentListRoot">
+          <caption>Documentenlijst ophalen van</caption>
+          <help>Geef de pagina op waarvan u de documentlijst wilt ophalen. Als deze optie niet is ingesteld, wordt de paginalijst niet weergegeven.</help>
+        </property>
+        <property name="DocumentPath">
+          <caption>Pad naar document</caption>
+          <help>Pad naar een kopie van het brondocument</help>
+        </property>
+        <property name="Email">
+          <caption>E-mailadres</caption>
+          <help>E-mailadres</help>
+        </property>
+        <property name="EmailBody">
+          <caption>E-mailtekst</caption>
+          <help>Inhoud van het e-mailbericht dat wordt verzonden.</help>
+        </property>
+        <property name="EmailSender">
+          <caption>Afzender e-mail</caption>
+          <help>E-mailadres dat wordt gebruikt als afzender.</help>
+        </property>
+        <property name="EmailSubject">
+          <caption>Onderwerp e-mail</caption>
+          <help>Onderwerp van het e-mailbericht dat wordt verzonden.</help>
+        </property>
+        <property name="EmbeddedObjectHeight">
+          <caption>Hoogte van de Flash-film</caption>
+          <help>Geef de hoogte van de Flash-film op in pixels.</help>
+        </property>
+        <property name="EmbeddedObjectWidth">
+          <caption>Breedte van de Flash-film</caption>
+          <help>Geef de breedte van de Flash-film op in pixels.</help>
+        </property>
+        <property name="EmbeddedURL">
+          <caption>Pad naar Flash-film</caption>
+          <help>Geef het adres van de Flash-film op</help>
+        </property>
+        <property name="EnableStatistics">
+          <caption>Statistieken weergeven</caption>
+          <help>Statistieken op pagina voor bezoekers weergeven</help>
+        </property>
+        <property name="EPiWebSites">
+          <caption>Lijst EPiServer-websites (voettekst)</caption>
+          <help>Lijst met EPiServer-websites, zoals weergegeven in de voettekst van de pagina.</help>
+        </property>
+        <property name="EPiWebSitesHeading">
+          <caption>Kop EPiServer-websites (voettekst)</caption>
+          <help>Koptekst voor de EPiServer-websites, zoals weergegeven in de voettekst van de pagina.</help>
+        </property>
+        <property name="EPSUBSCRIBE">
+          <caption>Abonnement activeren</caption>
+          <help>Hiermee activeert u een abonnement voor deze pagina</help>
+        </property>
+        <property name="EPSUBSCRIBE-EXCLUDE">
+          <caption>Abonnement voor deze pagina blokkeren</caption>
+          <help>Schakel dit selectievakje in om abonnementupdates voor deze pagina te blokkeren.</help>
+        </property>
+        <property name="EPSUBSCRIBEHIDDEN">
+          <caption>Niet op de abonnementpagina weergeven</caption>
+          <help>Hiermee verbergt u deze pagina op de abonnementpagina</help>
+        </property>
+        <property name="EPSUBSCRIBE-ROOT">
+          <caption>Hoofdpagina voor abonnement</caption>
+          <help>Geef een pagina in de structuur op van waaruit het abonnement start.</help>
+        </property>
+        <property name="EventsCount">
+          <caption>Aantal gebeurtenisitems</caption>
+          <help>Geef een getal op voor het aantal pagina’s dat u wilt weergeven in de lijst.</help>
+        </property>
+        <property name="EventsRoot">
+          <caption>Gebeurtenissenlijst ophalen van</caption>
+          <help>Geef de pagina op met de onderliggende items voor het genereren van de gebeurtenissenlijst. Als deze optie niet is ingesteld, wordt de nieuwslijst niet weergegeven.</help>
+        </property>
+        <property name="EventStartDate">
+          <caption>Startdatum</caption>
+          <help>Geef de startdatum van de activiteit aan.</help>
+        </property>
+        <property name="EventStopDate">
+          <caption>Einddatum</caption>
+          <help>Geef de einddatum van de activiteit aan.</help>
+        </property>
+        <property name="FeedCount">
+          <caption>Aantal items in een feed</caption>
+          <help>Het aantal in een RSS/Atom-feed te verzenden items.</help>
+        </property>
+        <property name="ForumPageTypeName">
+          <caption>Paginatype forum</caption>
+          <help>Het type pagina voor het forum.</help>
+        </property>
+        <property name="ForumStart">
+          <caption>Forumstartpagina</caption>
+          <help>De startpagina van het forum waar dit item deel van uitmaakt.</help>
+        </property>
+        <property name="Heading">
+          <caption>Kop</caption>
+          <help>Geef een kop op als hoofdtitel van deze pagina. Als deze eigenschap niet is ingesteld, wordt de paginanaam gebruikt als kop.</help>
+        </property>
+        <property name="HistoryLength">
+          <caption>Max. ouderdom van items in de lijst</caption>
+          <help>De maximale ouderdom van items die in de lijst zijn weergegeven.</help>
+        </property>
+        <property name="Icon">
+          <caption>Pictogram voor dit forum</caption>
+          <help>De naam van het pictogram dat voor dit forum wordt gebruikt.</help>
+        </property>
+        <property name="Image">
+          <caption>Afbeelding</caption>
+          <help>Geef een afbeelding op die wordt weergeven op de startpagina (900*341 pixels)</help>
+        </property>
+        <property name="IndexContainer">
+          <caption>Inhoud weergeven vanaf pagina</caption>
+          <help>Geef de pagina op waarmee de index moet beginnen.</help>
+        </property>
+        <property name="IndexRoot">
+          <caption>Inhoud van pagina weergeven</caption>
+          <help>Geef de pagina op van waaruit het siteoverzicht start.</help>
+        </property>
+        <property name="IsDateListing">
+          <caption>Datumlijsten</caption>
+          <help>Normaal gesproken automatisch ingesteld.</help>
+        </property>
+        <property name="IsDocumentPageType">
+          <caption>Volledige HTML-editie en kopie van brondocument uploaden</caption>
+          <help>Selecteer deze optie om de volledige HTML-editie weer te geven</help>
+        </property>
+        <property name="IsLocked">
+          <caption>Thread is vergrendeld</caption>
+          <help>Geeft aan of de thread al dan niet is vergrendeld.</help>
+        </property>
+        <property name="IsTagListing">
+          <caption>Taglijsten</caption>
+          <help>Normaal gesproken automatisch ingesteld.</help>
+        </property>
+        <property name="IsTeamLevel">
+          <caption>Teamniveau</caption>
+          <help>Normaal gesproken automatisch ingesteld.</help>
+        </property>
+        <property name="ItemPageTypeName">
+          <caption>Paginatype blog</caption>
+          <help>Het type pagina dat voor de blog moet worden gebruikt.</help>
+        </property>
+        <property name="ListCount">
+          <caption>Aantal pagina's in de eerste lijst weergeven</caption>
+          <help>Geef aan hoeveel pagina's in de lijst moeten worden weergegeven.</help>
+        </property>
+        <property name="ListingSlideContainer">
+          <caption>Presentaties downloaden</caption>
+          <help>Selecteer de pagina waarvan u een presentatie wilt downloaden.</help>
+        </property>
+        <property name="ListingSlideCount">
+          <caption>Aantal pagina's van presentatie weergeven</caption>
+          <help>Geef aan hoeveel pagina's van de presentatie (geheel getal) moeten worden weergegeven.</help>
+        </property>
+        <property name="ListPageTypeName">
+          <caption>Paginatype bloglijst</caption>
+          <help>Het type pagina voor de bloglijst.</help>
+        </property>
+        <property name="ListRoot">
+          <caption>Eerste lijst ophalen van</caption>
+          <help>Geef aan van welke pagina de lijst moet worden opgehaald. De lijst wordt weergegeven in het primaire inhoudsgedeelte van de pagina. Geeft u hier niets op, dan wordt de pagina niet weergegeven.</help>
+        </property>
+        <property name="Location">
+          <caption>Locatie van gebeurtenis weergeven</caption>
+          <help>Selecteer één locatie voor deze gebeurtenis.</help>
+        </property>
+        <property name="LoginPage">
+          <caption>Aanmeldingspagina</caption>
+          <help>Geef de aanmeldingspagina op voor dit gedeelte van de site.</help>
+        </property>
+        <property name="Logotype">
+          <caption>Logotype</caption>
+          <help>Geef het pad op naar de logotypeafbeelding die bovenaan in de website wordt weergegeven.</help>
+        </property>
+        <property name="MainBody">
+          <caption>Hoofdtekst</caption>
+          <help>De hoofdtekst verschijnt in het hoofdgedeelte voor inhoud op de pagina. U kunt bijvoorbeeld tekst, afbeeldingen en tabellen invoegen met behulp van de XHTML-editor.</help>
+        </property>
+        <property name="MainIntro">
+          <caption>Inleiding</caption>
+          <help>Korte versie van de nieuwsinhoud. Deze tekst wordt gebruikt in nieuwslijsten, indien beschikbaar.</help>
+        </property>
+        <property name="MainLinksCount">
+          <caption>Aantal koppelingen weergeven</caption>
+          <help>Geef aan hoeveel koppelingen in de lijst moeten worden weergegeven.</help>
+        </property>
+        <property name="MainLinksHeading">
+          <caption>Kop eerste lijst</caption>
+          <help>Koptekst voor de eerste koppelingenlijst</help>
+        </property>
+        <property name="MainLinksRoot">
+          <caption>Linkerlijst ophalen vanaf</caption>
+          <help>Geef aan van welke pagina de lijst moet worden opgehaald.</help>
+        </property>
+        <property name="MainListCount">
+          <caption>Aantal pagina's in de hoofdlijst weergeven</caption>
+          <help>Geef een getal op voor het aantal pagina’s dat u in de lijst wilt weergeven.</help>
+        </property>
+        <property name="MainListRoot">
+          <caption>Hoofdlijst ophalen van</caption>
+          <help>Geef de pagina op waarvan u de lijst wilt ophalen. De lijst verschijnt in het hoofdgedeelte voor inhoud. Als deze optie niet is ingesteld, wordt de paginalijst niet weergegeven.</help>
+        </property>
+        <property name="MainMenuContainer">
+          <caption>Menu’s weergeven van</caption>
+          <help>Geef een locatie in de menustructuur op van waaruit menu's op de geselecteerde pagina worden weergegeven.</help>
+        </property>
+        <property name="MaxCount">
+          <caption>Max. aantal posts</caption>
+          <help>Het maximale aantal posts dat in de lijst moet worden weergegeven.</help>
+        </property>
+        <property name="MetaAuthor">
+          <caption>Auteur</caption>
+          <help>Geef de auteur van de tekst op voor gebruik in zoekmachines. Als deze optie niet is ingesteld, wordt de waarde in de dynamische eigenschap gebruikt als auteur.</help>
+        </property>
+        <property name="MetaDescription">
+          <caption>Paginabeschrijving</caption>
+          <help>Beschrijf de inhoud van de pagina</help>
+        </property>
+        <property name="MetaKeywords">
+          <caption>Standaardzoekwoorden voor pagina’s</caption>
+          <help>Geef een kommagescheiden lijst met zoekwoorden op die overeenkomen met deze pagina.</help>
+        </property>
+        <property name="nDaysToRender">
+          <caption>Aantal in de agenda weer te geven dagen</caption>
+          <help>Geef aan hoeveel dagen in de agenda moeten worden weergegeven.</help>
+        </property>
+        <property name="NewsCount">
+          <caption>Aantal nieuwsitems</caption>
+          <help>Geef een getal op voor het aantal pagina’s dat u in de lijst wilt weergeven.</help>
+        </property>
+        <property name="NewsRoot">
+          <caption>Nieuwslijst ophalen van</caption>
+          <help>Geef een pagina op met de onderliggende items voor het genereren van de nieuwslijst. Als deze optie niet is ingesteld, wordt de nieuwslijst niet weergegeven.</help>
+        </property>
+        <property name="NoEmployees">
+          <caption>Aantal medewerkers</caption>
+          <help>Het aantal medewerkers van het bedrijf.</help>
+        </property>
+        <property name="NumberOfReplies">
+          <caption>Aantal reacties</caption>
+          <help>Het aantal reacties dat in deze thread is geplaatst.</help>
+        </property>
+        <property name="OtherWebSites">
+          <caption>Lijst overige websites (voettekst)</caption>
+          <help>Lijst van overige websites, zoals weergegeven in de voettekst van de pagina.</help>
+        </property>
+        <property name="OtherWebSitesHeading">
+          <caption>Kop overige websites (voettekst)</caption>
+          <help>Koptekst voor overige websites, zoals weergegeven in de voettekst van de pagina.</help>
+        </property>
+        <property name="PasswordChangeSuccessBody">
+          <caption>Geslaagde wachtwoordwijziging</caption>
+          <help>Tekst die verschijnt bij een geslaagde wachtwoordwijziging</help>
+        </property>
+        <property name="PasswordLength">
+          <caption>Wachtwoordlengte</caption>
+          <help>Het kortste toegestane wachtwoord</help>
+        </property>
+        <property name="PersonalStartPageTypeName">
+          <caption>Startpaginatype blogindividu</caption>
+          <help>Het type startpagina blogindividu dat voor blogging moet worden gebruikt.</help>
+        </property>
+        <property name="Phone">
+          <caption>Telefoon</caption>
+          <help>Telefoon</help>
+        </property>
+        <property name="PostPageTypeName">
+          <caption>Paginatype forumposts</caption>
+          <help>Het type paginatype voor forumposts.</help>
+        </property>
+        <property name="PrivacyPage">
+          <caption>Privacypagina</caption>
+          <help>Koppeling naar de pagina met juridische informatie.</help>
+        </property>
+        <property name="RecentContainer">
+          <caption>Pagina's weergeven vanaf</caption>
+          <help>Geef aan van welke pagina de recent gewijzigde pagina's moeten worden weergegeven.</help>
+        </property>
+        <property name="RecentHours">
+          <caption>Pagina's weergeven die de laatste x uur zijn gewijzigd</caption>
+          <help>Geef aan van hoeveel uur terug wijzigingen moeten worden weergegeven.</help>
+        </property>
+        <property name="RefreshRate">
+          <caption>Aantal seconden weergave per pagina</caption>
+          <help>Geef aan hoeveel seconden elke pagina van de presentatie moet worden weergegeven.</help>
+        </property>
+        <property name="RelatedSites">
+          <caption>Gerelateerde websitelijst (voettekst)</caption>
+          <help>Lijst van gerelateerde websites, zoals weergegeven in de voettekst van de pagina.</help>
+        </property>
+        <property name="RelatedSitesHeading">
+          <caption>Kop gerelateerde websites (voettekst)</caption>
+          <help>Koptekst voor gerelateerde websites, zoals weergegeven in de voettekst van de pagina.</help>
+        </property>
+        <property name="ResellerDescription">
+          <caption>Beschrijving</caption>
+          <help>Beschrijving</help>
+        </property>
+        <property name="ResellerID">
+          <caption>Wederverkoper-ID</caption>
+          <help>ID van de wederverkoper.</help>
+        </property>
+        <property name="RootFolder">
+          <caption>Zoekpad naar weer te geven map</caption>
+          <help>Geef het adres op van de map waarvan u de inhoud wilt weergeven in de lijst.</help>
+        </property>
+        <property name="RssContainer">
+          <caption>RSS-hoofdpagina</caption>
+          <help>Geef een hoofdpagina op voor alle RSS-bronpagina’s</help>
+        </property>
+        <property name="RssSource">
+          <caption>RSS-bronpagina</caption>
+          <help>Geef een pagina in de structuur op die een bronpagina is voor RSS-inhoud op deze website.</help>
+        </property>
+        <property name="RssUrl">
+          <caption>Zoekpad naar RSS-bron </caption>
+          <help>Geef de adresinhoud op in RSS-indeling. Dit is doorgaans een webadres.</help>
+        </property>
+        <property name="SearchPage">
+          <caption>Zoekpagina</caption>
+          <help>Koppeling naar de zoekpagina voor dit gedeelte van de site.</help>
+        </property>
+        <property name="SearchRoot">
+          <caption>Startpagina voor de zoekopdracht</caption>
+          <help>Geef de startpagina voor zoekopdrachten op. Als dit veld leeg wordt gelaten, start de zoekopdracht vanaf de startpagina.</help>
+        </property>
+        <property name="SecondaryBody">
+          <caption>Tweede tekst</caption>
+          <help>De tweede tekst wordt weergegeven in de rechterkolom van de pagina. Voor de lay-out kunt u zowel tekst als afbeeldingen gebruiken. Denk eraan dat afbeeldingen niet langer mogen zijn dan het rechtergedeelte.</help>
+        </property>
+        <property name="SecondaryLinksCount">
+          <caption>Aantal koppelingen weergeven</caption>
+          <help>Geef aan hoeveel koppelingen in de lijst moeten worden weergegeven.</help>
+        </property>
+        <property name="SecondaryLinksDisplayDate">
+          <caption>Datum weergeven voor alle items in tweede lijst</caption>
+          <help>Geeft aan of een datum wordt weergeven voor de items in de tweede lijst.</help>
+        </property>
+        <property name="SecondaryLinksHeading">
+          <caption>Kop tweede lijst</caption>
+          <help>Koptekst voor de tweede koppelingenlijst</help>
+        </property>
+        <property name="SecondaryLinksRoot">
+          <caption>Rechterlijst ophalen vanaf</caption>
+          <help>Geef aan van welke pagina de lijst moet worden opgehaald.</help>
+        </property>
+        <property name="SecondaryListCount">
+          <caption>Aantal pagina's in de tweede lijst weergeven</caption>
+          <help>Aantal items in de tweede lijst</help>
+        </property>
+        <property name="SecondaryListDisplayDate">
+          <caption>Datums in de tweede lijst weergeven</caption>
+          <help>Geef aan of datums moeten worden weergegeven voor de items in de lijst.</help>
+        </property>
+        <property name="SecondaryListHeading">
+          <caption>Kop tweede lijst</caption>
+          <help>De koptekst voor de tweede lijst.</help>
+        </property>
+        <property name="SecondaryListRoot">
+          <caption>Tweede lijst ophalen van</caption>
+          <help>Geef de pagina op waarvan u de lijst wilt ophalen. De lijst verschijnt in de rechterkolom. Als deze optie niet is ingesteld, wordt de paginalijst niet weergegeven.</help>
+        </property>
+        <property name="SelectedWebPart">
+          <caption>Webdeel selecteren</caption>
+          <help>Selecteer het webdeel dat op de pagina moet worden weergegeven.</help>
+        </property>
+        <property name="SEODescription">
+          <caption>Paginabeschrijving</caption>
+          <help>Beschrijving van de pagina.</help>
+        </property>
+        <property name="SEORobots">
+          <caption>Zoekrobots</caption>
+          <help>Geef aan hoe zoekrobots met de pagina moeten omgaan.</help>
+        </property>
+        <property name="SEOTitle">
+          <caption>Paginatitel</caption>
+          <help>De titel van de pagina.</help>
+        </property>
+        <property name="SitemapPage">
+          <caption>Pagina met siteoverzicht</caption>
+          <help>Koppeling naar de pagina met het siteoverzicht.</help>
+        </property>
+        <property name="SortFilesBy">
+          <caption>Bestanden sorteren op</caption>
+          <help>Geef aan hoe u de lijst wilt sorteren.</help>
+        </property>
+        <property name="Speaker">
+          <caption>Spreker voor gebeurtenis weergeven</caption>
+          <help>Selecteer één spreker voor deze gebeurtenis.</help>
+        </property>
+        <property name="StickyThreadContainer">
+          <caption>Container voor sticky threads</caption>
+          <help>De container voor sticky threads in dit forum.</help>
+        </property>
+        <property name="SubscriptionMailBody">
+          <caption>Inleidende tekst in het abonnementsbericht</caption>
+          <help>Voer de tekst in die u wilt gebruiken als berichttekst van het abonnementsbericht.</help>
+        </property>
+        <property name="SubscriptionMailFrom">
+          <caption>E-mailadres afzender van abonnementsbericht</caption>
+          <help>E-mailadres dat wordt gebruikt als afzender van het abonnementsbericht</help>
+        </property>
+        <property name="SubscriptionMailReadMore">
+          <caption>Koppelingstekst in het abonnementsbericht</caption>
+          <help>Deze tekst zal in het abonnementsbericht de koppeling bevatten waarop de gebruiker kan klikken.</help>
+        </property>
+        <property name="SubscriptionMailSubject">
+          <caption>Onderwerp van abonnementsbericht</caption>
+          <help>Dit is het onderwerpveld van het abonnementsbericht.</help>
+        </property>
+        <property name="SummaryLength">
+          <caption>Lengte samenvatting</caption>
+          <help>De lengte van de samenvattende tekst voor elk item.</help>
+        </property>
+        <property name="SummaryTextLength">
+          <caption>Lengte van de samenvatting</caption>
+          <help>Het aantal tekens waarop de samenvattende tekst wordt afgebroken.</help>
+        </property>
+        <property name="TagCloudValue">
+          <caption>Waarde tagcloud</caption>
+          <help>Normaal gesproken automatisch ingesteld.</help>
+        </property>
+        <property name="TagContainer">
+          <caption>Container voor tagpagina's</caption>
+          <help>Normaal gesproken automatisch ingesteld.</help>
+        </property>
+        <property name="Tags">
+          <caption>Tags</caption>
+          <help>Voer een kommagescheiden lijst in en/of neem de gegevens over uit bestaande tags.</help>
+        </property>
+        <property name="TeamStartPageTypeName">
+          <caption>Startpaginatype blogteam</caption>
+          <help>Het type startpagina blogteam dat voor blogging moet worden gebruikt.</help>
+        </property>
+        <property name="TemplateContainer">
+          <caption>Werkruimtesjablonen</caption>
+          <help>Verwijzing naar de container met werkruimtesjablonen.</help>
+        </property>
+        <property name="ThirdBody">
+          <caption>Derde tekstvak</caption>
+          <help>De inhoud van dit veld wordt weergegeven in het derde tekstvak op de pagina. Behalve tekst kunt u ook afbeeldingen in het vak plaatsen. Let daarbij wel op de afmetingen: de afbeelding moet in het vak passen.</help>
+        </property>
+        <property name="ThreadContainerPageTypeName">
+          <caption>Paginatype threadcontainer</caption>
+          <help>Het type pagina voor de threadcontainer</help>
+        </property>
+        <property name="ThreadPageTypeName">
+          <caption>Paginatype forumthreads</caption>
+          <help>Het type pagina voor forumthreads</help>
+        </property>
+        <property name="Thumbnail">
+          <caption>Miniatuurafbeelding</caption>
+          <help>Geef een afbeelding op die, waar van toepassing, in paginalijsten wordt weergegeven.</help>
+        </property>
+        <property name="URL">
+          <caption>URL</caption>
+          <help>URL</help>
+        </property>
+        <property name="UsageStatistics">
+          <caption>Statistieken voor tags</caption>
+          <help>Normaal gesproken automatisch ingesteld.</help>
+        </property>
+        <property name="ValidDays">
+          <caption>Terugkerende dag</caption>
+          <help>Geef aan of de activiteit op een vast interval (vaste dag) wordt herhaald.</help>
+        </property>
+        <property name="VideoSourceURL">
+          <caption>Videobestand</caption>
+          <help>Geef een videobestand in .flv-indeling op.</help>
+        </property>
+        <property name="WorkroomIcon">
+          <caption>Pictogramafbeelding voor deze werkruimte</caption>
+          <help>Een afbeelding die als pictogram voor deze werkruimte wordt gebruikt.</help>
+        </property>
+        <property name="WorkroomStart">
+          <caption>Startpagina voor deze werkruimte</caption>
+          <help>De startpagina van de werkruimte waar deze pagina deel van uitmaakt.</help>
+        </property>
+        <property name="Writer">
+          <caption>Naam blogger</caption>
+          <help>Geef de naam op van de blogger.</help>
+        </property>
+        <property name="XForm">
+          <caption>Formulier</caption>
+          <help>Geef het formulier op dat u wilt weergeven op deze pagina. Klik op de knop als u zelf formulieren wilt maken.</help>
+        </property>
+      </common>
+      <pagetype name="[AlloyTech] Blog comment">
+        <description>Pagina voor commentaar op blogitems.</description>
+        <name>[AlloyTech] Blogcommentaar</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog item">
+        <description>Een pagina die wordt gebruikt voor één blogpost.</description>
+        <name>[AlloyTech] Blogitem</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog list">
+        <description>Een pagina die wordt gebruikt voor lijsten met datums en tags.</description>
+        <name>[AlloyTech] Bloglijst</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog personal start">
+        <description>De startpagina van een persoonlijke blog.</description>
+        <name>[AlloyTech] Startpagina persoonlijke blog</name>
+        <property name="Image">
+          <caption>Afbeelding blogger</caption>
+          <help>Selecteer een afbeelding voor de blogger.</help>
+        </property>
+      </pagetype>
+      <pagetype name="[AlloyTech] Blog team start">
+        <description>De startpagina van een teamblog.</description>
+        <name>[AlloyTech] Startpagina teamblog</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar">
+        <description>Een pagina met agendagebeurtenissen.</description>
+        <name>[AlloyTech] Agenda</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Calendar event">
+        <description>Een pagina voor een gebeurtenis in de agenda.</description>
+        <name>[AlloyTech] Agendagebeurtenis</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Changed recently">
+        <description>Een pagina met een lijst van recent gewijzigde pagina's.</description>
+        <name>[AlloyTech] Recent gewijzigd</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Company Facts">
+        <description>Houder voor bedrijf feiten als dynamische inhoud</description>
+        <name>[AlloyTech] Bedrijf feiten</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Document">
+        <description>Met dit paginatype worden documenten gepubliceerd vanuit Microsoft Office.</description>
+        <name>[AlloyTech] Document</name>
+      </pagetype>
+      <pagetype name="EventItemPage">
+        <description>Een pagina met een specifieke gebeurtenis.</description>
+        <name>[AlloyTech] Gebeurtenis</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum">
+        <description>Een forumpagina.</description>
+        <name>[AlloyTech] Forum</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum post">
+        <description>Een reactie op een forumthread.</description>
+        <name>[AlloyTech] Forumpost</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread">
+        <description>Een thread in een forum.</description>
+        <name>[AlloyTech] Forumthread</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Forum thread container">
+        <description>Een container voor forumthreads.</description>
+        <name>[AlloyTech] Forumthreadcontainer</name>
+      </pagetype>
+      <pagetype name="ListingPage">
+        <description>Toont pagina samenvatting</description>
+        <name>[AlloyTech] Listing</name>
+      </pagetype>
+      <pagetype name="LoginPage">
+        <description>Met dit paginatype wordt een aanmeldingspagina voor de website gemaakt.</description>
+        <name>[AlloyTech] Aanmelden</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] My Settings">
+        <description>Een instellingspagina waar gebruikers hun persoonlijke instellingen kunnen aanpassen.</description>
+        <name>[AlloyTech] Mijn instellingen</name>
+      </pagetype>
+      <pagetype name="NewsItemPage">
+        <description>Dit paginatype bevat de gegevens voor één nieuwsitem.</description>
+        <name>[AlloyTech] Nieuwsitem</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Notification Email">
+        <description>Notificatie e-mail sjabloon</description>
+        <name>[AlloyTech] Notificatie e-mail</name>
+      </pagetype>
+      <pagetype name="RegistrationPage">
+        <description>Op dit paginatype kunnen bezoekers zich registreren op de website.</description>
+        <name>[AlloyTech] Registratie</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Reseller">
+        <description>Een pagina met gegevens van wederverkopers.</description>
+        <name>[AlloyTech] Wederverkoper</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] RSS source">
+        <description>Dit paginatype geeft informatie van EPiServer weer in RSS-indeling.</description>
+        <name>[AlloyTech] RSS-bron</name>
+      </pagetype>
+      <pagetype name="SearchPage">
+        <description>Dit paginatype geeft de zoekresultaten weer van de snelzoekbalk, plus een interface voor geavanceerd zoeken.</description>
+        <name>[AlloyTech] Zoekpagina</name>
+      </pagetype>
+      <pagetype name="SitemapPage">
+        <description>Op dit paginatype wordt een inhoudslijst gemaakt van de hele website of een gedeelte ervan.</description>
+        <name>[AlloyTech] Siteoverzicht</name>
+      </pagetype>
+      <pagetype name="StandardPage">
+        <description>Dit paginatype is de meest gebruikte pagina op de website. U kunt dit type zowel voor normale pagina’s als voor nieuws en gebeurtenissen gebruiken.</description>
+        <name>[AlloyTech] Standaardpagina</name>
+      </pagetype>
+      <pagetype name="StartPage">
+        <description>De startpagina is de hoofdingang van de website, opgebouwd uit primaire en secundaire inhoudsvelden en lijsten met koppelingen.</description>
+        <name>[AlloyTech] Startpagina</name>
+      </pagetype>
+      <pagetype name="SubscriptionPage">
+        <description>Op dit paginatype kunnen bezoekers abonnementsgegevens selecteren.</description>
+        <name>[AlloyTech] Abonnement</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] User profile">
+        <description>Gebruikersprofiel</description>
+        <name>[AlloyTech] Gebruikersprofiel</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar">
+        <description>Een agendapagina in een werkruimte.</description>
+        <name>[AlloyTech] Werkruimteagenda</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Calendar event">
+        <description>Een pagina voor een gebeurtenis in de agenda.</description>
+        <name>[AlloyTech] Werkruimteagendagebeurtenis</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom File Manager">
+        <description>Bestandsbeheer in een werkruimte.</description>
+        <name>[AlloyTech] Werkruimte - Bestandsbeheer</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom list">
+        <description>Een pagina met een lijst van alle beschikbare werkruimten.</description>
+        <name>[AlloyTech] Werkruimtelijst</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Membership Manager">
+        <description>Een pagina voor beheer van de leden van een werkruimte.</description>
+        <name>[AlloyTech] Werkruimte - Ledenbeheer</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom news list">
+        <description>Een nieuwspagina in een werkruimte.</description>
+        <name>[AlloyTech] Werkruimtenieuws</name>
+      </pagetype>
+      <pagetype name="[AlloyTech] Workroom Settings">
+        <description>Een pagina voor aanpassing van de instellingen van een werkruimte.</description>
+        <name>[AlloyTech] Werkruimte-instellingen</name>
+      </pagetype>
+      <pagetype name="XFormPage">
+        <description>Met dit paginatype wordt de standaardpagina uitgebreid met een formulier.</description>
+        <name>[AlloyTech] Formulierpagina</name>
+      </pagetype>
+    </pagetypes>
+    <register>
+      <confirmation>Dank u</confirmation>
+      <error>
+        <confirmpassword>Bevestig het wachtwoord dat u hebt ingevoerd</confirmpassword>
+        <couldnotsave>Kan wijzigingen niet opslaan</couldnotsave>
+        <email>Voer uw e-mailadres in</email>
+        <firstname>Voer uw voornaam in</firstname>
+        <incorrectemail>Het door u ingevoerde e-mailadres is onjuist</incorrectemail>
+        <lastname>Voer uw achternaam in</lastname>
+        <password>Voer een wachtwoord in</password>
+        <passwordlength>Het door u ingevoerde wachtwoord is te kort. Minimumlengte:</passwordlength>
+        <passwordrepeat>De door u ingevoerde wachtwoorden komen niet overeen.</passwordrepeat>
+      </error>
+      <password>Voer wachtwoord in</password>
+      <repeatpassword>Voer wachtwoord nogmaals in</repeatpassword>
+      <signupbutton>Aanmelden</signupbutton>
+    </register>
+    <search>
+      <advancedsearch>Geavanceerde zoekopdracht</advancedsearch>
+      <button>Zoeken</button>
+      <findsimilar>Vergelijkbare zoeken</findsimilar>
+      <nosearchresult>Geen overeenkomsten gevonden</nosearchresult>
+      <onlywholewords>Heel woord</onlywholewords>
+      <percentrelevancy>% relevantie</percentrelevancy>
+      <relevancy>Relevantie</relevancy>
+      <searchfiles>Zoeken in bestanden</searchfiles>
+      <searchfor>Zoeken naar:</searchfor>
+      <searchresult>Zoekresultaat:</searchresult>
+      <searchstring>Hier zoeken</searchstring>
+    </search>
+    <subscription>
+      <daily>Dagelijks</daily>
+      <email>E-mailadres</email>
+      <error>
+        <email>Voer uw e-mailadres in</email>
+        <incorrectemail>Het door u ingevoerde e-mailadres is onjuist</incorrectemail>
+      </error>
+      <fastaspossible>Zo spoedig mogelijk</fastaspossible>
+      <interval>Interval</interval>
+      <monthly>Maandelijks</monthly>
+      <subscribe>Abonneren</subscribe>
+      <subscription>Abonnement</subscription>
+      <weekly>Wekelijks</weekly>
+    </subscription>
+    <templates>
+      <changedpages>
+        <header>Laatst gewijzigde bestanden</header>
+        <lastmodified>Laatst gewijzigd</lastmodified>
+        <page>Pagina</page>
+        <updatedpages>Laatst bijgewerkte pagina's</updatedpages>
+      </changedpages>
+      <dynamiccontent>
+        <map>
+          <addresslabel>Adres</addresslabel>
+          <altlabel>Alternatieve tekst afbeelding</altlabel>
+          <displaystaticimagelabel>Weergeven als afbeelding</displaystaticimagelabel>
+          <emptysearchresults>Adres niet gevonden</emptysearchresults>
+          <heighterrormessage>Kaarthoogte moet een waarde zijn tussen 100 en 2000</heighterrormessage>
+          <heightlabel>Hoogte kaart</heightlabel>
+          <hidesearchresults>Verbergen</hidesearchresults>
+          <missingmapdata>Kaartinstellingen kunnen niet worden geladen.</missingmapdata>
+          <searchbuttonlabel>Zoeken</searchbuttonlabel>
+          <searchresultslabel>Zoekresultaten</searchresultslabel>
+          <selectionerrormessage>Een kaart kan niet worden opgeslagen zonder locatie. Selecteer een locatie door te dubbelklikken op een kaart of de markering van een zoekresultaat.</selectionerrormessage>
+          <selectiontextmessage>Selecteer een locatie.</selectiontextmessage>
+          <unabletoinitializemessage>Kaart kan niet worden geïnitialiseerd.</unabletoinitializemessage>
+          <widtherrormessage>Kaartbreedte moet een waarde zijn tussen 100 en 2000</widtherrormessage>
+          <widthlabel>Breedte kaart</widthlabel>
+        </map>
+      </dynamiccontent>
+      <events>
+        <location>Locatie</location>
+        <speaker>Spreker</speaker>
+      </events>
+      <personalsettings>
+        <validation>
+          <emailexists>Het e-mailadres dat u hebt ingevoerd, is al in gebruik.</emailexists>
+        </validation>
+      </personalsettings>
+      <reseller>
+        <address>Adres</address>
+        <contacts>Contactpersonen</contacts>
+        <name>Naam</name>
+        <url>URL</url>
+      </reseller>
+    </templates>
+    <usersettings>
+      <changepassword>Wachtwoord wijzigen</changepassword>
+      <confirmpassword>Wachtwoord bevestigen</confirmpassword>
+      <email>E-mailadres</email>
+      <firstname>Voornaam</firstname>
+      <lastname>Achternaam</lastname>
+      <mysettings>Mijn instellingen</mysettings>
+      <newpassword>Nieuw wachtwoord</newpassword>
+      <username>Gebruikersnaam</username>
+    </usersettings>
+    <workroom>
+      <calendar>
+        <buttonaddevent>Gebeurtenis toevoegen</buttonaddevent>
+        <buttondeletecalendar>Agenda verwijderen</buttondeletecalendar>
+        <buttoneditname>Naam bewerken</buttoneditname>
+        <createheading>Gebeurtenis maken</createheading>
+        <dateformat>Voorbeeld: 11/25/2007</dateformat>
+        <editheading>Gebeurtenis bewerken</editheading>
+        <invalidstartdate>De begindatum is geen geldige datum</invalidstartdate>
+        <invalidstopdate>De einddatum is geen geldige datum</invalidstopdate>
+        <latestarttime>De starttijd moet vóór de eindtijd liggen.</latestarttime>
+        <nameempty>Voer een titel in</nameempty>
+        <selectedperiod>Geselecteerde periode:</selectedperiod>
+        <starttimeempty>Voer een startdatum in</starttimeempty>
+        <starttimelabel>Startdatum:</starttimelabel>
+        <stoptimeempty>Voer een einddatum in </stoptimeempty>
+        <stoptimelabel>Einddatum:</stoptimelabel>
+      </calendar>
+      <calendarlist>
+        <calendaraddnew>Agenda toevoegen</calendaraddnew>
+        <calendaritemfrom>Van:</calendaritemfrom>
+        <calendaritemto>Tot:</calendaritemto>
+        <calendarsectionname>Naam agenda</calendarsectionname>
+      </calendarlist>
+      <edit>Bewerken</edit>
+      <editablecontent>
+        <labeltext>Bewerk de inhoud en klik op "Opslaan".</labeltext>
+      </editablecontent>
+      <editdescription>Beschrijving bewerken</editdescription>
+      <eventlist>
+        <heading>Komende gebeurtenissen</heading>
+      </eventlist>
+      <filelist>
+        <errormessage>De hoofdmap voor de werkruimte kan niet worden gevonden. Het is ook mogelijk dat u geen toegangsrechten hebt voor de map.</errormessage>
+        <errormissingindex>Er is geen index geconfigureerd voor de hoofdmap van de werkruimte. Wilt u kunnen weergeven welke bestanden onlangs zijn gewijzigd, dan is een index vereist.</errormissingindex>
+        <heading>Recente bestanden</heading>
+      </filelist>
+      <membershiplevel>
+        <administer>Beheerder</administer>
+        <modify>Deelnemend lid</modify>
+        <read>Alleen-lezenlid</read>
+      </membershiplevel>
+      <membershipmanager>
+        <button>
+          <addmembers>Leden toevoegen</addmembers>
+          <editmembers>Leden bewerken</editmembers>
+          <invite>Uitnodigen</invite>
+          <remove>Verwijderen</remove>
+          <sendinvitation>Uitnodiging sturen</sendinvitation>
+        </button>
+        <confirmremovemember>Weet u zeker dat u de geselecteerde leden van de werkruimte wilt verwijderen?</confirmremovemember>
+        <email>E-mailadres</email>
+        <emptysearchresult>Er zijn geen gebruikers gevonden die voldoen aan de criteria van uw zoekopdracht.</emptysearchresult>
+        <inviteheading>Gebruiker uitnodigen</inviteheading>
+        <invitemembermessage>Uitnodiging per e-mail naar de gebruiker sturen.</invitemembermessage>
+        <invitemembership>Toe te wijzen status</invitemembership>
+        <inviteunfiledsenderemail>Geen e-mailadres opgegeven in uw profiel.</inviteunfiledsenderemail>
+        <invitewithoutstatus>Toe te wijzen status ontbreekt.</invitewithoutstatus>
+        <managemembersheading>Leden van de werkruimte beheren</managemembersheading>
+        <membershiplevel>Lidmaatschapstatus</membershiplevel>
+        <removeheading>Lid verwijderen</removeheading>
+        <searchheading>Gebruikers zoeken</searchheading>
+        <searchresultheading>Zoekresultaten</searchresultheading>
+        <searchtext>Zoeken</searchtext>
+        <sendinvitationerror>Fout bij het verzenden van de uitnodiging.</sendinvitationerror>
+        <sendinvitationok>Uitnodiging met succes verzonden.</sendinvitationok>
+        <sendnotifications>Berichtgevingen versturen van de wijziging in lidmaatschapstatus?</sendnotifications>
+        <sendnotificationsno>Nee</sendnotificationsno>
+        <sendnotificationsyes>Ja</sendnotificationsyes>
+        <status>Toewijzingsstatus</status>
+        <unabletosendnotification>Mogelijk zijn niet alle berichtgevingen verzonden.</unabletosendnotification>
+        <username>Gebruikersnaam</username>
+        <viewmembersheading>Leden van de werkruimte</viewmembersheading>
+      </membershipmanager>
+      <newslist>
+        <heading>Nieuws</heading>
+        <newssectionname>Naam nieuwsruimte</newssectionname>
+      </newslist>
+      <newslistpage>
+        <addnewsitem>Nieuwsitem toevoegen</addnewsitem>
+        <addnewssection>Nieuwsruimte toevoegen</addnewssection>
+        <bodylabel>Beschrijving:</bodylabel>
+        <createheading>Nieuwsitem aanmaken</createheading>
+        <deletenewssection>Nieuwsruimte verwijderen</deletenewssection>
+        <editheading>Nieuwsitem bewerken</editheading>
+        <editnewssection>Nieuwsruimte bewerken</editnewssection>
+        <headinglabel>Titel:</headinglabel>
+        <titleempty>Voer een titel in</titleempty>
+      </newslistpage>
+      <settings>
+        <availablefunctions>Beschikbare functies</availablefunctions>
+      </settings>
+      <userprofile>
+        <confirmpassword>Wachtwoord bevestigen</confirmpassword>
+        <email>E-mailadres</email>
+        <error>
+          <firstnamerequired>Voer een voornaam in</firstnamerequired>
+          <lastnamerequired>Voer een achternaam in</lastnamerequired>
+          <logout>U bent aangemeld als een andere gebruiker. Meld u af en probeer het opnieuw.</logout>
+          <membership>Volgens de beveiligingsinstellingen is registratie van nieuwe gebruikers niet toegestaan. Neem voor meer informatie contact op met de systeembeheerder.</membership>
+          <passworddiffers>De wachtwoorden moeten identiek zijn.</passworddiffers>
+          <passwordrequired>Voer een wachtwoord in</passwordrequired>
+          <passwordweak>Het wachtwoord voldoet niet aan de geldende vereisten.</passwordweak>
+          <unavailable>U hebt geen toegangsrechten voor deze pagina.</unavailable>
+          <usernameexists>Deze gebruikersnaam bestaat al.</usernameexists>
+          <usernamerequired>Voer een gebruikersnaam in</usernamerequired>
+        </error>
+        <firstname>Voornaam</firstname>
+        <lastname>Achternaam</lastname>
+        <password>Wachtwoord</password>
+        <role>Rol</role>
+        <username>Gebruikersnaam</username>
+      </userprofile>
+      <workroomlist>
+        <addworkroom>Werkruimte toevoegen</addworkroom>
+        <createheading>Werkruimte aanmaken</createheading>
+        <descriptionlabel>Beschrijving:</descriptionlabel>
+        <duplicatename>Er is al een werkruimte met deze naam.</duplicatename>
+        <nameempty>Voer een naam in</nameempty>
+        <namelabel>Naam:</namelabel>
+        <templateempty>Voer een sjabloon in</templateempty>
+        <templatelabel>Sjabloon selecteren:</templatelabel>
+        <viewheading>Mijn werkruimten</viewheading>
+      </workroomlist>
+    </workroom>
+  </language>
+</languages>
