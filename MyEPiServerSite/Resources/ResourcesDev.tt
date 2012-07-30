@@ -16,5 +16,5 @@
  
 using EPiServer.Framework.Localization;
 <#     
-	Generate(Host.ResolvePath(@"..\lang"), "AlloyTech.ResourcesDev");         
+	Generate(Host.ResolvePath(@"..\lang"), "AlloyTech.ResourcesDev");    
 #>

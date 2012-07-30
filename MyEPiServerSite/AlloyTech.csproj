@@ -84,6 +84,18 @@
     <Content Include="lang\AlloyTech_PT.xml" />
     <Content Include="lang\AlloyTech_SV.xml" />
     <Content Include="lang\AlloyTech_ZH.xml" />
+    <Content Include="lang\languageDA.xml" />
+    <Content Include="lang\languageDE.xml" />
+    <Content Include="lang\languageEN.xml" />
+    <Content Include="lang\languageES.xml" />
+    <Content Include="lang\languageFI.xml" />
+    <Content Include="lang\languageFR.xml" />
+    <Content Include="lang\languageJA.xml" />
+    <Content Include="lang\languageNL.xml" />
+    <Content Include="lang\languageNO.xml" />
+    <Content Include="lang\languagePT.xml" />
+    <Content Include="lang\languageSV.xml" />
+    <Content Include="lang\languageZH.xml" />
     <Content Include="lang\newtext_AlloyTech.xml" />
   </ItemGroup>
   <ItemGroup>

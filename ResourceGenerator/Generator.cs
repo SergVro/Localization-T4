@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using EPiServer.Framework.Localization;
 using EPiServer.Framework.Localization.XmlResources;
 using Microsoft.VisualStudio.TextTemplating;
@@ -42,7 +43,7 @@ namespace EPiServer.Resources
             {
                 foreach (ResourceItem resource in provider.GetAllStrings("", new string[] { }, culture))
                 {
-                    string[] normalized = keyHandler.NormalizeKey(resource.Key);
+                    string[] normalized = ProcessAttributeSelectors(keyHandler.NormalizeKey(resource.Key));
                     var resourceClass = new Resource
                     {
                         Language = culture.ToString(),
@@ -59,31 +60,71 @@ namespace EPiServer.Resources
 
             WriteLine("namespace " + rootNamespace);
             WriteLine("{");
-            RenderClasses(resourceList, 0);
+            RenderClasses(resourceList, String.Empty, 0);
             WriteEndBracket(0);
 
     
   
         }
 
-        private void RenderClasses(IEnumerable<Resource> resources, int level)
+
+     
+        public Regex SelectByAttributeRegex = new Regex(
+      "(?<nodeName>\\w+)\\[\\s*@\\s*(?<propertyName>\\w+)\\s*=\\s*'" +
+      "(?<propertyValue>[^'\\r\\n]+)'\\s*\\]",
+    RegexOptions.IgnoreCase
+    | RegexOptions.Singleline
+    | RegexOptions.ExplicitCapture
+    | RegexOptions.CultureInvariant
+    | RegexOptions.IgnorePatternWhitespace
+    | RegexOptions.Compiled
+    );
+
+
+        private string[] ProcessAttributeSelectors(string[] normalized)
+        {
+            var result = new List<String>();
+            foreach (var normValue in normalized)
+            {
+                if (!normValue.Contains("@"))
+                {
+                    result.Add(normValue);
+                    continue;
+                }
+                var matches = SelectByAttributeRegex.Matches(normValue);
+                if (matches.Count == 0)
+                {
+                    result.Add(normValue);
+                    continue;
+                }
+                foreach (Match match in matches)
+                {
+                    var node = match.Groups["nodeName"].Value;
+                    var name = match.Groups["propertyName"].Value;
+                    var value = match.Groups["propertyValue"].Value;
+                    result.Add(GetSafeName(node));
+                    result.Add(GetSafeName(value));
+                    //System.Diagnostics.Debugger.Launch();
+                }
+            }
+            return result.ToArray();
+        }
+
+        private void RenderClasses(IEnumerable<Resource> resources, string parentClassName, int level)
         {
             var resourceGroupig = resources.Where(r => r.NormalizedKey.Length > level)
-            .GroupBy(r => r.NormalizedKey[level], r => r).Select(r => new {ContainingClassName = r.Key,  Resources = r})
-                .Where(p => !p.ContainingClassName.Contains("[@")); // TODO: fix xpath keys
+                .GroupBy(r => r.NormalizedKey[level], r => r).Select(r => new {ContainingClassName = r.Key, Resources = r});
                 
             foreach (var resource in resourceGroupig)
             {
-
-                WriteClass(resource.ContainingClassName, level);
+                WriteClass(resource.ContainingClassName, parentClassName, level);
 
                 var properties = resource.Resources.Where(r => r.NormalizedKey.Length == level + 2).ToList();
-                foreach (var property in properties.GroupBy(p => p.PropertyName).Select(p => new { PropertyName = p.Key, Values = p })
-                        .Where(p => !p.PropertyName.Contains("[@"))) // TODO: fix xpath keys
+                foreach (var property in properties.GroupBy(p => p.PropertyName).Select(p => new { PropertyName = p.Key, Values = p })) 
                 {
                     WriteProperty(property.PropertyName, property.Values.ToList(), level);
                 }
-                RenderClasses(resource.Resources.Except(properties), level + 1);
+                RenderClasses(resource.Resources.Except(properties), resource.ContainingClassName, level + 1);
                 WriteEndBracket(level);
             }
         }
@@ -97,10 +138,10 @@ namespace EPiServer.Resources
             WriteLine(string.Format("{0}///<summary>", Tabs(level + 1)));
             foreach (var resource in values)
             {
-                WriteLine(string.Format("{0}/// {1}: {2}<br/>", Tabs(level + 1), resource.Language, resource.Value));
+                WriteLine(string.Format("{0}/// {1}: {2}<br/>", Tabs(level + 1), resource.Language, resource.Value.Replace("\r", " ").Replace("\n", " ")));
             }
             WriteLine(string.Format("{0}///</summary>", Tabs(level + 1)));
-            if (propertyName == values.First().ClassName)
+            if (propertyName.Equals(values.First().ClassName))
             {
                 propertyName = "_" + propertyName;
             }
@@ -112,11 +153,20 @@ namespace EPiServer.Resources
             WriteLine(Tabs(level + 1)+"}");
         }
 
-        private void WriteClass(string className, int level)
+        private void WriteClass(string className, string parentClassName, int level)
         {
-            className = className.Replace("-", "_");
+            className = GetSafeName(className);
+            if (className.Equals(parentClassName))
+            {
+                className = "_" + className;
+            }
             WriteLine(string.Format("{0}public static class @{1}", Tabs(level + 1), className));
             WriteLine(string.Format("{0}{{", Tabs(level + 1)));
+        }
+
+        private static string GetSafeName(string name)
+        {
+            return System.Xml.XmlConvert.EncodeName(name).Replace("-", "_").Replace(".", "_"); //.Replace(" ","_").Replace("[","").Replace("]", "").Replace("(","").Replace(")", "");
         }
 
         private static string Tabs (int count)
