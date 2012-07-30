@@ -140,7 +140,7 @@
       <missingfoldererror>Kan ikke opprette filen. En målmappe mangler, eller du har ikke rettigheter til å opprette filer i den angitte mappen.</missingfoldererror>
       <newfolder>Ny mappe</newfolder>
       <parentfolder>Overordnet mappe</parentfolder>
-      <renamefile>Endre filnavn</renamefile>
+      <renamefilelabel>Endre filnavn</renamefilelabel>
       <renamefolder>Endre mappenavn</renamefolder>
       <selectfilemessage>Velg en fil ved å klikke Bla gjennom nedenfor, og klikk deretter Last opp.</selectfilemessage>
       <switchview>

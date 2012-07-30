@@ -140,7 +140,7 @@
       <missingfoldererror>Filen kunne ikke oprettes. Enten mangler der en destinationsmappe, eller også har du ikke rettigheder til at oprette filer i den angivne mappe.</missingfoldererror>
       <newfolder>Ny mappe</newfolder>
       <parentfolder>Overordnet mappe</parentfolder>
-      <renamefile>Omdøb fil</renamefile>
+      <renamefilelabel>Omdøb fil</renamefilelabel>
       <renamefolder>Omdøb mappe</renamefolder>
       <selectfilemessage>Vælg en fil med knappen Gennemse nedenfor, og klik derefter på "Overfør".</selectfilemessage>
       <switchview>

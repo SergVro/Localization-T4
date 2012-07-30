@@ -15,6 +15,32 @@ namespace EPiServer.Resources
 
         //***********************************************************************************************
 
+        private readonly Regex _selectByAttributeRegex = new Regex(
+            "(?<nodeName>\\w+)\\[\\s*@\\s*(?<propertyName>\\w+)\\s*=\\s*'" +
+            "(?<propertyValue>[^'\\r\\n]+)'\\s*\\]",
+            RegexOptions.IgnoreCase
+            | RegexOptions.Singleline
+            | RegexOptions.ExplicitCapture
+            | RegexOptions.CultureInvariant
+            | RegexOptions.IgnorePatternWhitespace
+            | RegexOptions.Compiled
+            );
+
+        private readonly Dictionary<string, string> _nameReplacements = new Dictionary<string, string>
+                                                               {
+                                                                   {" ","_"},
+                                                                   {"-","_"},
+                                                                   {".","_"},
+                                                                   {",","_"},
+                                                                   {";","_"},
+                                                                   {"[",""},
+                                                                   {"]",""},
+                                                                   {"(",""},
+                                                                   {")",""}, 
+                                                                   {"{",""},
+                                                                   {"}",""}
+                                                               };
+
         public void Generate(string folder, string rootNamespace)
         {
             DirectoryInfo di = new DirectoryInfo(folder);
@@ -50,6 +76,7 @@ namespace EPiServer.Resources
                         Key = resource.Key,
                         Value = resource.Value,
                         NormalizedKey = normalized,
+                        Level = normalized.Length,
                         Namespace = GetNamespace(normalized, rootNamespace),
                         ClassName = GetClassName(normalized),
                         PropertyName = GetPropertyName(normalized)
@@ -62,23 +89,7 @@ namespace EPiServer.Resources
             WriteLine("{");
             RenderClasses(resourceList, String.Empty, 0);
             WriteEndBracket(0);
-
-    
-  
         }
-
-
-     
-        public Regex SelectByAttributeRegex = new Regex(
-      "(?<nodeName>\\w+)\\[\\s*@\\s*(?<propertyName>\\w+)\\s*=\\s*'" +
-      "(?<propertyValue>[^'\\r\\n]+)'\\s*\\]",
-    RegexOptions.IgnoreCase
-    | RegexOptions.Singleline
-    | RegexOptions.ExplicitCapture
-    | RegexOptions.CultureInvariant
-    | RegexOptions.IgnorePatternWhitespace
-    | RegexOptions.Compiled
-    );
 
 
         private string[] ProcessAttributeSelectors(string[] normalized)
@@ -91,7 +102,7 @@ namespace EPiServer.Resources
                     result.Add(normValue);
                     continue;
                 }
-                var matches = SelectByAttributeRegex.Matches(normValue);
+                var matches = _selectByAttributeRegex.Matches(normValue);
                 if (matches.Count == 0)
                 {
                     result.Add(normValue);
@@ -117,12 +128,12 @@ namespace EPiServer.Resources
                 
             foreach (var resource in resourceGroupig)
             {
-                WriteClass(resource.ContainingClassName, parentClassName, level);
+                WriteClass(resource.ContainingClassName, parentClassName, level + 1);
 
                 var properties = resource.Resources.Where(r => r.NormalizedKey.Length == level + 2).ToList();
                 foreach (var property in properties.GroupBy(p => p.PropertyName).Select(p => new { PropertyName = p.Key, Values = p })) 
                 {
-                    WriteProperty(property.PropertyName, property.Values.ToList(), level);
+                    WriteProperty(property.PropertyName, property.Values.ToList(), level + 2);
                 }
                 RenderClasses(resource.Resources.Except(properties), resource.ContainingClassName, level + 1);
                 WriteEndBracket(level);
@@ -135,22 +146,27 @@ namespace EPiServer.Resources
             {
                 return;
             }
-            WriteLine(string.Format("{0}///<summary>", Tabs(level + 1)));
+            WriteLineIndent(level, "///<summary>");
             foreach (var resource in values)
             {
-                WriteLine(string.Format("{0}/// {1}: {2}<br/>", Tabs(level + 1), resource.Language, resource.Value.Replace("\r", " ").Replace("\n", " ")));
+                WriteLineIndent(level, string.Format("/// {0}: {1}<br/>",  resource.Language, resource.Value.Replace("\r", " ").Replace("\n", " ")));
             }
-            WriteLine(string.Format("{0}///</summary>", Tabs(level + 1)));
+            WriteLineIndent(level, "///</summary>");
             if (propertyName.Equals(values.First().ClassName))
             {
                 propertyName = "_" + propertyName;
             }
-            WriteLine(string.Format("{0}public static string @{1}{{ get {{ return LocalizationService.Current.GetString(\"{2}\"); }} }}", Tabs(level + 1), propertyName, values.First().Key));
+            WriteLineIndent(level, string.Format("public static string @{0}{{ get {{ return LocalizationService.Current.GetString(\"{1}\"); }} }}",
+                propertyName, values.First().Key));
         }
 
+        private void WriteLineIndent(int indentLevel, string value)
+        {
+            WriteLine(String.Format("{0}{1}", Tabs(indentLevel), value));
+        }
         private void WriteEndBracket(int level)
         {
-            WriteLine(Tabs(level + 1)+"}");
+            WriteLineIndent(level + 1, "}");
         }
 
         private void WriteClass(string className, string parentClassName, int level)
@@ -160,13 +176,15 @@ namespace EPiServer.Resources
             {
                 className = "_" + className;
             }
-            WriteLine(string.Format("{0}public static class @{1}", Tabs(level + 1), className));
-            WriteLine(string.Format("{0}{{", Tabs(level + 1)));
+            WriteLineIndent(level, string.Format("public static class @{0}",  className));
+            WriteLineIndent(level, "{");
         }
 
-        private static string GetSafeName(string name)
+
+        private string GetSafeName(string name)
         {
-            return System.Xml.XmlConvert.EncodeName(name).Replace("-", "_").Replace(".", "_"); //.Replace(" ","_").Replace("[","").Replace("]", "").Replace("(","").Replace(")", "");
+            _nameReplacements.ToList().ForEach(kv => name = name.Replace(kv.Key, kv.Value));
+            return System.Xml.XmlConvert.EncodeName(name);
         }
 
         private static string Tabs (int count)
@@ -234,6 +252,7 @@ namespace EPiServer.Resources
             public string ClassName { get; set; }
             public string PropertyName { get; set; }
             public string[] NormalizedKey { get; set; }
+            public int Level { get; set; }
         }
 
 

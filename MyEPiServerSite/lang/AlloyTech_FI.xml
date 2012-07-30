@@ -140,7 +140,7 @@
       <missingfoldererror>Tiedostoa ei voitu luoda. Joko kohdehakemisto puuttuu tai sinulla ei ole käyttöoikeuksia tiedostojen luomiseen määritetyssä hakemistossa.</missingfoldererror>
       <newfolder>Uusi hakemisto</newfolder>
       <parentfolder>Ylähakemisto</parentfolder>
-      <renamefile>Muuta tiedoston nimi</renamefile>
+      <renamefilelabel>Muuta tiedoston nimi</renamefilelabel>
       <renamefolder>Muuta hakemiston nimi</renamefolder>
       <selectfilemessage>Valitse tiedosto alla olevan Selaa-painikkeen avulla, ja napsauta sitten Lähetä.</selectfilemessage>
       <switchview>

@@ -140,7 +140,7 @@
       <missingfoldererror>Impossible de créer le fichier. Il manque un dossier cible ou vous n'avez pas l'autorisation de créer des fichiers dans le dossier indiqué.</missingfoldererror>
       <newfolder>Nouveau dossier</newfolder>
       <parentfolder>Dossier parent</parentfolder>
-      <renamefile>Renommer un fichier</renamefile>
+      <renamefilelabel>Renommer un fichier</renamefilelabel>
       <renamefolder>Renommer un dossier</renamefolder>
       <selectfilemessage>Sélectionnez un fichier avec le bouton Parcourir ci-dessous, puis cliquez sur "Télécharger".</selectfilemessage>
       <switchview>

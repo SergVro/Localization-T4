@@ -140,7 +140,7 @@
       <missingfoldererror>The file could not be created. Either a target folder is missing or you are not authorized to create files in the specified folder.</missingfoldererror>
       <newfolder>New folder</newfolder>
       <parentfolder>Parent Folder</parentfolder>
-      <renamefile>Rename file</renamefile>
+      <renamefilelabel>Rename file</renamefilelabel>
       <renamefolder>Rename folder</renamefolder>
       <selectfilemessage>Select a file with the Browse button below and then click "Upload".</selectfilemessage>
       <switchview>

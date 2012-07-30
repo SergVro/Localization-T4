@@ -140,7 +140,7 @@
       <missingfoldererror>Bestand kan niet worden gemaakt. De doelmap bestaat niet of u hebt geen machtiging voor het maken van bestanden in de geselecteerde map.</missingfoldererror>
       <newfolder>Nieuwe map</newfolder>
       <parentfolder>Bovenliggende map</parentfolder>
-      <renamefile>Bestandsnaam wijzigen</renamefile>
+      <renamefilelabel>Bestandsnaam wijzigen</renamefilelabel>
       <renamefolder>Mapnaam wijzigen</renamefolder>
       <selectfilemessage>Selecteer een bestand met de knop Bladeren hieronder en klik vervolgens op "Uploaden".</selectfilemessage>
       <switchview>

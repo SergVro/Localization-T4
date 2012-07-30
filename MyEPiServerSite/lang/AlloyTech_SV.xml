@@ -140,7 +140,7 @@
       <missingfoldererror>Det gick inte att skapa filen. Antingen saknas en målkatalog eller så saknar du behörighet att skapa filer i den angivna katalogen.</missingfoldererror>
       <newfolder>Ny katalog</newfolder>
       <parentfolder>Överordnad katalog</parentfolder>
-      <renamefile>Ändra namn på fil</renamefile>
+      <renamefilelabel>Ändra namn på fil</renamefilelabel>
       <renamefolder>Ändra namn på katalog</renamefolder>
       <selectfilemessage>Välj en fil med knappen Bläddra nedan och klicka sedan på "Ladda upp".</selectfilemessage>
       <switchview>
