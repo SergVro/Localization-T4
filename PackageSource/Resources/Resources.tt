@@ -1,20 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Text.RegularExpressions;
-using EPiServer.Framework.Localization;
-using EPiServer.Framework.Localization.XmlResources;
-using Microsoft.VisualStudio.TextTemplating;
-
-namespace EPiServerLabs.ResourceGenerator
-{
-    public abstract class Generator : TextTransformation
-    {
-        //***********************************************************************************************
-
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ Assembly Name="System.Core.dll" #>
+<#@ Assembly Name="$(ProjectDir)$(OutDir)\EPiServer.Framework.dll" #>
+<#@ Assembly Name="System.Configuration.dll" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #> 
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Globalization" #>
+<#@ import namespace="System.Text.RegularExpressions" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="EPiServer.Framework.Localization" #>
+<#@ import namespace="EPiServer.Framework.Localization.XmlResources" #>
+<#  
+	// Please provide a proper relative path to a folder with translation files 
+	Generate(Host.ResolvePath(@"..\lang"));           
+#> 
+<#+
         #region Public methods
 
         /// <summary>
@@ -335,6 +336,4 @@ namespace EPiServerLabs.ResourceGenerator
 
         #endregion
 
-        //***********************************************************************************************
-    }
-}
+#>

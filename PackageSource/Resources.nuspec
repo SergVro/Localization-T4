@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LocalizationT4</id>
+    <title>Localization T4</title>
+    <version>1.0</version>
+    <authors>Henrik Nyström, Sergii Vorushylo</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>T4 template that generates a set of C# classes providing strongly typed resources access to localization strings stored in EPiServer XML language files in the current project</description>
+  </metadata>
+  <files>
+    <file src="Resources\Resources.tt" target="content\Resources" />
+    <file src="Resources\Resources.cs" target="content\Resources" />
+  </files>
+</package>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="English" id="en">
+
+    <hour>hour</hour>
+    <january>January</january>
+    <july>July</july>
+    <june>June</june>
+
+    <march>March</march>
+    <may>May</may>
+    <minute>minute</minute>
+   
+    <monday>Monday</monday>
+    <month>month</month>
+    <november>November</november>
+    <october>October</october>
+   
+    <tuesday>Tuesday</tuesday>
+    
+    <exceptionmanager>
+      <errorform>
+        <description>If you have found anything that doesn’t work, let us know so we can correct the error that may be causing the problem (don’t forget to describe what you did to generate the error).</description>
+        <messagesentdescription>Your message has now been sent. We will be examining your error description and taking action to correct it.</messagesentdescription>
+        <messagesenttitle>Message Sent</messagesenttitle>
+        <sendbutton>Send Message</sendbutton>
+      </errorform>
+      <exceptions>
+        <exception type="EPiServer.Core.AccessDeniedException">
+          <description>You do not have sufficient rights to view this page.</description>
+          <title>Access denied</title>
+        </exception>
+        <exception type="EPiServer.Core.PageNotFoundException">
+          <description>The link you gave does not work, either because the page it points to has been deleted or moved. If you clicked on a link, please inform the site’s webmaster that the link is faulty.</description>
+          <title>Page does not exist</title>
+        </exception>
+      </exceptions>
+      <httperrors>
+        <status code="404">
+          <description>The link you gave does not work, either because the page it points to has been deleted or moved. If you clicked on a link, please inform the site’s webmaster that the link is faulty.</description>
+          <title>Incorrect link</title>
+        </status>
+        <status code="500">
+          <description>The link you specified does not work. This may either be the result of temporary maintenance or an incorrect link.</description>
+          <title>Page could not be loaded</title>
+        </status>
+      </httperrors>
+    </exceptionmanager>
+    
+    
+  </language>
+</languages>

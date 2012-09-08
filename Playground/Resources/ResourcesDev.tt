@@ -14,5 +14,5 @@
 <#@ import namespace="EPiServer.Framework.Localization.XmlResources" #>
 
 <#     
-	Generate(Host.ResolvePath(@"..\lang"));         
+	Generate(Host.ResolvePath(@"..\lang")); 
 #>
